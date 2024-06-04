@@ -1,3 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TheDeltaScannerV2</string>
+
+    <string name="app_name">Delta Scan</string>
+    <string name="menu_settings">Settings</string>
+    <string name="barcode">Barcode</string>
+    <string name="btnAutomaticBarcode">Automatic Control</string>
+    <string name="btnClientBarcode">Client Control</string>
+    <string name="btnScannerSelectBarcode">Scanner Selection</string>
+    <string name="btnSwitchScanners">Switch Scanners</string>
+    <string name="txtBarcodeTitle">Press the device\'s scan button to scan a barcode.</string>
+    <string name="txtMainTitle">Click on below buttons for options.</string>
+    <string name="txtPreamble">Preamble</string>
+    <string name="editPreamble"></string>
+    <string name="editPostamble"></string>
+    <string name="txtPostamble">Postamble</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="home_fragment_label">Home Fragment</string>
+    <string name="paint_fragment_label">Paint Fragment</string>
+    <string name="scan_fragment_label">Scan Fragment</string>
+    <string name="settings_paint_fragment_label">Settings Paint Fragment</string>
+    <string name="settings_scan_fragment_label">Settings Scan Fragment</string>
+    <string name="barcode_analysis_fragment_label">Barcode Analysis Fragment</string>
+    <!-- Labels -->
+    <string name="paint">PAINT</string>
+    <string name="scan">SCAN</string>
+    <string name="home">HOME</string>
+    <string name="back">BACK</string>
+    <string name="settings">SETTINGS</string>
+    <string name="analysis">ANALYSIS</string>
+    <string name="sound">SOUND</string>
+    <string name="timer">TIMER</string>
+    <string name="clear">CLEAR</string>
+    <string name="numScan"># TO SCAN</string>
+    <string name="appTitle">Delta Scan</string>
+    <string name="time">TIME: 00:00.00</string>
+    <string name="count">COUNT: </string>
+    <string name="enableCount">COUNTER </string>
+    <!--Zebra-->
+    <string name="activity_intent_filter_action">com.honeywell.barcodeexample.ACTION</string>
+    <string name="activity_action_from_service">com.honeywell.barcodeexample.ACTION</string>
+    <string name="datawedge_intent_key_source">com.symbol.datawedge.source</string>
+    <string name="datawedge_intent_key_label_type">com.symbol.datawedge.label_type</string>
+    <string name="datawedge_intent_key_data">com.symbol.datawedge.data_string</string>
+
+    <string name="action_settings"></string>
 </resources>
