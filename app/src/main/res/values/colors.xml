@@ -10,6 +10,8 @@
     <color name="purple">#E7C1F2</color>
     <color name="brown">#633824</color>
 
-    <color name="c1">#E1C9AF</color>
-    <color name="c2">#874A39</color>
+    <color name="c1">#1a1f3d</color>
+    <color name="c2">#A51A1A</color>
+    <color name="c3">#e6e7eb</color>
+    <color name="c4">#e35151</color>
 </resources>
