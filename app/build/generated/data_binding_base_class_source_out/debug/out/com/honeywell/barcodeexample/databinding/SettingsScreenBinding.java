@@ -41,11 +41,15 @@ public final class SettingsScreenBinding implements ViewBinding {
   public final CheckBox sound;
 
   @NonNull
+  public final TextView textView;
+
+  @NonNull
   public final CheckBox timer;
 
   private SettingsScreenBinding(@NonNull FrameLayout rootView, @NonNull TextView amntScan,
       @NonNull EditText amntScanInput, @NonNull Button backButton, @NonNull CheckBox counter,
-      @NonNull TextView settingsTitle, @NonNull CheckBox sound, @NonNull CheckBox timer) {
+      @NonNull TextView settingsTitle, @NonNull CheckBox sound, @NonNull TextView textView,
+      @NonNull CheckBox timer) {
     this.rootView = rootView;
     this.amntScan = amntScan;
     this.amntScanInput = amntScanInput;
@@ -53,6 +57,7 @@ public final class SettingsScreenBinding implements ViewBinding {
     this.counter = counter;
     this.settingsTitle = settingsTitle;
     this.sound = sound;
+    this.textView = textView;
     this.timer = timer;
   }
 
@@ -119,6 +124,12 @@ public final class SettingsScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
       id = R.id.timer;
       CheckBox timer = ViewBindings.findChildViewById(rootView, id);
       if (timer == null) {
@@ -126,7 +137,7 @@ public final class SettingsScreenBinding implements ViewBinding {
       }
 
       return new SettingsScreenBinding((FrameLayout) rootView, amntScan, amntScanInput, backButton,
-          counter, settingsTitle, sound, timer);
+          counter, settingsTitle, sound, textView, timer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -5,10 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.honeywell.barcodeexample.R;
@@ -18,10 +19,10 @@ import java.lang.String;
 
 public final class HomeScreenBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button buttonScannerSelectBarcode;
+  public final ImageButton buttonScannerSelectBarcode;
 
   @NonNull
   public final Button paint;
@@ -32,8 +33,8 @@ public final class HomeScreenBinding implements ViewBinding {
   @NonNull
   public final TextView title;
 
-  private HomeScreenBinding(@NonNull FrameLayout rootView,
-      @NonNull Button buttonScannerSelectBarcode, @NonNull Button paint, @NonNull Button scan,
+  private HomeScreenBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ImageButton buttonScannerSelectBarcode, @NonNull Button paint, @NonNull Button scan,
       @NonNull TextView title) {
     this.rootView = rootView;
     this.buttonScannerSelectBarcode = buttonScannerSelectBarcode;
@@ -44,7 +45,7 @@ public final class HomeScreenBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -70,7 +71,7 @@ public final class HomeScreenBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.buttonScannerSelectBarcode;
-      Button buttonScannerSelectBarcode = ViewBindings.findChildViewById(rootView, id);
+      ImageButton buttonScannerSelectBarcode = ViewBindings.findChildViewById(rootView, id);
       if (buttonScannerSelectBarcode == null) {
         break missingId;
       }
@@ -93,8 +94,8 @@ public final class HomeScreenBinding implements ViewBinding {
         break missingId;
       }
 
-      return new HomeScreenBinding((FrameLayout) rootView, buttonScannerSelectBarcode, paint, scan,
-          title);
+      return new HomeScreenBinding((ConstraintLayout) rootView, buttonScannerSelectBarcode, paint,
+          scan, title);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,13 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:2:1-100:12
-INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:2:1-100:12
-INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:2:1-100:12
-INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:2:1-100:12
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-100:12
+INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-100:12
+INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-100:12
+INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-100:12
 MERGED from [androidx.databinding:databinding-adapters:8.0.2] C:\Users\d1intern\.gradle\caches\transforms-3\d07fe2da60611f9883f2940ace995de4\transformed\databinding-adapters-8.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.0.2] C:\Users\d1intern\.gradle\caches\transforms-3\55e30cecc3eb0fc571054a9e11c47df7\transformed\databinding-runtime-8.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:viewbinding:8.0.2] C:\Users\d1intern\.gradle\caches\transforms-3\082fa8e3f46a21fb7510cf7e145a7fe2\transformed\viewbinding-8.0.2\AndroidManifest.xml:2:1-7:12
-MERGED from [:DataCollectionLib] C:\Users\d1intern\StudioProjects\DeltaScanner\DataCollectionLib\build\.transforms\6e7de9569d3b0a161a6c674611a586af\transformed\DataCollection\AndroidManifest.xml:2:1-15:12
+MERGED from [:DataCollectionLib] C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\DataCollectionLib\build\.transforms\dc84b58b3724da3436a0d3f427bfc42d\transformed\DataCollection\AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Users\d1intern\.gradle\caches\transforms-3\dfc500741467a33b74205f6546097d63\transformed\navigation-common-2.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.6.0] C:\Users\d1intern\.gradle\caches\transforms-3\399ff5d290fdaa1f4af1d244c0c51492\transformed\navigation-runtime-2.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment:2.6.0] C:\Users\d1intern\.gradle\caches\transforms-3\9af1c940b372b55682024c29422465b1\transformed\navigation-fragment-2.6.0\AndroidManifest.xml:17:1-22:12
@@ -62,37 +62,37 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\d1intern\.gradle\ca
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\d1intern\.gradle\caches\transforms-3\93f5cf0a528f6c584155b8d377574b65\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\d1intern\.gradle\caches\transforms-3\4af3a9806a4049ea0bb1410c585b3c1b\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\d1intern\.gradle\caches\transforms-3\4f735b77350aefc156737b8f9bd0fa95\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:2:1-100:12
-INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:2:1-100:12
-INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:2:1-100:12
+INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-100:12
+INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-100:12
+INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-100:12
 	package
-		INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:2:1-100:12
-		INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-100:12
+		INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:5:5-39
-		INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:5:5-39
+		INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:4:5-36
-		INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:4:5-36
+		INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:7:5-9:41
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.databinding:databinding-adapters:8.0.2] C:\Users\d1intern\.gradle\caches\transforms-3\d07fe2da60611f9883f2940ace995de4\transformed\databinding-adapters-8.0.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:databinding-adapters:8.0.2] C:\Users\d1intern\.gradle\caches\transforms-3\d07fe2da60611f9883f2940ace995de4\transformed\databinding-adapters-8.0.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:databinding-runtime:8.0.2] C:\Users\d1intern\.gradle\caches\transforms-3\55e30cecc3eb0fc571054a9e11c47df7\transformed\databinding-runtime-8.0.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:databinding-runtime:8.0.2] C:\Users\d1intern\.gradle\caches\transforms-3\55e30cecc3eb0fc571054a9e11c47df7\transformed\databinding-runtime-8.0.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.0.2] C:\Users\d1intern\.gradle\caches\transforms-3\082fa8e3f46a21fb7510cf7e145a7fe2\transformed\viewbinding-8.0.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.0.2] C:\Users\d1intern\.gradle\caches\transforms-3\082fa8e3f46a21fb7510cf7e145a7fe2\transformed\viewbinding-8.0.2\AndroidManifest.xml:5:5-44
-MERGED from [:DataCollectionLib] C:\Users\d1intern\StudioProjects\DeltaScanner\DataCollectionLib\build\.transforms\6e7de9569d3b0a161a6c674611a586af\transformed\DataCollection\AndroidManifest.xml:7:5-9:41
-MERGED from [:DataCollectionLib] C:\Users\d1intern\StudioProjects\DeltaScanner\DataCollectionLib\build\.transforms\6e7de9569d3b0a161a6c674611a586af\transformed\DataCollection\AndroidManifest.xml:7:5-9:41
+MERGED from [:DataCollectionLib] C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\DataCollectionLib\build\.transforms\dc84b58b3724da3436a0d3f427bfc42d\transformed\DataCollection\AndroidManifest.xml:7:5-9:41
+MERGED from [:DataCollectionLib] C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\DataCollectionLib\build\.transforms\dc84b58b3724da3436a0d3f427bfc42d\transformed\DataCollection\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Users\d1intern\.gradle\caches\transforms-3\dfc500741467a33b74205f6546097d63\transformed\navigation-common-2.6.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Users\d1intern\.gradle\caches\transforms-3\dfc500741467a33b74205f6546097d63\transformed\navigation-common-2.6.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime:2.6.0] C:\Users\d1intern\.gradle\caches\transforms-3\399ff5d290fdaa1f4af1d244c0c51492\transformed\navigation-runtime-2.6.0\AndroidManifest.xml:20:5-44
@@ -201,20 +201,20 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\d1intern\.gradle\caches\tr
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\d1intern\.gradle\caches\transforms-3\4af3a9806a4049ea0bb1410c585b3c1b\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\d1intern\.gradle\caches\transforms-3\4f735b77350aefc156737b8f9bd0fa95\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\d1intern\.gradle\caches\transforms-3\4f735b77350aefc156737b8f9bd0fa95\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:11:5-99:19
-MERGED from [:DataCollectionLib] C:\Users\d1intern\StudioProjects\DeltaScanner\DataCollectionLib\build\.transforms\6e7de9569d3b0a161a6c674611a586af\transformed\DataCollection\AndroidManifest.xml:13:5-20
-MERGED from [:DataCollectionLib] C:\Users\d1intern\StudioProjects\DeltaScanner\DataCollectionLib\build\.transforms\6e7de9569d3b0a161a6c674611a586af\transformed\DataCollection\AndroidManifest.xml:13:5-20
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:11:5-99:19
+MERGED from [:DataCollectionLib] C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\DataCollectionLib\build\.transforms\dc84b58b3724da3436a0d3f427bfc42d\transformed\DataCollection\AndroidManifest.xml:13:5-20
+MERGED from [:DataCollectionLib] C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\DataCollectionLib\build\.transforms\dc84b58b3724da3436a0d3f427bfc42d\transformed\DataCollection\AndroidManifest.xml:13:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\d1intern\.gradle\caches\transforms-3\090f337ed676e5ed26d304bf1a78644b\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\d1intern\.gradle\caches\transforms-3\090f337ed676e5ed26d304bf1a78644b\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\d1intern\.gradle\caches\transforms-3\30f4c334bb9586b8299d31214a27cc88\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -236,137 +236,137 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\d1intern\.gradle\c
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\d1intern\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:14:9-41
 	android:icon
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:13:9-52
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:15:9-40
 activity#com.honeywell.barcodeexample.StartActivity
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:16:9-25:20
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:16:9-25:20
 	android:label
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:19:13-46
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:19:13-46
 	android:exported
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:18:13-36
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:17:13-70
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:17:13-70
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:23:27-74
 activity#com.honeywell.barcodeexample.HoneywellHomeActivity
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:27:9-36:20
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:27:9-36:20
 	android:label
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:30:13-53
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:30:13-53
 	android:exported
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:29:13-36
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:28:13-78
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:28:13-78
 intent-filter#action:name:android.intent.action.HONEYHOME+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:31:13-35:29
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.HONEYHOME
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:32:17-74
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:32:17-74
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:32:25-71
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:32:25-71
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:34:17-76
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:17-76
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:34:27-73
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:27-73
 activity#com.honeywell.barcodeexample.ZebraHomeActivity
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:37:9-46:20
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:37:9-46:20
 	android:label
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:40:13-53
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:40:13-53
 	android:exported
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:39:13-36
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:39:13-36
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:38:13-74
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:38:13-74
 intent-filter#action:name:android.intent.action.ZEBRAHOME+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:41:13-45:29
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:41:13-45:29
 action#android.intent.action.ZEBRAHOME
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:42:17-74
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:42:17-74
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:42:25-71
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:42:25-71
 activity#com.honeywell.barcodeexample.ScannerSelectionBarcodeActivity
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:48:9-57:20
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:48:9-57:20
 	android:label
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:51:13-63
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:51:13-63
 	android:exported
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:50:13-36
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:50:13-36
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:49:13-88
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:49:13-88
 intent-filter#action:name:android.intent.action.SCANNERSELECTBARCODEACTIVITY+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:52:13-56:29
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:52:13-56:29
 action#android.intent.action.SCANNERSELECTBARCODEACTIVITY
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:53:17-93
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:53:17-93
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:53:25-90
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:53:25-90
 activity#com.honeywell.barcodeexample.HoneywellScanActivity
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:58:9-67:20
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:58:9-67:20
 	android:label
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:61:13-60
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:61:13-60
 	android:exported
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:60:13-36
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:60:13-36
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:59:13-78
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:59:13-78
 intent-filter#action:name:android.intent.action.HONEYSCAN+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:62:13-66:29
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:62:13-66:29
 action#android.intent.action.HONEYSCAN
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:63:17-74
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:63:17-74
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:63:25-71
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:63:25-71
 activity#com.honeywell.barcodeexample.ZebraScanActivity
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:68:9-77:20
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:68:9-77:20
 	android:label
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:71:13-60
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:71:13-60
 	android:exported
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:70:13-36
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:70:13-36
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:69:13-74
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:69:13-74
 intent-filter#action:name:android.intent.action.ZEBRASCAN+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:72:13-76:29
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:72:13-76:29
 action#android.intent.action.ZEBRASCAN
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:73:17-74
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:73:17-74
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:73:25-71
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:73:25-71
 activity#com.honeywell.barcodeexample.AnalysisActivity
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:79:9-88:20
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:79:9-88:20
 	android:label
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:82:13-57
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:82:13-57
 	android:exported
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:81:13-36
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:81:13-36
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:80:13-73
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:80:13-73
 intent-filter#action:name:android.intent.action.ANALYSIS+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:83:13-87:29
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:83:13-87:29
 action#android.intent.action.ANALYSIS
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:84:17-73
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:84:17-73
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:84:25-70
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:84:25-70
 activity#com.honeywell.barcodeexample.SettingsActivity
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:89:9-98:20
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:89:9-98:20
 	android:label
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:92:13-57
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:92:13-57
 	android:exported
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:91:13-36
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:91:13-36
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:90:13-73
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:90:13-73
 intent-filter#action:name:android.intent.action.SETTINGS+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:93:13-97:29
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:93:13-97:29
 action#android.intent.action.SETTINGS
-ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:94:17-73
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:94:17-73
 	android:name
-		ADDED from C:\Users\d1intern\StudioProjects\DeltaScanner\app\src\main\AndroidManifest.xml:94:25-70
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:94:25-70
 uses-permission#com.honeywell.decode.permission.DECODE
-ADDED from [:DataCollectionLib] C:\Users\d1intern\StudioProjects\DeltaScanner\DataCollectionLib\build\.transforms\6e7de9569d3b0a161a6c674611a586af\transformed\DataCollection\AndroidManifest.xml:11:5-78
+ADDED from [:DataCollectionLib] C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\DataCollectionLib\build\.transforms\dc84b58b3724da3436a0d3f427bfc42d\transformed\DataCollection\AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from [:DataCollectionLib] C:\Users\d1intern\StudioProjects\DeltaScanner\DataCollectionLib\build\.transforms\6e7de9569d3b0a161a6c674611a586af\transformed\DataCollection\AndroidManifest.xml:11:22-75
+		ADDED from [:DataCollectionLib] C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\DataCollectionLib\build\.transforms\dc84b58b3724da3436a0d3f427bfc42d\transformed\DataCollection\AndroidManifest.xml:11:22-75
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\d1intern\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\d1intern\.gradle\caches\transforms-3\25269b7bd72d9a2134a14b4ac7ff36e5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20

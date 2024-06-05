@@ -1394,6 +1394,8 @@ color button_material_dark
 color button_material_light
 color c1
 color c2
+color c3
+color c4
 color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
@@ -2966,11 +2968,13 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable d1sw_logo
+drawable deltascanbox
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable homebuttons
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -2984,6 +2988,10 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable img
+drawable img_1
+drawable img_2
+drawable img_3
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3055,6 +3063,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable scanpaintbuttons
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3781,9 +3790,6 @@ layout select_dialog_singlechoice_material
 layout settings_screen
 layout support_simple_spinner_dropdown_item
 menu activity_main
-mipmap d1sw_logo
-mipmap d1sw_logo_foreground
-mipmap d1sw_logo_round
 plurals mtrl_badge_content_description
 raw sonic_death_sound
 raw sonic_sound
@@ -3815,7 +3821,6 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
-string action_settings
 string activity_action_from_service
 string activity_intent_filter_action
 string analysis
@@ -4104,6 +4109,7 @@ style Base_Theme_MaterialComponents_Light_Dialog_Bridge
 style Base_Theme_MaterialComponents_Light_Dialog_FixedSize
 style Base_Theme_MaterialComponents_Light_Dialog_MinWidth
 style Base_Theme_MaterialComponents_Light_DialogWhenLarge
+style Base_Theme_TheDeltaScannerV2
 style Base_ThemeOverlay_AppCompat
 style Base_ThemeOverlay_AppCompat_ActionBar
 style Base_ThemeOverlay_AppCompat_Dark
@@ -4606,6 +4612,7 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
+style Theme_TheDeltaScannerV2
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

@@ -20,7 +20,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:icon="@mipmap/d1sw_logo_foreground"
+        android:icon="@drawable/d1sw_logo"
         android:label="@string/app_name"
         android:testOnly="true"
         android:theme="@style/AppTheme" >

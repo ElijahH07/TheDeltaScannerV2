@@ -2,12 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/c1"
-    android:orientation="vertical"
-    >
+    android:background="@color/c1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/title"
@@ -24,7 +25,6 @@
         android:textStyle="bold"
         android:typeface="normal"
         android:gravity="center"
-        app:layout_constraintBotom_toBottomOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.547"
@@ -36,6 +36,8 @@
         android:id="@+id/scan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="165dp"
+        android:layout_marginRight="157dp"
         android:layout_marginStart="165dp"
         android:layout_marginEnd="157dp"
         android:layout_marginBottom="400dp"
@@ -89,4 +91,5 @@
         app:layout_constraintVertical_bias="0.973" />
 
 
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
