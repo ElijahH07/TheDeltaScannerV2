@@ -1,0 +1,90 @@
+buildscript {
+    repositories {
+        google()
+    }
+    dependencies {
+        def nav_version = "2.5.3"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+    }
+}
+plugins {
+    id 'com.android.application'
+//    id 'androidx.navigation.safeargs'
+}
+android {
+    dataBinding {
+        enabled = true
+    }
+    namespace 'com.honeywell.barcodeexample'
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.honeywell.barcodeexample"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        dataBinding = true
+        viewBinding true
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                if (variant.buildType.name.equals('release')) {
+                    /*output.outputFile = new File(output.outputFile.parent,
+                            "BarcodeExample" + "-release.apk")*/
+                    def name = "BarcodeExample -release.apk"
+                    output.outputFileName = name
+                } else if (variant.buildType.name.equals('debug')) {
+                    /* output.outputFile = new File(output.outputFile.parent,
+                             "BarcodeExample -debug.apk")*/
+                    def name = "BarcodeExample -debug.apk"
+                    output.outputFileName = name
+                }
+            }
+        }
+    }
+    dependencies {
+        implementation project(":DataCollectionLib")
+        constraints {
+            implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0") {
+                because("kotlin-stdlib-jdk7 is now a part of kotlin-stdlib")
+            }
+            implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0") {
+                because("kotlin-stdlib-jdk8 is now a part of kotlin-stdlib")
+            }
+        }
+        implementation 'androidx.appcompat:appcompat:1.6.1'
+        implementation 'com.google.android.material:material:1.9.0'
+        implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+        implementation 'androidx.navigation:navigation-fragment:2.6.0'
+        implementation 'androidx.navigation:navigation-ui:2.6.0'
+        implementation "com.symbol:emdk:9.1.1"
+        testImplementation 'junit:junit:4.13.2'
+        androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+        androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    }
+    // namespace 'com.honeywell.deltascan'
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    implementation 'com.google.firebase:protolite-well-known-types:18.0.0'
+}
