@@ -20,6 +20,9 @@ import android.widget.Toast;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
+import com.honeywell.aidc.BarcodeFailureEvent;
+import com.honeywell.aidc.ScannerUnavailableException;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -31,38 +34,11 @@ public class ZebraScanActivity extends Activity {
     //region Zebra
     // DataWedge Sample supporting DataWedge APIs up to DW 7.0
 
-    private static final String EXTRA_PROFILENAME = "DWDataCapture1";
-
-    // DataWedge Extras
-    private static final String EXTRA_GET_VERSION_INFO = "com.symbol.datawedge.api.GET_VERSION_INFO";
-    private static final String EXTRA_CREATE_PROFILE = "com.symbol.datawedge.api.CREATE_PROFILE";
-    private static final String EXTRA_KEY_APPLICATION_NAME = "com.symbol.datawedge.api.APPLICATION_NAME";
-    private static final String EXTRA_KEY_NOTIFICATION_TYPE = "com.symbol.datawedge.api.NOTIFICATION_TYPE";
-    private static final String EXTRA_SOFT_SCAN_TRIGGER = "com.symbol.datawedge.api.SOFT_SCAN_TRIGGER";
-    private static final String EXTRA_RESULT_NOTIFICATION = "com.symbol.datawedge.api.NOTIFICATION";
-    private static final String EXTRA_REGISTER_NOTIFICATION = "com.symbol.datawedge.api.REGISTER_FOR_NOTIFICATION";
-    private static final String EXTRA_UNREGISTER_NOTIFICATION = "com.symbol.datawedge.api.UNREGISTER_FOR_NOTIFICATION";
-    private static final String EXTRA_SET_CONFIG = "com.symbol.datawedge.api.SET_CONFIG";
-
-    private static final String EXTRA_RESULT_NOTIFICATION_TYPE = "NOTIFICATION_TYPE";
-    private static final String EXTRA_KEY_VALUE_SCANNER_STATUS = "SCANNER_STATUS";
-    private static final String EXTRA_KEY_VALUE_PROFILE_SWITCH = "PROFILE_SWITCH";
-    private static final String EXTRA_KEY_VALUE_CONFIGURATION_UPDATE = "CONFIGURATION_UPDATE";
-    private static final String EXTRA_KEY_VALUE_NOTIFICATION_STATUS = "STATUS";
-    private static final String EXTRA_KEY_VALUE_NOTIFICATION_PROFILE_NAME = "PROFILE_NAME";
-    private static final String EXTRA_SEND_RESULT = "SEND_RESULT";
-
-    private static final String EXTRA_EMPTY = "";
-
-    private static final String EXTRA_RESULT_GET_VERSION_INFO = "com.symbol.datawedge.api.RESULT_GET_VERSION_INFO";
-    private static final String EXTRA_RESULT = "RESULT";
-    private static final String EXTRA_RESULT_INFO = "RESULT_INFO";
-    private static final String EXTRA_COMMAND = "COMMAND";
-
     // DataWedge Actions
+    private static final String PROFILE_NAME = "DWGettingStartedJava";
     private static final String ACTION_DATAWEDGE = "com.symbol.datawedge.api.ACTION";
-    private static final String ACTION_RESULT_NOTIFICATION = "com.symbol.datawedge.api.NOTIFICATION_ACTION";
-    private static final String ACTION_RESULT = "com.symbol.datawedge.api.RESULT_ACTION";
+    private static final String EXTRA_CREATE_PROFILE = "com.symbol.datawedge.api.CREATE_PROFILE";
+    private static final String EXTRA_SET_CONFIG = "com.symbol.datawedge.api.SET_CONFIG";
 
     // private variables
     private Boolean bRequestSendResult = false;
@@ -99,120 +75,70 @@ public class ZebraScanActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setUp();
+
+        CreateDWProfile(this);
+
         Toast toast = Toast.makeText(getApplicationContext(), "Zebra", Toast.LENGTH_SHORT);
         toast.show();
-        ZebraSetup();
+
+        IntentFilter filter = new IntentFilter();
+        filter.addCategory(Intent.CATEGORY_DEFAULT);
+        filter.addAction(getResources().getString(R.string.activity_intent_filter_action));
+        registerReceiver(myBroadcastReceiver, filter);
+
         ActivitySetting();
     }
 
-    private void ZebraSetup() {
-        // Main bundle properties
-        Bundle profileConfig = new Bundle();
-        profileConfig.putString("PROFILE_NAME", EXTRA_PROFILENAME);
-        profileConfig.putString("PROFILE_ENABLED", "true");
-        profileConfig.putString("CONFIG_MODE", "UPDATE");  // Update specified settings in profile
+    public static void CreateDWProfile(Context context) {
+        sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_CREATE_PROFILE, PROFILE_NAME);
 
-        // PLUGIN_CONFIG bundle properties
+        //  Requires DataWedge 6.4
+
+        //  Now configure that created profile to apply to our application
+        Bundle profileConfig = new Bundle();
+        profileConfig.putString("PROFILE_NAME", PROFILE_NAME);
+        profileConfig.putString("PROFILE_ENABLED", "true"); //  Seems these are all strings
+        profileConfig.putString("CONFIG_MODE", "UPDATE");
+
         Bundle barcodeConfig = new Bundle();
         barcodeConfig.putString("PLUGIN_NAME", "BARCODE");
         barcodeConfig.putString("RESET_CONFIG", "true");
-
-        Bundle bParamsDevice = new Bundle();
-        bParamsDevice.putString("device_id", "BARCODE");
-        bParamsDevice.putString("enabled", "true");
-        bParamsDevice.putString("alldecoders", "true");
-        bParamsDevice.putString("all_label_ids", "true");
-        ArrayList<Bundle> bParamsRule = new ArrayList<Bundle>();
-        bParamsRule.add(bParamsDevice);
-        Bundle bParamsLabelID1 = new Bundle();
-        bParamsLabelID1.putString("device_id", "BARCODE");
-        bParamsLabelID1.putString("label_id", "UDI_GS1");
-        bParamsLabelID1.putString("enabled", "true");
-        ArrayList<Bundle> bParamsLabelIDList = new ArrayList<Bundle>();
-        bParamsLabelIDList.add(bParamsLabelID1);
-        Bundle bParamsRule1 = new Bundle();
-        bParamsRule1.putParcelableArrayList("DEVICES", bParamsRule);
-        bParamsRule1.putParcelableArrayList("LABEL_IDS", bParamsLabelIDList);
-        ArrayList<Bundle> bParamsList = new ArrayList<Bundle>();
-        bParamsList.add(bParamsRule1);
-        barcodeConfig.putParcelableArrayList("PARAM_LIST", bParamsList);
-        // PARAM_LIST bundle properties
         Bundle barcodeProps = new Bundle();
-        barcodeProps.putString("scanner_selection", "auto");
+        barcodeProps.putString("configure_all_scanners", "true");
         barcodeProps.putString("scanner_input_enabled", "true");
-
-
-        if (mode == 0) {
-            // barcodeProps.putInt("aim_type", 5);
-            barcodeProps.putInt("picklist", 0);
-            barcodeProps.putInt("scanning_mode", 3);
-            barcodeProps.putBoolean("instant_reporting_enable", true);
-        } else {
-            barcodeProps.putInt("aim_type", 0);
-            barcodeProps.putInt("picklist", 1);
-        }
-        barcodeProps.putInt("aim_timer", 0);
-        barcodeProps.putInt("beam_timer", 0);
-        barcodeProps.putString("aim_mode", "on");
-
-        barcodeProps.putBoolean("decoder_gs1_datamatrix", true);
-        barcodeProps.putBoolean("decoder_microqr", true);
-        barcodeProps.putBoolean("decoder_i2of5", true);
-        barcodeProps.putInt("remote_scanner_audio_feedback_mode", 3);
-
-        // Bundle "barcodeProps" within bundle "barcodeConfig"
         barcodeConfig.putBundle("PARAM_LIST", barcodeProps);
-        // Place "barcodeConfig" bundle within main "profileConfig" bundle
         profileConfig.putBundle("PLUGIN_CONFIG", barcodeConfig);
-        // Create APP_LIST bundle to associate app with profile
         Bundle appConfig = new Bundle();
-        appConfig.putString("PACKAGE_NAME", getPackageName());
+        appConfig.putString("PACKAGE_NAME", context.getPackageName());      //  Associate the profile with this app
         appConfig.putStringArray("ACTIVITY_LIST", new String[]{"*"});
         profileConfig.putParcelableArray("APP_LIST", new Bundle[]{appConfig});
-        sendDataWedgeIntentWithExtra(ACTION_DATAWEDGE, EXTRA_SET_CONFIG, profileConfig);
+        sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_SET_CONFIG, profileConfig);
 
+        //  You can only configure one plugin at a time, we have done the barcode input, now do the intent output
+        profileConfig.remove("PLUGIN_CONFIG");
+        Bundle intentConfig = new Bundle();
+        intentConfig.putString("PLUGIN_NAME", "INTENT");
+        intentConfig.putString("RESET_CONFIG", "true");
+        Bundle intentProps = new Bundle();
+        intentProps.putString("intent_output_enabled", "true");
+        intentProps.putString("intent_action", context.getResources().getString(R.string.activity_intent_filter_action)); // I DONT KNOW WHAT TO PUT YET (it works now)
+        intentProps.putString("intent_delivery", "2");  //  broadcast intent
+        intentConfig.putBundle("PARAM_LIST", intentProps);
+        profileConfig.putBundle("PLUGIN_CONFIG", intentConfig);
+        sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_SET_CONFIG, profileConfig);
 
-        // Register for status change notification
-        // Use REGISTER_FOR_NOTIFICATION: http://techdocs.zebra.com/datawedge/latest/guide/api/registerfornotification/
-        Bundle b = new Bundle();
-        b.putString(EXTRA_KEY_APPLICATION_NAME, getPackageName());
-        b.putString(EXTRA_KEY_NOTIFICATION_TYPE, "SCANNER_STATUS");     // register for changes in scanner status
-        sendDataWedgeIntentWithExtra(ACTION_DATAWEDGE, EXTRA_REGISTER_NOTIFICATION, b);
-
-        registerReceivers();
-        // Get DataWedge version
-        // Use GET_VERSION_INFO: http://techdocs.zebra.com/datawedge/latest/guide/api/getversioninfo/
-        sendDataWedgeIntentWithExtra(ACTION_DATAWEDGE, EXTRA_GET_VERSION_INFO, EXTRA_EMPTY);    // must be called after registering BroadcastReceiver
+        //  Disable keyboard output
+        profileConfig.remove("PLUGIN_CONFIG");
+        Bundle keystrokeConfig = new Bundle();
+        keystrokeConfig.putString("PLUGIN_NAME", "KEYSTROKE");
+        keystrokeConfig.putString("RESET_CONFIG", "true");
+        Bundle keystrokeProps = new Bundle();
+        keystrokeProps.putString("keystroke_output_enabled", "false");
+        keystrokeConfig.putBundle("PARAM_LIST", keystrokeProps);
+        profileConfig.putBundle("PLUGIN_CONFIG", keystrokeConfig);
+        sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_SET_CONFIG, profileConfig);
     }
 
-    //region Zebra
-    // Create filter for the broadcast intent
-    private void registerReceivers() {
-
-        Log.d(LOG_TAG, "registerReceivers()");
-
-        IntentFilter filter = new IntentFilter();
-        filter.addAction(ACTION_RESULT_NOTIFICATION);   // for notification result
-        filter.addAction(ACTION_RESULT);                // for error code result
-        filter.addCategory(Intent.CATEGORY_DEFAULT);    // needed to get version info
-
-        // register to received broadcasts via DataWedge scanning
-        filter.addAction(getResources().getString(R.string.activity_intent_filter_action));
-        filter.addAction(getResources().getString(R.string.activity_action_from_service));
-        registerReceiver(myBroadcastReceiver, filter);
-    }
-
-    // Unregister scanner status notification
-    public void unRegisterScannerStatus() {
-        Log.d(LOG_TAG, "unRegisterScannerStatus()");
-        Bundle b = new Bundle();
-        b.putString(EXTRA_KEY_APPLICATION_NAME, getPackageName());
-        b.putString(EXTRA_KEY_NOTIFICATION_TYPE, EXTRA_KEY_VALUE_SCANNER_STATUS);
-        Intent i = new Intent();
-        i.setAction(ACTION);
-        i.putExtra(EXTRA_UNREGISTER_NOTIFICATION, b);
-        this.sendBroadcast(i);
-    }
 
     //region Broadcast
     private BroadcastReceiver myBroadcastReceiver = new BroadcastReceiver() {
@@ -221,81 +147,16 @@ public class ZebraScanActivity extends Activity {
             String action = intent.getAction();
             Bundle b = intent.getExtras();
 
-            Log.d(LOG_TAG, "DataWedge Action:" + action);
-
-            // Get DataWedge version info
-            if (intent.hasExtra(EXTRA_RESULT_GET_VERSION_INFO)) {
-                Bundle versionInfo = intent.getBundleExtra(EXTRA_RESULT_GET_VERSION_INFO);
-                String DWVersion = versionInfo.getString("DATAWEDGE");
-
-                // TextView txtDWVersion = (TextView) findViewById(R.id.txtGetDWVersion);
-                //txtDWVersion.setText(DWVersion);
-                Log.i(LOG_TAG, "DataWedge Version: " + DWVersion);
-            }
 
             if (action.equals(getResources().getString(R.string.activity_intent_filter_action))) {
                 //  Received a barcode scan
                 try {
                     displayScanResult(intent, "via Broadcast");
                 } catch (Exception e) {
-                    //  Catch error if the UI does not exist when we receive the broadcast...
+                    Log.d(LOG_TAG, e.toString());
                 }
-            } else if (action.equals(ACTION_RESULT)) {
-                // Register to receive the result code
-                if ((intent.hasExtra(EXTRA_RESULT)) && (intent.hasExtra(EXTRA_COMMAND))) {
-                    String command = intent.getStringExtra(EXTRA_COMMAND);
-                    String result = intent.getStringExtra(EXTRA_RESULT);
-                    String info = "";
-
-                    if (intent.hasExtra(EXTRA_RESULT_INFO)) {
-                        Bundle result_info = intent.getBundleExtra(EXTRA_RESULT_INFO);
-                        Set<String> keys = result_info.keySet();
-                        for (String key : keys) {
-                            Object object = result_info.get(key);
-                            if (object instanceof String) {
-                                info += key + ": " + object + "\n";
-                            } else if (object instanceof String[]) {
-                                String[] codes = (String[]) object;
-                                for (String code : codes) {
-                                    info += key + ": " + code + "\n";
-                                }
-                            }
-                        }
-                        Log.d(LOG_TAG, "Command: " + command + "\n" + "Result: " + result + "\n" + "Result Info: " + info + "\n");
-                        Toast.makeText(getApplicationContext(), "Error Resulted. Command:" + command + "\nResult: " + result + "\nResult Info: " + info, Toast.LENGTH_LONG).show();
-                    }
-                }
-
-            }
-
-            // Register for scanner change notification
-            else if (action.equals(ACTION_RESULT_NOTIFICATION)) {
-                if (intent.hasExtra(EXTRA_RESULT_NOTIFICATION)) {
-                    Bundle extras = intent.getBundleExtra(EXTRA_RESULT_NOTIFICATION);
-                    String notificationType = extras.getString(EXTRA_RESULT_NOTIFICATION_TYPE);
-                    if (notificationType != null) {
-                        switch (notificationType) {
-                            case EXTRA_KEY_VALUE_SCANNER_STATUS:
-                                // Change in scanner status occurred
-                                String displayScannerStatusText = extras.getString(EXTRA_KEY_VALUE_NOTIFICATION_STATUS) + ", profile: " + extras.getString(EXTRA_KEY_VALUE_NOTIFICATION_PROFILE_NAME);
-                                //Toast.makeText(getApplicationContext(), displayScannerStatusText, Toast.LENGTH_SHORT).show();
-                                //final TextView lblScannerStatus = (TextView) findViewById(R.id.lblScannerStatus);
-                                // lblScannerStatus.setText(displayScannerStatusText);
-                                Log.i(LOG_TAG, "Scanner status: " + displayScannerStatusText);
-                                break;
-
-                            case EXTRA_KEY_VALUE_PROFILE_SWITCH:
-                                // Received change in profile
-                                // For future enhancement
-                                break;
-
-                            case EXTRA_KEY_VALUE_CONFIGURATION_UPDATE:
-                                // Configuration change occurred
-                                // For future enhancement
-                                break;
-                        }
-                    }
-                }
+            } else {
+                Log.d(LOG_TAG, "action does not equal");
             }
         }
     };
@@ -365,42 +226,48 @@ public class ZebraScanActivity extends Activity {
         }
     }
 
-    private void sendDataWedgeIntentWithExtra(String action, String extraKey, Bundle extras) {
-        Intent dwIntent = new Intent();
-        dwIntent.setAction(action);
-        dwIntent.putExtra(extraKey, extras);
-        if (bRequestSendResult) dwIntent.putExtra(EXTRA_SEND_RESULT, "true");
-        this.sendBroadcast(dwIntent);
-    }
-
-    private void sendDataWedgeIntentWithExtra(String action, String extraKey, String extraValue) {
+    private static void sendDataWedgeIntentWithExtra(Context context, String action, String extraKey, String extraValue) {
         Intent dwIntent = new Intent();
         dwIntent.setAction(action);
         dwIntent.putExtra(extraKey, extraValue);
-        if (bRequestSendResult) dwIntent.putExtra(EXTRA_SEND_RESULT, "true");
-        this.sendBroadcast(dwIntent);
+        context.sendBroadcast(dwIntent);
     }
+
+    private static void sendDataWedgeIntentWithExtra(Context context, String action, String extraKey, Bundle extras) {
+        Intent dwIntent = new Intent();
+        dwIntent.setAction(action);
+        dwIntent.putExtra(extraKey, extras);
+        context.sendBroadcast(dwIntent);
+    }
+    //endregion
+
+    //region Activity Methods
+
+
     //endregion
 
     //region Activity Methods
     @Override
     public void onResume() {
         super.onResume();
-        registerReceivers();
         filter.addAction("Settings");
         registerReceiver(mReceiver, filter);
+        IntentFilter filter = new IntentFilter();
+        filter.addCategory(Intent.CATEGORY_DEFAULT);
+        filter.addAction(getResources().getString(R.string.activity_intent_filter_action));
+        registerReceiver(myBroadcastReceiver, filter);
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        unregisterReceiver(myBroadcastReceiver); //Zebra
-        unRegisterScannerStatus(); //Zebra
+
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
+
     }
 
     @Override  //Zebra
@@ -418,7 +285,6 @@ public class ZebraScanActivity extends Activity {
     BroadcastReceiver mReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            soundEnabled = intent.getBooleanExtra("sound", true);
             if (intent.getBooleanExtra("time", false)) {
                 timer.setVisibility(View.VISIBLE);
             } else {
@@ -433,6 +299,7 @@ public class ZebraScanActivity extends Activity {
             } else {
                 counter.setVisibility(View.INVISIBLE);
             }
+            soundEnabled = intent.getBooleanExtra("sound", true);
         }
     };
     IntentFilter filter = new IntentFilter();
@@ -497,7 +364,7 @@ public class ZebraScanActivity extends Activity {
     private void setCounter() {
         if (maxCount > 0) {
             counter.setText("COUNT: " + currCount + "/" + maxCount);
-            if(soundEnabled && currCount>=maxCount){
+            if (soundEnabled && currCount >= maxCount) {
                 sonicTallySound.start();
             }
         } else {
@@ -507,11 +374,11 @@ public class ZebraScanActivity extends Activity {
 
     private String getCurrTime(int initalTime) {
         String time = "";
-        int millis = initalTime +  (int) (System.currentTimeMillis()) - startTime;
+        int millis = initalTime + (int) (System.currentTimeMillis()) - startTime;
         currTime = millis;
-        int sec = millis/1000;
-        millis%=1000;
-        millis/=10;
+        int sec = millis / 1000;
+        millis %= 1000;
+        millis /= 10;
         if (sec >= 60) {
             int min = sec / 60;
             sec %= 60;
@@ -529,7 +396,7 @@ public class ZebraScanActivity extends Activity {
         } else {
             time += sec + ".";
         }
-        if(millis<10){
+        if (millis < 10) {
             time += "0";
         }
         time += "" + millis;
@@ -579,5 +446,5 @@ public class ZebraScanActivity extends Activity {
         sonicDeathSound2 = MediaPlayer.create(getApplicationContext(), R.raw.sonic_death_sound);
         sonicTallySound = MediaPlayer.create(getApplicationContext(), R.raw.sonic_tally_sound);
     }
-    //endregion
 }
+//endregion
