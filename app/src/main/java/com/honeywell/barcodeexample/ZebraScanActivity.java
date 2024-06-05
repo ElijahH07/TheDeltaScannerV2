@@ -21,6 +21,7 @@ import android.widget.Toast;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.honeywell.aidc.BarcodeFailureEvent;
+import com.honeywell.aidc.BarcodeReader;
 import com.honeywell.aidc.ScannerUnavailableException;
 
 import java.util.ArrayList;
@@ -76,7 +77,7 @@ public class ZebraScanActivity extends Activity {
         super.onCreate(savedInstanceState);
         setUp();
 
-        CreateDWProfile(this);
+        CreateDWProfile(this, mode);
 
         Toast toast = Toast.makeText(getApplicationContext(), "Zebra", Toast.LENGTH_SHORT);
         toast.show();
@@ -89,7 +90,7 @@ public class ZebraScanActivity extends Activity {
         ActivitySetting();
     }
 
-    public static void CreateDWProfile(Context context) {
+    public static void CreateDWProfile(Context context, int mode) {
         sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_CREATE_PROFILE, PROFILE_NAME);
 
         //  Requires DataWedge 6.4
@@ -136,6 +137,13 @@ public class ZebraScanActivity extends Activity {
         keystrokeProps.putString("keystroke_output_enabled", "false");
         keystrokeConfig.putBundle("PARAM_LIST", keystrokeProps);
         profileConfig.putBundle("PLUGIN_CONFIG", keystrokeConfig);
+
+        if (mode == 1) {
+            intentProps.putString("aim_type", "5"); // continous read mode see techdocs.zebra.com/datawedge/8-1/guide/api/setconfig
+        } else {
+            intentProps.putString("aim_type", "0"); // single read mode
+        }
+
         sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_SET_CONFIG, profileConfig);
     }
 
