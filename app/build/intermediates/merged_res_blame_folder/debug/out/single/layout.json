@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/list_layout.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/list_layout.xml"
+    },
+    {
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/analysis_screen.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/analysis_screen.xml"
+    },
+    {
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/activity_selection_barcode.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/activity_selection_barcode.xml"
+    },
+    {
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/scanner_select_dialog.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/scanner_select_dialog.xml"
+    },
+    {
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/settings_screen.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/settings_screen.xml"
+    },
+    {
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/incompatible_device.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/incompatible_device.xml"
+    },
+    {
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/scan_screen.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/scan_screen.xml"
+    },
+    {
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/home_screen.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/home_screen.xml"
+    }
+]

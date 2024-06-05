@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\build\\generated\\ap_generated_sources",
+    "\\app\\src",
+    "\\app\\src\\main",
+    "\\app\\src\\main\\java",
+    "\\app\\src\\main\\java\\com",
+    "\\app\\src\\main\\java\\com\\honeywell",
+    "\\app\\src\\main\\java\\com\\honeywell\\barcodeexample",
+    "\\DataCollectionLib"
+  ],
+  "SelectedNode": "\\app\\src\\main\\java\\com\\honeywell\\barcodeexample\\ZebraScanActivity.java",
+  "PreviewInSolutionExplorer": false
+}

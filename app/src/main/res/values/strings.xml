@@ -37,7 +37,7 @@
     <string name="time">TIME: 00:00.00</string>
     <string name="count">COUNT: </string>
     <string name="enableCount">COUNTER </string>
-    <!--Zebra-->
+<!--Zebra-->
     <string name="activity_intent_filter_action">com.honeywell.barcodeexample.ACTION</string>
     <string name="activity_action_from_service">com.honeywell.barcodeexample.ACTION</string>
     <string name="datawedge_intent_key_source">com.symbol.datawedge.source</string>
