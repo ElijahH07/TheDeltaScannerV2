@@ -4,7 +4,7 @@
             "outputFile": "com.honeywell.barcodeexample.app-mergeDebugResources-44:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\edyaw\\.gradle\\caches\\transforms-3\\989472a54ffd4be600b881006d5d1b2d\\transformed\\material-1.12.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\edyaw\\.gradle\\caches\\transforms-3\\090f337ed676e5ed26d304bf1a78644b\\transformed\\material-1.9.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,35,40",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\edyaw\\.gradle\\caches\\transforms-3\\7fcada7be06a7fe2f41d9b9a50e81a50\\transformed\\appcompat-1.7.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\edyaw\\.gradle\\caches\\transforms-3\\f519227ce83c25a4daf72bc8b7b65062\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

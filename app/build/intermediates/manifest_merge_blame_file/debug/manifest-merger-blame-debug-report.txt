@@ -16,22 +16,22 @@
 11-->[:DataCollectionLib] C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\DataCollectionLib\build\.transforms\fcd5a96308475560e9e85440e0b6072d\transformed\DataCollection\AndroidManifest.xml:11:22-75
 12
 13    <permission
-13-->[androidx.core:core:1.13.0] C:\Users\edyaw\.gradle\caches\transforms-3\188198fe5f47380f947ba80cf13bf6be\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+13-->[androidx.core:core:1.9.0] C:\Users\edyaw\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 14        android:name="com.honeywell.barcodeexample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.13.0] C:\Users\edyaw\.gradle\caches\transforms-3\188198fe5f47380f947ba80cf13bf6be\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+14-->[androidx.core:core:1.9.0] C:\Users\edyaw\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.13.0] C:\Users\edyaw\.gradle\caches\transforms-3\188198fe5f47380f947ba80cf13bf6be\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+15-->[androidx.core:core:1.9.0] C:\Users\edyaw\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 16
 17    <uses-permission android:name="com.honeywell.barcodeexample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.13.0] C:\Users\edyaw\.gradle\caches\transforms-3\188198fe5f47380f947ba80cf13bf6be\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.13.0] C:\Users\edyaw\.gradle\caches\transforms-3\188198fe5f47380f947ba80cf13bf6be\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+17-->[androidx.core:core:1.9.0] C:\Users\edyaw\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\edyaw\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 18
 19    <application
 19-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:11:5-99:19
 20        android:allowBackup="true"
 20-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:12:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.13.0] C:\Users\edyaw\.gradle\caches\transforms-3\188198fe5f47380f947ba80cf13bf6be\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+21-->[androidx.core:core:1.9.0] C:\Users\edyaw\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 22        android:debuggable="true"
 23        android:extractNativeLibs="false"
 24        android:icon="@drawable/d1sw_logo"
@@ -200,82 +200,82 @@
 109            </intent-filter>
 110        </activity>
 111
-112        <uses-library
-112-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-113            android:name="androidx.window.extensions"
-113-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-114            android:required="false" />
-114-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-115        <uses-library
-115-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-116            android:name="androidx.window.sidecar"
-116-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-117            android:required="false" />
-117-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-118
-119        <provider
-119-->[androidx.emoji2:emoji2:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\44c8f432fd31c19fc211397ffb4de32e\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-120            android:name="androidx.startup.InitializationProvider"
-120-->[androidx.emoji2:emoji2:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\44c8f432fd31c19fc211397ffb4de32e\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-121            android:authorities="com.honeywell.barcodeexample.androidx-startup"
-121-->[androidx.emoji2:emoji2:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\44c8f432fd31c19fc211397ffb4de32e\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-122            android:exported="false" >
-122-->[androidx.emoji2:emoji2:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\44c8f432fd31c19fc211397ffb4de32e\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-123            <meta-data
-123-->[androidx.emoji2:emoji2:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\44c8f432fd31c19fc211397ffb4de32e\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-124                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-124-->[androidx.emoji2:emoji2:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\44c8f432fd31c19fc211397ffb4de32e\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-125                android:value="androidx.startup" />
-125-->[androidx.emoji2:emoji2:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\44c8f432fd31c19fc211397ffb4de32e\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-126            <meta-data
-126-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\edyaw\.gradle\caches\transforms-3\4cdf8d469b2560abc2fcfd45cf7835de\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-127                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-127-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\edyaw\.gradle\caches\transforms-3\4cdf8d469b2560abc2fcfd45cf7835de\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-128                android:value="androidx.startup" />
-128-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\edyaw\.gradle\caches\transforms-3\4cdf8d469b2560abc2fcfd45cf7835de\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-129            <meta-data
-129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-130                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-131                android:value="androidx.startup" />
-131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-132        </provider>
+112        <provider
+112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edyaw\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+113            android:name="androidx.startup.InitializationProvider"
+113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edyaw\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+114            android:authorities="com.honeywell.barcodeexample.androidx-startup"
+114-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edyaw\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+115            android:exported="false" >
+115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edyaw\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+116            <meta-data
+116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edyaw\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+117                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+117-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edyaw\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+118                android:value="androidx.startup" />
+118-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edyaw\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+119            <meta-data
+119-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\edyaw\.gradle\caches\transforms-3\25269b7bd72d9a2134a14b4ac7ff36e5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+120                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+120-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\edyaw\.gradle\caches\transforms-3\25269b7bd72d9a2134a14b4ac7ff36e5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+121                android:value="androidx.startup" />
+121-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\edyaw\.gradle\caches\transforms-3\25269b7bd72d9a2134a14b4ac7ff36e5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+122            <meta-data
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+123                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+124                android:value="androidx.startup" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+125        </provider>
+126
+127        <uses-library
+127-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+128            android:name="androidx.window.extensions"
+128-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+129            android:required="false" />
+129-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+130        <uses-library
+130-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+131            android:name="androidx.window.sidecar"
+131-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+132            android:required="false" />
+132-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 133
 134        <receiver
-134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
 135            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
 136            android:directBootAware="false"
-136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
 137            android:enabled="true"
-137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
 138            android:exported="true"
-138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
 139            android:permission="android.permission.DUMP" >
-139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
 140            <intent-filter>
-140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
 141                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 142            </intent-filter>
 143            <intent-filter>
-143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
 144                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
 145            </intent-filter>
 146            <intent-filter>
-146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
 147                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
 148            </intent-filter>
 149            <intent-filter>
-149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
 150                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
 151            </intent-filter>
 152        </receiver>
 153    </application>
