@@ -21,7 +21,6 @@ import android.widget.Toast;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.honeywell.aidc.BarcodeFailureEvent;
-import com.honeywell.aidc.BarcodeReader;
 import com.honeywell.aidc.ScannerUnavailableException;
 
 import java.util.ArrayList;
@@ -36,19 +35,17 @@ public class ZebraScanActivity extends Activity {
     // DataWedge Sample supporting DataWedge APIs up to DW 7.0
 
     // DataWedge Actions
-    private static final String PROFILE_NAME = "DWGettingStartedJava";
+    private static final String PROFILE_NAME = "DeltaOneInternProject";
     private static final String ACTION_DATAWEDGE = "com.symbol.datawedge.api.ACTION";
     private static final String EXTRA_CREATE_PROFILE = "com.symbol.datawedge.api.CREATE_PROFILE";
     private static final String EXTRA_SET_CONFIG = "com.symbol.datawedge.api.SET_CONFIG";
 
     // private variables
-    private Boolean bRequestSendResult = false;
     final String LOG_TAG = "DataCapture1";
     //endregion
 
     //region
     private ListView barcodeList;
-    private ArrayAdapter<String> dataAdapter;
     private TextView counter;
     private TextView timer;
     private Button homeButton;
@@ -77,38 +74,61 @@ public class ZebraScanActivity extends Activity {
         super.onCreate(savedInstanceState);
         setUp();
 
-        CreateDWProfile(this, mode);
+        CreateDWProfile(this, mode); // create DataWedge profile that links to this app
 
-        Toast toast = Toast.makeText(getApplicationContext(), "Zebra", Toast.LENGTH_SHORT);
-        toast.show();
+        if (mode ==1) {
+            Toast toast = Toast.makeText(getApplicationContext(), "Zebra Paint", Toast.LENGTH_SHORT);
+            toast.show();
+        } else {
+            Toast toast = Toast.makeText(getApplicationContext(), "Zebra Scan", Toast.LENGTH_SHORT);
+            toast.show();
+        }
 
-        IntentFilter filter = new IntentFilter();
+
+        IntentFilter filter = new IntentFilter(); // wait for broadcast intents from the DataWedge app
         filter.addCategory(Intent.CATEGORY_DEFAULT);
         filter.addAction(getResources().getString(R.string.activity_intent_filter_action));
-        registerReceiver(myBroadcastReceiver, filter);
+        registerReceiver(myBroadcastReceiver, filter); // receives broadcast intents
 
         ActivitySetting();
     }
 
     public static void CreateDWProfile(Context context, int mode) {
-        sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_CREATE_PROFILE, PROFILE_NAME);
+        //sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_CREATE_PROFILE, PROFILE_NAME); // i guess you cant initialize? (uncommenting breaks everything)
 
         //  Requires DataWedge 6.4
 
         //  Now configure that created profile to apply to our application
-        Bundle profileConfig = new Bundle();
+        Bundle profileConfig = new Bundle(); //profileConfig is the main Bundle which holds PARAM_LIST Bundle and PLUGIN_CONFIG Bundle
         profileConfig.putString("PROFILE_NAME", PROFILE_NAME);
         profileConfig.putString("PROFILE_ENABLED", "true"); //  Seems these are all strings
-        profileConfig.putString("CONFIG_MODE", "UPDATE");
+        profileConfig.putString("CONFIG_MODE", "CREATE_IF_NOT_EXIST"); // creates if not exist, updates if exists
 
         Bundle barcodeConfig = new Bundle();
         barcodeConfig.putString("PLUGIN_NAME", "BARCODE");
         barcodeConfig.putString("RESET_CONFIG", "true");
+
         Bundle barcodeProps = new Bundle();
+        barcodeProps.putString("scanner_selection", "auto");
         barcodeProps.putString("configure_all_scanners", "true");
         barcodeProps.putString("scanner_input_enabled", "true");
+
+        if (mode == 1){                                              // if in painter mode, trigger mode is set to continous
+            barcodeProps.putString("aim_type", "5");
+        } else {
+            barcodeProps.putString("aim_type", "0");
+        }
+
+        // add extra features in barcodeprops Bundle (SEE https://techdocs.zebra.com/datawedge/8-1/guide/api/setconfig/)
+
+        //barcodeProps.putString("name", "key");
+        barcodeProps.putString("illumination_mode", "off"); // torch is on, off is off
+
+        // End of extra features
+
         barcodeConfig.putBundle("PARAM_LIST", barcodeProps);
         profileConfig.putBundle("PLUGIN_CONFIG", barcodeConfig);
+
         Bundle appConfig = new Bundle();
         appConfig.putString("PACKAGE_NAME", context.getPackageName());      //  Associate the profile with this app
         appConfig.putStringArray("ACTIVITY_LIST", new String[]{"*"});
@@ -137,13 +157,6 @@ public class ZebraScanActivity extends Activity {
         keystrokeProps.putString("keystroke_output_enabled", "false");
         keystrokeConfig.putBundle("PARAM_LIST", keystrokeProps);
         profileConfig.putBundle("PLUGIN_CONFIG", keystrokeConfig);
-
-        if (mode == 1) {
-            intentProps.putString("aim_type", "5"); // continous read mode see techdocs.zebra.com/datawedge/8-1/guide/api/setconfig
-        } else {
-            intentProps.putString("aim_type", "0"); // single read mode
-        }
-
         sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_SET_CONFIG, profileConfig);
     }
 
@@ -159,7 +172,7 @@ public class ZebraScanActivity extends Activity {
             if (action.equals(getResources().getString(R.string.activity_intent_filter_action))) {
                 //  Received a barcode scan
                 try {
-                    displayScanResult(intent, "via Broadcast");
+                    displayScanResult(intent, "via Broadcast"); //display broadcast result
                 } catch (Exception e) {
                     Log.d(LOG_TAG, e.toString());
                 }

@@ -49,7 +49,7 @@ public class ZebraHomeActivity extends Activity {
             public void onClick(View v) {
                 // get the intent action string from AndroidManifest.xml
                 Intent intent = new Intent("android.intent.action.ZEBRASCAN");
-                intent.putExtra("mode", 0);
+                intent.putExtra("mode", 1);
                 startActivity(intent);
             }
         });
@@ -59,7 +59,7 @@ public class ZebraHomeActivity extends Activity {
             public void onClick(View v) {
                 // get the intent action string from AndroidManifest.xml
                 Intent intent = new Intent("android.intent.action.ZEBRASCAN");
-                intent.putExtra("mode", 1);
+                intent.putExtra("mode", 0);
                 startActivity(intent);
             }
         });

@@ -21,14 +21,24 @@ public class AnalysisActivity extends Activity {
         barcodeList = (ListView) findViewById(R.id.listViewBarcodeData);
         dataList = getIntent().getStringArrayListExtra("data");
         String numericDecodedData = dataList.get(0);
-        while (numericDecodedData.indexOf("\u001D") >= 0) {
-            numericDecodedData = numericDecodedData.substring(0, numericDecodedData.indexOf("\u001D")) + numericDecodedData.substring(numericDecodedData.indexOf("\u001D") + 1);
-        }
         dataList.set(0, numericDecodedData);
-        final ArrayAdapter<String> analysisData = new ArrayAdapter<String>(AnalysisActivity.this, R.layout.list_layout, dataList);
-        barcodeList.setAdapter(analysisData);
         ActivitySetting();
-        GS1Analysis(dataList.get(0));
+
+        if (!numericDecodedData.contains("QR") && !numericDecodedData.contains("Matrix")) {
+            while (numericDecodedData.indexOf("\u001D") >= 0) {
+                numericDecodedData = numericDecodedData.substring(0, numericDecodedData.indexOf("\u001D")) + numericDecodedData.substring(numericDecodedData.indexOf("\u001D") + 1);
+            }
+
+            final ArrayAdapter<String> analysisData = new ArrayAdapter<String>(AnalysisActivity.this, R.layout.list_layout, dataList);
+            barcodeList.setAdapter(analysisData);
+            GS1Analysis(numericDecodedData);
+        } else {
+            dataList.add("cant analyze QR codes yet");
+            final ArrayAdapter<String> analysisData = new ArrayAdapter<String>(AnalysisActivity.this, R.layout.list_layout, dataList);
+            barcodeList.setAdapter(analysisData);
+
+        }
+
     }
 
     public void ActivitySetting() {
