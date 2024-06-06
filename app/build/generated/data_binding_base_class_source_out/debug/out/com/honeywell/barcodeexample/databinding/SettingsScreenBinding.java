@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.FrameLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,7 +20,7 @@ import java.lang.String;
 
 public final class SettingsScreenBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final TextView amntScan;
@@ -49,7 +49,7 @@ public final class SettingsScreenBinding implements ViewBinding {
   @NonNull
   public final CheckBox timer;
 
-  private SettingsScreenBinding(@NonNull FrameLayout rootView, @NonNull TextView amntScan,
+  private SettingsScreenBinding(@NonNull ScrollView rootView, @NonNull TextView amntScan,
       @NonNull EditText amntScanInput, @NonNull Button backButton,
       @NonNull Button barcodeselectbutton, @NonNull CheckBox counter,
       @NonNull TextView settingsTitle, @NonNull CheckBox sound, @NonNull TextView textView,
@@ -68,7 +68,7 @@ public final class SettingsScreenBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -147,7 +147,7 @@ public final class SettingsScreenBinding implements ViewBinding {
         break missingId;
       }
 
-      return new SettingsScreenBinding((FrameLayout) rootView, amntScan, amntScanInput, backButton,
+      return new SettingsScreenBinding((ScrollView) rootView, amntScan, amntScanInput, backButton,
           barcodeselectbutton, counter, settingsTitle, sound, textView, timer);
     }
     String missingId = rootView.getResources().getResourceName(id);

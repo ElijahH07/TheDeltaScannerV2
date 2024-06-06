@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -19,7 +20,7 @@ import java.lang.String;
 
 public final class ActivityBarcodeTypeBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final TextView BarcodeSelection;
@@ -57,7 +58,7 @@ public final class ActivityBarcodeTypeBinding implements ViewBinding {
   @NonNull
   public final LinearLayout main;
 
-  private ActivityBarcodeTypeBinding(@NonNull LinearLayout rootView,
+  private ActivityBarcodeTypeBinding(@NonNull ScrollView rootView,
       @NonNull TextView BarcodeSelection, @NonNull Button button, @NonNull CheckBox checkBox,
       @NonNull CheckBox checkBox2, @NonNull CheckBox checkBox3, @NonNull CheckBox checkBox4,
       @NonNull CheckBox checkBox5, @NonNull CheckBox checkBox6, @NonNull CheckBox checkBox7,
@@ -79,7 +80,7 @@ public final class ActivityBarcodeTypeBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -170,9 +171,13 @@ public final class ActivityBarcodeTypeBinding implements ViewBinding {
         break missingId;
       }
 
-      LinearLayout main = (LinearLayout) rootView;
+      id = R.id.main;
+      LinearLayout main = ViewBindings.findChildViewById(rootView, id);
+      if (main == null) {
+        break missingId;
+      }
 
-      return new ActivityBarcodeTypeBinding((LinearLayout) rootView, BarcodeSelection, button,
+      return new ActivityBarcodeTypeBinding((ScrollView) rootView, BarcodeSelection, button,
           checkBox, checkBox2, checkBox3, checkBox4, checkBox5, checkBox6, checkBox7, checkBox8,
           checkBox9, main);
     }
