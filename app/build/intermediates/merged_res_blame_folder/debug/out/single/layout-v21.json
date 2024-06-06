@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-mergeDebugResources-45:\\layout-v21\\scan_screen.xml",
         "source": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout-v21\\scan_screen.xml"
     },
@@ -10,5 +11,9 @@
     {
         "merged": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-mergeDebugResources-45:\\layout-v21\\analysis_screen.xml",
         "source": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout-v21\\analysis_screen.xml"
+=======
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout-v21/analysis_screen.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout-v21/analysis_screen.xml"
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
     }
 ]

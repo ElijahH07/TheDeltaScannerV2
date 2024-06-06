@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 com.honeywell.barcodeexample:macro/m3_comp_time_picker_time_selector_selected_label_text_color = 0x7f0c0142
 com.honeywell.barcodeexample:styleable/ActivityRule = 0x7f120008
 com.honeywell.barcodeexample:style/Base.V21.Theme.AppCompat.Dialog = 0x7f11009f
@@ -198,6 +199,265 @@ com.honeywell.barcodeexample:style/Widget.Design.TextInputEditText = 0x7f11032f
 com.honeywell.barcodeexample:macro/m3_comp_outlined_text_field_input_text_color = 0x7f0c00a1
 com.honeywell.barcodeexample:styleable/ConstraintLayout_Layout = 0x7f12002a
 com.honeywell.barcodeexample:dimen/abc_text_size_caption_material = 0x7f060042
+=======
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense = 0x7f1102b0
+com.honeywell.barcodeexample:id/transition_scene_layoutid_cache = 0x7f0801f1
+com.honeywell.barcodeexample:style/Widget.Support.CoordinatorLayout = 0x7f110450
+com.honeywell.barcodeexample:styleable/Snackbar = 0x7f12008b
+com.honeywell.barcodeexample:string/mtrl_switch_thumb_path_morphing = 0x7f1000a2
+com.honeywell.barcodeexample:style/Base.V14.Theme.MaterialComponents.Light.DarkActionBar.Bridge = 0x7f110094
+com.honeywell.barcodeexample:styleable/Chip = 0x7f120020
+com.honeywell.barcodeexample:style/Theme.Material3.Dark.BottomSheetDialog = 0x7f110222
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.NavigationRailView.Compact = 0x7f110424
+com.honeywell.barcodeexample:string/datawedge_intent_key_label_type = 0x7f100036
+com.honeywell.barcodeexample:styleable/OnSwipe = 0x7f12007b
+com.honeywell.barcodeexample:color/m3_sys_color_dynamic_dark_surface_dim = 0x7f05018c
+com.honeywell.barcodeexample:styleable/AppBarLayoutStates = 0x7f12000e
+com.honeywell.barcodeexample:styleable/MaterialCalendar = 0x7f120056
+com.honeywell.barcodeexample:style/Base.Theme.Material3.Dark.Dialog = 0x7f11005b
+com.honeywell.barcodeexample:string/mtrl_picker_toggle_to_text_input_mode = 0x7f10009e
+com.honeywell.barcodeexample:style/CardView.Dark = 0x7f11011d
+com.honeywell.barcodeexample:style/Base.V21.Theme.AppCompat.Dialog = 0x7f11009f
+com.honeywell.barcodeexample:style/Widget.Material3.MaterialTimePicker.Display.TextInputLayout = 0x7f1103a6
+com.honeywell.barcodeexample:styleable/MaterialTextView = 0x7f120060
+com.honeywell.barcodeexample:styleable/ScrimInsetsFrameLayout = 0x7f120083
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.CompoundButton.Switch = 0x7f110401
+com.honeywell.barcodeexample:style/Widget.Material3.Button.TonalButton.Icon = 0x7f110352
+com.honeywell.barcodeexample:styleable/TextInputEditText = 0x7f12009b
+com.honeywell.barcodeexample:styleable/AppCompatSeekBar = 0x7f120012
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.CompoundButton.RadioButton = 0x7f1100d3
+com.honeywell.barcodeexample:dimen/mtrl_alert_dialog_background_inset_bottom = 0x7f06022c
+com.honeywell.barcodeexample:styleable/KeyTimeCycle = 0x7f12004a
+com.honeywell.barcodeexample:string/mtrl_switch_track_decoration_path = 0x7f1000a6
+com.honeywell.barcodeexample:style/Base.ThemeOverlay.Material3.TextInputEditText = 0x7f110080
+com.honeywell.barcodeexample:style/Base.V14.Theme.Material3.Dark.SideSheetDialog = 0x7f110089
+com.honeywell.barcodeexample:id/jumpToStart = 0x7f0800ee
+com.honeywell.barcodeexample:dimen/design_fab_size_normal = 0x7f060072
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Medium.Inverse = 0x7f110026
+com.honeywell.barcodeexample:dimen/material_clock_period_toggle_width = 0x7f060213
+com.honeywell.barcodeexample:styleable/GradientColor = 0x7f120040
+com.honeywell.barcodeexample:style/Widget.Material3.CardView.Filled = 0x7f110355
+com.honeywell.barcodeexample:style/Base.Theme.MaterialComponents.Bridge = 0x7f110062
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TextInputEditText.FilledBox = 0x7f110434
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.Toolbar.PrimarySurface = 0x7f11044d
+com.honeywell.barcodeexample:dimen/abc_edit_text_inset_top_material = 0x7f06002e
+com.honeywell.barcodeexample:styleable/SplitPairRule = 0x7f12008f
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.Button.UnelevatedButton = 0x7f1103f1
+com.honeywell.barcodeexample:styleable/ShapeAppearance = 0x7f120087
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Button.ElevatedButton = 0x7f110281
+com.honeywell.barcodeexample:styleable/SearchBar = 0x7f120085
+com.honeywell.barcodeexample:styleable/ActivityRule = 0x7f120008
+com.honeywell.barcodeexample:style/ShapeAppearance.Material3.SmallComponent = 0x7f110172
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TextInputLayout.FilledBox = 0x7f110438
+com.honeywell.barcodeexample:layout/material_timepicker = 0x7f0b0041
+com.honeywell.barcodeexample:style/Widget.Material3.FloatingActionButton.Secondary = 0x7f11037c
+com.honeywell.barcodeexample:id/special_effects_controller_view_tag = 0x7f0801ad
+com.honeywell.barcodeexample:id/mtrl_calendar_main_pane = 0x7f080125
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.HeaderTitle = 0x7f110417
+com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Widget.ActionBar.Menu = 0x7f1101aa
+com.honeywell.barcodeexample:style/Theme.MaterialComponents.Dialog.MinWidth = 0x7f110256
+com.honeywell.barcodeexample:interpolator/mtrl_fast_out_linear_in = 0x7f0a000e
+com.honeywell.barcodeexample:style/Widget.Material3.CheckedTextView = 0x7f110357
+com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox = 0x7f1102d3
+com.honeywell.barcodeexample:drawable/mtrl_dialog_background = 0x7f0700bb
+com.honeywell.barcodeexample:macro/m3_comp_slider_disabled_active_track_color = 0x7f0c00ed
+com.honeywell.barcodeexample:styleable/CardView = 0x7f12001d
+com.honeywell.barcodeexample:dimen/m3_sys_motion_easing_emphasized_accelerate_control_y1 = 0x7f0601de
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.Fullscreen = 0x7f11040f
+com.honeywell.barcodeexample:string/abc_capital_on = 0x7f100007
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.CompoundButton.RadioButton = 0x7f110400
+com.honeywell.barcodeexample:styleable/ViewBackgroundHelper = 0x7f1200a4
+com.honeywell.barcodeexample:style/Widget.AppCompat.Light.ActionButton = 0x7f1102fe
+com.honeywell.barcodeexample:style/TextAppearance.Design.Prefix = 0x7f1101c9
+com.honeywell.barcodeexample:integer/material_motion_duration_long_1 = 0x7f090026
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Dark = 0x7f11028a
+com.honeywell.barcodeexample:style/Widget.Material3.Toolbar = 0x7f1103ce
+com.honeywell.barcodeexample:drawable/material_ic_menu_arrow_down_black_24dp = 0x7f0700ae
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.Day.Selected = 0x7f11040b
+com.honeywell.barcodeexample:style/Widget.AppCompat.Light.ActionBar.TabBar.Inverse = 0x7f1102f9
+com.honeywell.barcodeexample:integer/material_motion_duration_medium_2 = 0x7f090029
+com.honeywell.barcodeexample:interpolator/mtrl_fast_out_slow_in = 0x7f0a000f
+com.honeywell.barcodeexample:style/Widget.Material3.CompoundButton.Switch = 0x7f11036d
+com.honeywell.barcodeexample:id/staticLayout = 0x7f0801bc
+com.honeywell.barcodeexample:string/mtrl_picker_end_date_description = 0x7f100086
+com.honeywell.barcodeexample:dimen/m3_navigation_rail_elevation = 0x7f0601b2
+com.honeywell.barcodeexample:style/Widget.AppCompat.ActivityChooserView = 0x7f1102e4
+com.honeywell.barcodeexample:styleable/KeyFramesVelocity = 0x7f120048
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon = 0x7f110403
+com.honeywell.barcodeexample:id/buttonPanel = 0x7f080066
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.CollapsingToolbar = 0x7f1103fe
+com.honeywell.barcodeexample:styleable/ColorStateListItem = 0x7f120027
+com.honeywell.barcodeexample:style/Animation.Design.BottomSheetDialog = 0x7f110005
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Button.TextButton = 0x7f110285
+com.honeywell.barcodeexample:style/Widget.Material3.Button.TextButton.Snackbar = 0x7f110350
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Subhead = 0x7f11002d
+com.honeywell.barcodeexample:style/CardView.Light = 0x7f11011e
+com.honeywell.barcodeexample:macro/m3_comp_primary_navigation_tab_inactive_pressed_state_layer_color = 0x7f0c00b0
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.NavigationRailView.Colored = 0x7f110422
+com.honeywell.barcodeexample:style/MaterialAlertDialog.Material3.Title.Text = 0x7f110127
+com.honeywell.barcodeexample:string/material_hour_suffix = 0x7f100059
+com.honeywell.barcodeexample:id/material_clock_face = 0x7f080104
+com.honeywell.barcodeexample:style/MaterialAlertDialog.Material3 = 0x7f11011f
+com.honeywell.barcodeexample:style/Widget.AppCompat.Light.ListView.DropDown = 0x7f110306
+com.honeywell.barcodeexample:macro/m3_comp_time_picker_time_selector_selected_container_color = 0x7f0c013f
+com.honeywell.barcodeexample:style/AppTheme = 0x7f11000a
+com.honeywell.barcodeexample:macro/m3_comp_search_bar_hover_state_layer_color = 0x7f0c00c8
+com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Display2 = 0x7f110193
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ActionButton.Overflow = 0x7f1100c6
+com.honeywell.barcodeexample:id/transition_current_scene = 0x7f0801ee
+com.honeywell.barcodeexample:style/TextAppearance.M3.Sys.Typescale.TitleLarge = 0x7f1101d9
+com.honeywell.barcodeexample:macro/m3_comp_primary_navigation_tab_with_label_text_active_label_text_color = 0x7f0c00b3
+com.honeywell.barcodeexample:style/Widget.Material3.CompoundButton.MaterialSwitch = 0x7f11036b
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Subhead.Inverse = 0x7f11002e
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.Button.UnelevatedButton.Icon = 0x7f1103f2
+com.honeywell.barcodeexample:style/ThemeOverlay.AppCompat.Dialog.Alert = 0x7f110273
+com.honeywell.barcodeexample:styleable/MenuItem = 0x7f120064
+com.honeywell.barcodeexample:style/Base.Widget.Material3.CollapsingToolbar = 0x7f1100ff
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.Button.Icon = 0x7f1103e8
+com.honeywell.barcodeexample:layout/material_radial_view_group = 0x7f0b003d
+com.honeywell.barcodeexample:macro/m3_comp_search_bar_input_text_color = 0x7f0c00ca
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.AutoCompleteTextView.OutlinedBox = 0x7f1103dc
+com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.Toolbar.Surface = 0x7f1102da
+com.honeywell.barcodeexample:id/month_navigation_fragment_toggle = 0x7f08011c
+com.honeywell.barcodeexample:dimen/m3_sys_motion_easing_linear_control_y2 = 0x7f0601f3
+com.honeywell.barcodeexample:styleable/Toolbar = 0x7f12009e
+com.honeywell.barcodeexample:style/Base.DialogWindowTitleBackground.AppCompat = 0x7f110012
+com.honeywell.barcodeexample:styleable/ActivityChooserView = 0x7f120005
+com.honeywell.barcodeexample:style/Widget.AppCompat.ActionButton.Overflow = 0x7f1102e2
+com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Light.SearchResult.Subtitle = 0x7f11019a
+com.honeywell.barcodeexample:macro/m3_comp_outlined_button_outline_color = 0x7f0c0087
+com.honeywell.barcodeexample:color/m3_sys_color_dark_surface_container_lowest = 0x7f05016d
+com.honeywell.barcodeexample:styleable/AppCompatTheme = 0x7f120015
+com.honeywell.barcodeexample:string/path_password_eye_mask_strike_through = 0x7f1000b1
+com.honeywell.barcodeexample:style/Widget.Material3.MaterialCalendar.MonthTextView = 0x7f110398
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.Snackbar.TextView = 0x7f110430
+com.honeywell.barcodeexample:macro/m3_comp_time_picker_time_selector_selected_label_text_color = 0x7f0c0142
+com.honeywell.barcodeexample:style/Widget.Material3.FloatingActionButton.Large.Tertiary = 0x7f11037a
+com.honeywell.barcodeexample:style/Widget.AppCompat.RatingBar.Indicator = 0x7f110316
+com.honeywell.barcodeexample:style/Theme.Material3.Dark = 0x7f110221
+com.honeywell.barcodeexample:layout/abc_search_view = 0x7f0b0019
+com.honeywell.barcodeexample:style/Widget.Material3.Slider = 0x7f1103ba
+com.honeywell.barcodeexample:macro/m3_comp_switch_disabled_unselected_icon_color = 0x7f0c00fd
+com.honeywell.barcodeexample:styleable/PropertySet = 0x7f12007e
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.Light.PopupMenu = 0x7f1100e0
+com.honeywell.barcodeexample:style/Widget.Material3.Search.Toolbar.Button.Navigation = 0x7f1103b0
+com.honeywell.barcodeexample:styleable/ActivityNavigator = 0x7f120007
+com.honeywell.barcodeexample:drawable/mtrl_checkbox_button_icon_checked_indeterminate = 0x7f0700b4
+com.honeywell.barcodeexample:styleable/FontFamily = 0x7f12003a
+com.honeywell.barcodeexample:string/m3_sys_motion_easing_legacy_accelerate = 0x7f10004f
+com.honeywell.barcodeexample:drawable/tooltip_frame_light = 0x7f0700e5
+com.honeywell.barcodeexample:styleable/AppBarLayout = 0x7f12000d
+com.honeywell.barcodeexample:styleable/ActionBarLayout = 0x7f120001
+com.honeywell.barcodeexample:macro/m3_comp_outlined_text_field_supporting_text_type = 0x7f0c00a6
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu = 0x7f11043b
+com.honeywell.barcodeexample:macro/m3_comp_primary_navigation_tab_active_hover_state_layer_color = 0x7f0c00a9
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense = 0x7f11043d
+com.honeywell.barcodeexample:style/Widget.Material3.SearchView.Toolbar = 0x7f1103b5
+com.honeywell.barcodeexample:string/abc_searchview_description_submit = 0x7f100016
+com.honeywell.barcodeexample:color/material_dynamic_neutral_variant20 = 0x7f050218
+com.honeywell.barcodeexample:style/Theme.MaterialComponents.DayNight.Dialog.Alert = 0x7f110246
+com.honeywell.barcodeexample:string/exposed_dropdown_menu_content_description = 0x7f10003e
+com.honeywell.barcodeexample:drawable/ic_clock_black_24dp = 0x7f07008c
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.Day.Invalid = 0x7f11040a
+com.honeywell.barcodeexample:layout/mtrl_calendar_year = 0x7f0b0054
+com.honeywell.barcodeexample:string/activity_intent_filter_action = 0x7f10001c
+com.honeywell.barcodeexample:id/indeterminate = 0x7f0800e7
+com.honeywell.barcodeexample:styleable/MaterialCardView = 0x7f120058
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.AppBarLayout.Primary = 0x7f1103d7
+com.honeywell.barcodeexample:style/Theme.Material3.DayNight.Dialog = 0x7f11022b
+com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox.Dense = 0x7f1102b9
+com.honeywell.barcodeexample:style/Widget.Material3.FloatingActionButton.Large.Secondary = 0x7f110378
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.CompoundButton.CheckBox = 0x7f1103ff
+com.honeywell.barcodeexample:style/Widget.AppCompat.DrawerArrowToggle = 0x7f1102f1
+com.honeywell.barcodeexample:layout/mtrl_auto_complete_simple_item = 0x7f0b004a
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.FloatingActionButton = 0x7f110404
+com.honeywell.barcodeexample:color/material_blue_grey_950 = 0x7f050203
+com.honeywell.barcodeexample:style/Widget.Material3.SideSheet.Modal = 0x7f1103b8
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TimePicker.Display = 0x7f110444
+com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog = 0x7f1102c7
+com.honeywell.barcodeexample:style/Widget.Material3.Chip.Assist.Elevated = 0x7f110359
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.SearchResult = 0x7f110028
+com.honeywell.barcodeexample:string/mtrl_checkbox_button_path_unchecked = 0x7f100074
+com.honeywell.barcodeexample:style/Base.V14.Theme.Material3.Dark = 0x7f110086
+com.honeywell.barcodeexample:style/Widget.AppCompat.Light.ActionBar.TabBar = 0x7f1102f8
+com.honeywell.barcodeexample:style/Widget.Material3.Button.ElevatedButton = 0x7f110342
+com.honeywell.barcodeexample:id/topPanel = 0x7f0801ea
+com.honeywell.barcodeexample:interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1 = 0x7f0a0003
+com.honeywell.barcodeexample:style/Widget.Material3.Button.Icon = 0x7f110344
+com.honeywell.barcodeexample:dimen/material_font_2_0_box_collapsed_padding_top = 0x7f060221
+com.honeywell.barcodeexample:style/ShapeAppearanceOverlay.Material3.Corner.Bottom = 0x7f11017c
+com.honeywell.barcodeexample:drawable/abc_btn_check_to_on_mtrl_000 = 0x7f07002d
+com.honeywell.barcodeexample:style/Widget.Material3.SearchView = 0x7f1103b3
+com.honeywell.barcodeexample:string/material_slider_range_end = 0x7f100061
+com.honeywell.barcodeexample:style/Widget.Material3.BottomSheet.DragHandle = 0x7f11033f
+com.honeywell.barcodeexample:style/Widget.Design.TextInputEditText = 0x7f11032f
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Small = 0x7f110040
+com.honeywell.barcodeexample:style/TextAppearance.MaterialComponents.Headline3 = 0x7f1101f9
+com.honeywell.barcodeexample:style/Base.Theme.AppCompat.Light.DarkActionBar = 0x7f110053
+com.honeywell.barcodeexample:styleable/Motion = 0x7f120067
+com.honeywell.barcodeexample:style/Widget.Design.ScrimInsetsFrameLayout = 0x7f11032c
+com.honeywell.barcodeexample:styleable/SplitPairFilter = 0x7f12008e
+com.honeywell.barcodeexample:style/Theme.Material3.DayNight.SideSheetDialog = 0x7f110230
+com.honeywell.barcodeexample:macro/m3_comp_filled_button_label_text_type = 0x7f0c0030
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.PopupMenu.ListPopupWindow = 0x7f110429
+com.honeywell.barcodeexample:attr/colorPrimaryFixed = 0x7f030116
+com.honeywell.barcodeexample:drawable/abc_ic_voice_search_api_material = 0x7f070049
+com.honeywell.barcodeexample:color/m3_ref_palette_dynamic_secondary70 = 0x7f0500dc
+com.honeywell.barcodeexample:animator/fragment_fade_exit = 0x7f020006
+com.honeywell.barcodeexample:id/startHorizontal = 0x7f0801b9
+com.honeywell.barcodeexample:macro/m3_comp_time_picker_time_selector_unselected_focus_state_layer_color = 0x7f0c0147
+com.honeywell.barcodeexample:style/Theme.Material3.Dark.DialogWhenLarge = 0x7f110226
+com.honeywell.barcodeexample:macro/m3_comp_switch_unselected_hover_track_color = 0x7f0c0118
+com.honeywell.barcodeexample:style/Widget.Design.BottomNavigationView = 0x7f110327
+com.honeywell.barcodeexample:id/right_icon = 0x7f08016d
+com.honeywell.barcodeexample:macro/m3_comp_outlined_card_disabled_outline_color = 0x7f0c008b
+com.honeywell.barcodeexample:style/Widget.AppCompat.Toolbar = 0x7f110322
+com.honeywell.barcodeexample:id/neverCompleteToStart = 0x7f080144
+com.honeywell.barcodeexample:style/Widget.AppCompat.Spinner = 0x7f11031c
+com.honeywell.barcodeexample:id/material_clock_level = 0x7f080106
+com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.Light = 0x7f1102c5
+com.honeywell.barcodeexample:style/Theme.AppCompat.Light.DialogWhenLarge = 0x7f110218
+com.honeywell.barcodeexample:color/m3_sys_color_light_surface = 0x7f0501d1
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Button = 0x7f110280
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ListView.Menu = 0x7f1100e6
+com.honeywell.barcodeexample:macro/m3_comp_suggestion_chip_container_shape = 0x7f0c00f7
+com.honeywell.barcodeexample:style/Widget.AppCompat.Button.Borderless = 0x7f1102e7
+com.honeywell.barcodeexample:dimen/m3_bottom_sheet_modal_elevation = 0x7f0600bc
+com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date = 0x7f1102c9
+com.honeywell.barcodeexample:style/TextAppearance.Design.Tab = 0x7f1101cc
+com.honeywell.barcodeexample:dimen/material_emphasis_disabled = 0x7f060218
+com.honeywell.barcodeexample:id/transition_layout_save = 0x7f0801ef
+com.honeywell.barcodeexample:style/Base.Theme.AppCompat.Light.Dialog.Alert = 0x7f110055
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.Light.ActionBar.Solid = 0x7f110405
+com.honeywell.barcodeexample:id/deltaRelative = 0x7f080097
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialButtonToggleGroup = 0x7f110407
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.Button.TextButton.Dialog = 0x7f1103ec
+com.honeywell.barcodeexample:id/cancel_button = 0x7f08006b
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.TextView.SpinnerItem = 0x7f1100f6
+com.honeywell.barcodeexample:id/custom = 0x7f08008e
+com.honeywell.barcodeexample:styleable/GradientColorItem = 0x7f120041
+com.honeywell.barcodeexample:style/ThemeOverlay.AppCompat.Dialog = 0x7f110272
+com.honeywell.barcodeexample:style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar = 0x7f11030a
+com.honeywell.barcodeexample:dimen/mtrl_low_ripple_pressed_alpha = 0x7f0602a7
+com.honeywell.barcodeexample:style/Widget.Material3.BottomAppBar = 0x7f110339
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title = 0x7f110035
+com.honeywell.barcodeexample:style/Base.Theme.MaterialComponents.Light.DarkActionBar.Bridge = 0x7f11006d
+com.honeywell.barcodeexample:styleable/PopupWindowBackgroundState = 0x7f12007d
+com.honeywell.barcodeexample:style/TextAppearance.Design.Hint = 0x7f1101c7
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Light.Dialog.Alert.Framework = 0x7f11029f
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Light = 0x7f11029e
+com.honeywell.barcodeexample:macro/m3_comp_outlined_text_field_input_text_color = 0x7f0c00a1
+com.honeywell.barcodeexample:styleable/ConstraintLayout_Layout = 0x7f12002a
+com.honeywell.barcodeexample:dimen/abc_text_size_caption_material = 0x7f060042
+com.honeywell.barcodeexample:attr/controlBackground = 0x7f030149
+com.honeywell.barcodeexample:id/action_menu_divider = 0x7f08003e
+com.honeywell.barcodeexample:style/Base.Theme.AppCompat.Light.Dialog.FixedSize = 0x7f110056
+com.honeywell.barcodeexample:style/MaterialAlertDialog.Material3.Title.Panel.CenterStacked = 0x7f110126
+com.honeywell.barcodeexample:styleable/KeyAttribute = 0x7f120044
+com.honeywell.barcodeexample:style/Theme.MaterialComponents.Dialog.Bridge = 0x7f110253
+com.honeywell.barcodeexample:color/material_dynamic_tertiary20 = 0x7f05023f
+com.honeywell.barcodeexample:dimen/m3_extended_fab_bottom_padding = 0x7f06019a
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Widget.AppCompat.ListMenuView = 0x7f11030b
 com.honeywell.barcodeexample:macro/m3_comp_sheet_bottom_docked_container_shape = 0x7f0c00e7
 com.honeywell.barcodeexample:macro/m3_comp_switch_unselected_pressed_track_outline_color = 0x7f0c011f
@@ -207,9 +467,14 @@ com.honeywell.barcodeexample:drawable/abc_seekbar_track_material = 0x7f070064
 com.honeywell.barcodeexample:style/Base.V24.Theme.Material3.Dark = 0x7f1100ae
 com.honeywell.barcodeexample:style/Widget.Material3.Button.TextButton = 0x7f11034b
 com.honeywell.barcodeexample:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Year = 0x7f11018b
+com.honeywell.barcodeexample:id/view_tree_view_model_store_owner = 0x7f0801ff
+com.honeywell.barcodeexample:macro/m3_comp_time_picker_time_selector_unselected_container_color = 0x7f0c0146
+com.honeywell.barcodeexample:id/nav_controller_view_tag = 0x7f080139
+com.honeywell.barcodeexample:style/Base.Widget.Material3.ExtendedFloatingActionButton.Icon = 0x7f110104
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Dialog.Alert = 0x7f11028f
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.PopupMenu.ContextMenu = 0x7f110428
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Button.TonalButton = 0x7f110287
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Theme.Material3.Light = 0x7f110234
 com.honeywell.barcodeexample:integer/material_motion_duration_long_1 = 0x7f090026
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Button.IconButton.Filled = 0x7f110283
@@ -233,18 +498,68 @@ com.honeywell.barcodeexample:layout/abc_activity_chooser_view_list_item = 0x7f0b
 com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date = 0x7f1102c9
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Button = 0x7f110280
 com.honeywell.barcodeexample:color/m3_sys_color_light_surface = 0x7f0501d1
+=======
+com.honeywell.barcodeexample:style/Base.Theme.Material3.Dark = 0x7f110059
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.MaterialTimePicker = 0x7f1102a5
+com.honeywell.barcodeexample:style/Theme.Material3.Light = 0x7f110234
+com.honeywell.barcodeexample:color/material_personalized_color_secondary_container = 0x7f05027a
+com.honeywell.barcodeexample:drawable/abc_edit_text_material = 0x7f07003c
+com.honeywell.barcodeexample:style/Base.Theme.Material3.Light.BottomSheetDialog = 0x7f11005e
+com.honeywell.barcodeexample:color/m3_ref_palette_primary99 = 0x7f05012c
+com.honeywell.barcodeexample:id/timer = 0x7f0801e4
+com.honeywell.barcodeexample:style/Widget.Material3.MaterialTimePicker.Clock = 0x7f1103a1
+com.honeywell.barcodeexample:macro/m3_comp_assist_chip_label_text_type = 0x7f0c0001
+com.honeywell.barcodeexample:style/Widget.AppCompat.PopupWindow = 0x7f110312
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Button.IconButton.Filled = 0x7f110283
+com.honeywell.barcodeexample:style/Base.TextAppearance.MaterialComponents.Headline6 = 0x7f110046
+com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.ActionBar.Surface = 0x7f1102b6
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.BottomSheetDialog = 0x7f11027f
+com.honeywell.barcodeexample:string/abc_action_bar_home_description = 0x7f100000
+com.honeywell.barcodeexample:id/radio = 0x7f080167
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.NavigationView = 0x7f110426
+com.honeywell.barcodeexample:string/time = 0x7f1000c1
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.NavigationRailView = 0x7f110421
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu = 0x7f11043f
+com.honeywell.barcodeexample:id/search_view_edit_text = 0x7f08018c
+com.honeywell.barcodeexample:color/m3_ref_palette_dynamic_neutral40 = 0x7f0500ac
+com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.Dialog.Alert = 0x7f1102c3
+com.honeywell.barcodeexample:styleable/CollapsingToolbarLayout = 0x7f120025
+com.honeywell.barcodeexample:style/Widget.AppCompat.ImageButton = 0x7f1102f4
+com.honeywell.barcodeexample:style/ShapeAppearance.Material3.Corner.Large = 0x7f11016b
+com.honeywell.barcodeexample:dimen/m3_comp_assist_chip_container_height = 0x7f0600f2
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TimePicker.ImageButton = 0x7f110449
+com.honeywell.barcodeexample:style/ShapeAppearanceOverlay.Material3.SearchBar = 0x7f110182
+com.honeywell.barcodeexample:layout/abc_activity_chooser_view_list_item = 0x7f0b0007
+com.honeywell.barcodeexample:macro/m3_comp_checkbox_selected_disabled_container_color = 0x7f0c0007
+com.honeywell.barcodeexample:style/Theme.Material3.Light.BottomSheetDialog = 0x7f110235
+com.honeywell.barcodeexample:dimen/m3_badge_horizontal_offset = 0x7f0600ac
+com.honeywell.barcodeexample:id/supportScrollUp = 0x7f0801c2
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:string/abc_capital_off = 0x7f100006
 com.honeywell.barcodeexample:style/MaterialAlertDialog.MaterialComponents.Body.Text = 0x7f11012a
 com.honeywell.barcodeexample:styleable/ShapeableImageView = 0x7f120088
 com.honeywell.barcodeexample:style/ShapeAppearance.Material3.Corner.Medium = 0x7f11016c
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon = 0x7f110403
 com.honeywell.barcodeexample:dimen/design_bottom_navigation_item_min_width = 0x7f060066
 com.honeywell.barcodeexample:string/exposed_dropdown_menu_content_description = 0x7f10003e
 com.honeywell.barcodeexample:drawable/ic_clock_black_24dp = 0x7f07008c
 com.honeywell.barcodeexample:styleable/NavInclude = 0x7f120074
+=======
+com.honeywell.barcodeexample:style/ThemeOverlay.AppCompat.DayNight.ActionBar = 0x7f110271
+com.honeywell.barcodeexample:style/ThemeOverlay.AppCompat.DayNight = 0x7f110270
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu = 0x7f11043a
+com.honeywell.barcodeexample:macro/m3_comp_checkbox_selected_disabled_icon_color = 0x7f0c0008
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Button.TextButton.Snackbar = 0x7f110286
+com.honeywell.barcodeexample:style/Base.Theme.MaterialComponents.Light.Dialog = 0x7f11006e
+com.honeywell.barcodeexample:color/primary_text_disabled_material_light = 0x7f0502df
+com.honeywell.barcodeexample:id/cos = 0x7f080089
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Widget.AppCompat.DropDownItem.Spinner = 0x7f1102f2
+com.honeywell.barcodeexample:styleable/NavInclude = 0x7f120074
 com.honeywell.barcodeexample:styleable/AlertDialog = 0x7f120009
 com.honeywell.barcodeexample:styleable/NavigationBarActiveIndicator = 0x7f120075
+<<<<<<< HEAD
 com.honeywell.barcodeexample:layout/material_radial_view_group = 0x7f0b003d
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.Button.Icon = 0x7f1103e8
 com.honeywell.barcodeexample:style/Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle = 0x7f110049
@@ -319,10 +634,68 @@ com.honeywell.barcodeexample:style/Widget.AppCompat.Button.Borderless = 0x7f1102
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ListView.Menu = 0x7f1100e6
 com.honeywell.barcodeexample:macro/m3_comp_suggestion_chip_container_shape = 0x7f0c00f7
 com.honeywell.barcodeexample:layout/incompatible_device = 0x7f0b002f
+=======
+com.honeywell.barcodeexample:style/ThemeOverlay.AppCompat.ActionBar = 0x7f11026d
+com.honeywell.barcodeexample:style/Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle = 0x7f110049
+com.honeywell.barcodeexample:style/Theme.MaterialComponents.NoActionBar.Bridge = 0x7f11026a
+com.honeywell.barcodeexample:macro/m3_comp_time_picker_period_selector_selected_label_text_color = 0x7f0c0137
+com.honeywell.barcodeexample:dimen/m3_toolbar_text_size_title = 0x7f060206
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.MaterialCalendar.Fullscreen = 0x7f1102a3
+com.honeywell.barcodeexample:style/TextAppearance.AppCompat.SearchResult.Title = 0x7f1101a2
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox = 0x7f11043c
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.DynamicColors.Light = 0x7f110293
+com.honeywell.barcodeexample:string/mtrl_exceed_max_badge_number_suffix = 0x7f10007a
+com.honeywell.barcodeexample:attr/tickColorInactive = 0x7f03048f
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.CardView = 0x7f1103f3
+com.honeywell.barcodeexample:color/m3_ref_palette_dynamic_tertiary20 = 0x7f0500e4
+com.honeywell.barcodeexample:id/search_view_clear_button = 0x7f080188
+com.honeywell.barcodeexample:style/Theme.MaterialComponents.Light = 0x7f110259
+com.honeywell.barcodeexample:style/Widget.AppCompat.RatingBar.Small = 0x7f110317
+com.honeywell.barcodeexample:interpolator/btn_radio_to_off_mtrl_animation_interpolator_0 = 0x7f0a0004
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.Slider = 0x7f11042d
+com.honeywell.barcodeexample:layout/design_navigation_item_header = 0x7f0b0027
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.HeaderConfirmButton = 0x7f110411
+com.honeywell.barcodeexample:color/material_dynamic_neutral95 = 0x7f050213
+com.honeywell.barcodeexample:string/mtrl_timepicker_cancel = 0x7f1000a8
+com.honeywell.barcodeexample:macro/m3_comp_primary_navigation_tab_with_label_text_inactive_label_text_color = 0x7f0c00b4
+com.honeywell.barcodeexample:style/Base.V23.Theme.AppCompat = 0x7f1100ac
+com.honeywell.barcodeexample:layout/abc_activity_chooser_view = 0x7f0b0006
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.AppBarLayout.Surface = 0x7f1103d9
+com.honeywell.barcodeexample:id/dragDown = 0x7f0800a9
+com.honeywell.barcodeexample:style/Widget.Material3.Button.TextButton.Icon = 0x7f11034f
+com.honeywell.barcodeexample:style/Widget.Material3.BottomNavigationView = 0x7f11033c
+com.honeywell.barcodeexample:string/bottomsheet_action_collapse = 0x7f100026
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat = 0x7f110016
+com.honeywell.barcodeexample:integer/m3_sys_motion_duration_long3 = 0x7f090015
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TimePicker.Display.TextInputLayout = 0x7f110448
+com.honeywell.barcodeexample:style/Theme.AppCompat.DayNight.Dialog.Alert = 0x7f11020a
+com.honeywell.barcodeexample:style/Widget.Material3.CardView.Outlined = 0x7f110356
+com.honeywell.barcodeexample:color/m3_sys_color_light_tertiary = 0x7f0501da
+com.honeywell.barcodeexample:style/Theme.Material3.Light.DialogWhenLarge = 0x7f110239
+com.honeywell.barcodeexample:id/start = 0x7f0801b8
+com.honeywell.barcodeexample:dimen/tooltip_precise_anchor_extra_offset = 0x7f060303
+com.honeywell.barcodeexample:style/Theme.Material3.Light.Dialog.MinWidth = 0x7f110238
+com.honeywell.barcodeexample:macro/m3_comp_filled_text_field_error_supporting_text_color = 0x7f0c0039
+com.honeywell.barcodeexample:macro/m3_comp_badge_large_label_text_type = 0x7f0c0004
+com.honeywell.barcodeexample:style/Widget.Material3.MaterialTimePicker.Display.HelperText = 0x7f1103a4
+com.honeywell.barcodeexample:id/mtrl_picker_text_input_range_end = 0x7f080134
+com.honeywell.barcodeexample:macro/m3_comp_search_bar_trailing_icon_color = 0x7f0c00d1
+com.honeywell.barcodeexample:style/Widget.Material3.FloatingActionButton.Large.Surface = 0x7f110379
+com.honeywell.barcodeexample:id/dragAnticlockwise = 0x7f0800a7
+com.honeywell.barcodeexample:macro/m3_comp_fab_primary_small_container_shape = 0x7f0c0025
+com.honeywell.barcodeexample:styleable/MaterialCheckBoxStates = 0x7f12005a
+com.honeywell.barcodeexample:dimen/m3_sys_elevation_level3 = 0x7f0601d9
+com.honeywell.barcodeexample:dimen/m3_btn_icon_btn_padding_right = 0x7f0600ca
+com.honeywell.barcodeexample:id/text = 0x7f0801d1
+com.honeywell.barcodeexample:drawable/material_ic_menu_arrow_up_black_24dp = 0x7f0700af
+com.honeywell.barcodeexample:style/Theme.Design.BottomSheetDialog = 0x7f11021c
+com.honeywell.barcodeexample:layout/abc_alert_dialog_material = 0x7f0b0009
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:string/mtrl_picker_a11y_prev_month = 0x7f10007c
 com.honeywell.barcodeexample:style/Platform.ThemeOverlay.AppCompat.Light = 0x7f11013b
 com.honeywell.barcodeexample:style/RtlUnderlay.Widget.AppCompat.ActionButton.Overflow = 0x7f110151
 com.honeywell.barcodeexample:color/material_slider_active_track_color = 0x7f050293
+<<<<<<< HEAD
 com.honeywell.barcodeexample:id/transition_current_scene = 0x7f0801ee
 com.honeywell.barcodeexample:styleable/MaterialTextView = 0x7f120060
 com.honeywell.barcodeexample:macro/m3_comp_assist_chip_label_text_type = 0x7f0c0001
@@ -381,13 +754,48 @@ com.honeywell.barcodeexample:macro/m3_comp_switch_disabled_selected_icon_color =
 com.honeywell.barcodeexample:style/TextAppearance.MaterialComponents.Headline2 = 0x7f1101f8
 com.honeywell.barcodeexample:dimen/m3_sys_motion_easing_emphasized_accelerate_control_y1 = 0x7f0601de
 com.honeywell.barcodeexample:styleable/CardView = 0x7f12001d
+=======
+com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox.Dense = 0x7f1102d4
+com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Calendar = 0x7f1102ca
+com.honeywell.barcodeexample:layout/design_text_input_end_icon = 0x7f0b002c
+com.honeywell.barcodeexample:style/Theme.AppCompat.Light.NoActionBar = 0x7f110219
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.AutoCompleteTextView.FilledBox.Dense = 0x7f11027a
+com.honeywell.barcodeexample:layout/abc_popup_menu_header_item_layout = 0x7f0b0012
+com.honeywell.barcodeexample:style/Theme.AppCompat.Light = 0x7f110213
+com.honeywell.barcodeexample:string/appTitle = 0x7f10001f
+com.honeywell.barcodeexample:style/Widget.AppCompat.ActionButton = 0x7f1102e0
+com.honeywell.barcodeexample:style/Theme.AppCompat.Dialog.MinWidth = 0x7f110210
+com.honeywell.barcodeexample:layout/incompatible_device = 0x7f0b002f
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TabLayout.Colored = 0x7f110432
+com.honeywell.barcodeexample:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Shortcut = 0x7f110146
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.Button = 0x7f1103e7
+com.honeywell.barcodeexample:style/TextAppearance.Material3.DisplaySmall = 0x7f1101e3
+com.honeywell.barcodeexample:style/Theme.MaterialComponents.DayNight.Dialog.Bridge = 0x7f110248
+com.honeywell.barcodeexample:layout/list_layout = 0x7f0b0030
+com.honeywell.barcodeexample:color/material_personalized_color_on_primary_container = 0x7f05026a
+com.honeywell.barcodeexample:id/withText = 0x7f080203
+com.honeywell.barcodeexample:drawable/abc_action_bar_item_background_material = 0x7f070029
+com.honeywell.barcodeexample:style/Widget.AppCompat.Toolbar.Button.Navigation = 0x7f110323
+com.honeywell.barcodeexample:style/TextAppearance.MaterialComponents.Headline2 = 0x7f1101f8
+com.honeywell.barcodeexample:macro/m3_comp_switch_disabled_selected_icon_color = 0x7f0c00fa
+com.honeywell.barcodeexample:styleable/RecycleListView = 0x7f120081
+com.honeywell.barcodeexample:macro/m3_comp_filled_text_field_container_color = 0x7f0c0036
+com.honeywell.barcodeexample:string/password_toggle_content_description = 0x7f1000af
+com.honeywell.barcodeexample:style/Widget.Material3.MaterialTimePicker.Display = 0x7f1103a2
+com.honeywell.barcodeexample:styleable/BaseProgressIndicator = 0x7f120017
+com.honeywell.barcodeexample:id/graph = 0x7f0800d3
+com.honeywell.barcodeexample:integer/m3_sys_motion_duration_long2 = 0x7f090014
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Base.V22.Theme.AppCompat = 0x7f1100aa
 com.honeywell.barcodeexample:style/Widget.AppCompat.ListView = 0x7f11030d
 com.honeywell.barcodeexample:style/Widget.AppCompat.ActionBar.TabView = 0x7f1102df
 com.honeywell.barcodeexample:macro/m3_comp_fab_primary_large_container_shape = 0x7f0c0024
 com.honeywell.barcodeexample:style/TextAppearance.M3.Sys.Typescale.HeadlineMedium = 0x7f1101d4
+com.honeywell.barcodeexample:style/Base.V14.Theme.Material3.Dark.BottomSheetDialog = 0x7f110087
+com.honeywell.barcodeexample:style/Widget.Material3.Light.ActionBar.Solid = 0x7f110383
 com.honeywell.barcodeexample:style/Widget.Material3.SideSheet.Detached = 0x7f1103b7
 com.honeywell.barcodeexample:style/Theme.AppCompat.Dialog.Alert = 0x7f11020f
+<<<<<<< HEAD
 com.honeywell.barcodeexample:layout/abc_list_menu_item_layout = 0x7f0b0010
 com.honeywell.barcodeexample:color/material_personalized_primary_inverse_text_disable_only = 0x7f050290
 com.honeywell.barcodeexample:style/TextAppearance.M3.Sys.Typescale.BodyMedium = 0x7f1101ce
@@ -395,6 +803,17 @@ com.honeywell.barcodeexample:styleable/View = 0x7f1200a3
 com.honeywell.barcodeexample:style/Widget.AppCompat.Light.DropDownItem.Spinner = 0x7f110304
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem = 0x7f110042
 com.honeywell.barcodeexample:id/accessibility_custom_action_19 = 0x7f08001b
+=======
+com.honeywell.barcodeexample:color/material_personalized_primary_inverse_text_disable_only = 0x7f050290
+com.honeywell.barcodeexample:layout/abc_list_menu_item_layout = 0x7f0b0010
+com.honeywell.barcodeexample:dimen/design_bottom_navigation_item_min_width = 0x7f060066
+com.honeywell.barcodeexample:style/Widget.AppCompat.Light.DropDownItem.Spinner = 0x7f110304
+com.honeywell.barcodeexample:style/TextAppearance.M3.Sys.Typescale.BodyMedium = 0x7f1101ce
+com.honeywell.barcodeexample:styleable/View = 0x7f1200a3
+com.honeywell.barcodeexample:id/accessibility_custom_action_19 = 0x7f08001b
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem = 0x7f110042
+com.honeywell.barcodeexample:id/tag_on_receive_content_listener = 0x7f0801c9
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:dimen/mtrl_extended_fab_top_padding = 0x7f060298
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.Badge = 0x7f1103de
 com.honeywell.barcodeexample:style/Widget.Material3.MaterialCalendar.Year.Selected = 0x7f11039a
@@ -406,6 +825,10 @@ com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Large = 0x7f110198
 com.honeywell.barcodeexample:styleable/Tooltip = 0x7f12009f
 com.honeywell.barcodeexample:color/m3_ref_palette_dynamic_neutral_variant30 = 0x7f0500be
 com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Widget.Button = 0x7f1101b3
+<<<<<<< HEAD
+=======
+com.honeywell.barcodeexample:style/Theme.MaterialComponents.DayNight.BottomSheetDialog = 0x7f110241
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:string/abc_menu_meta_shortcut_label = 0x7f10000d
 com.honeywell.barcodeexample:color/m3_sys_color_dynamic_on_secondary_fixed = 0x7f0501b0
 com.honeywell.barcodeexample:string/m3_ref_typeface_brand_medium = 0x7f100046
@@ -420,8 +843,11 @@ com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Small.Inverse = 0x7f
 com.honeywell.barcodeexample:style/Widget.Material3.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu = 0x7f1103cc
 com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.ActionBar.Primary = 0x7f1102b5
 com.honeywell.barcodeexample:dimen/m3_searchview_height = 0x7f0601c9
+<<<<<<< HEAD
 com.honeywell.barcodeexample:color/material_personalized_color_on_primary_container = 0x7f05026a
 com.honeywell.barcodeexample:layout/list_layout = 0x7f0b0030
+=======
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Large.Inverse = 0x7f110199
 com.honeywell.barcodeexample:style/MaterialAlertDialog.MaterialComponents.Title.Icon.CenterStacked = 0x7f11012e
 com.honeywell.barcodeexample:string/mtrl_picker_today_description = 0x7f10009b
@@ -430,6 +856,7 @@ com.honeywell.barcodeexample:style/TextAppearance.Material3.MaterialTimePicker.T
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle = 0x7f110033
 com.honeywell.barcodeexample:macro/m3_comp_search_bar_pressed_supporting_text_color = 0x7f0c00ce
 com.honeywell.barcodeexample:style/Base.Widget.Material3.CompoundButton.RadioButton = 0x7f110101
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/ThemeOverlay.AppCompat.DayNight = 0x7f110270
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu = 0x7f11043a
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Button.TextButton.Snackbar = 0x7f110286
@@ -443,6 +870,12 @@ com.honeywell.barcodeexample:color/m3_ref_palette_dynamic_secondary70 = 0x7f0500
 com.honeywell.barcodeexample:attr/colorPrimaryFixed = 0x7f030116
 com.honeywell.barcodeexample:drawable/abc_ic_voice_search_api_material = 0x7f070049
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.PopupMenu.ListPopupWindow = 0x7f110429
+=======
+com.honeywell.barcodeexample:id/bestChoice = 0x7f08005f
+com.honeywell.barcodeexample:id/hideable = 0x7f0800d9
+com.honeywell.barcodeexample:style/Base.MaterialAlertDialog.MaterialComponents.Title.Panel = 0x7f110014
+com.honeywell.barcodeexample:style/Widget.Design.FloatingActionButton = 0x7f11032a
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/ShapeAppearanceOverlay.MaterialAlertDialog.Material3 = 0x7f110184
 com.honeywell.barcodeexample:macro/m3_comp_switch_selected_focus_icon_color = 0x7f0c0101
 com.honeywell.barcodeexample:dimen/design_tab_max_width = 0x7f060089
@@ -450,6 +883,7 @@ com.honeywell.barcodeexample:style/Widget.AppCompat.ButtonBar = 0x7f1102ec
 com.honeywell.barcodeexample:style/ShapeAppearanceOverlay.Material3.SearchView = 0x7f110183
 com.honeywell.barcodeexample:style/ShapeAppearanceOverlay.Material3.Corner.Left = 0x7f11017d
 com.honeywell.barcodeexample:macro/m3_comp_outlined_button_pressed_outline_color = 0x7f0c0088
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat = 0x7f110016
 com.honeywell.barcodeexample:integer/m3_sys_motion_duration_long3 = 0x7f090015
 com.honeywell.barcodeexample:style/Base.V14.Theme.MaterialComponents.Bridge = 0x7f11008f
@@ -459,13 +893,32 @@ com.honeywell.barcodeexample:color/m3_ref_palette_error60 = 0x7f0500f5
 com.honeywell.barcodeexample:style/TextAppearance.MaterialComponents.Chip = 0x7f1101f6
 com.honeywell.barcodeexample:dimen/m3_bottom_sheet_elevation = 0x7f0600bb
 com.honeywell.barcodeexample:style/TextAppearance.M3.Sys.Typescale.DisplaySmall = 0x7f1101d2
+=======
+com.honeywell.barcodeexample:dimen/m3_comp_switch_track_height = 0x7f060182
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.AppBarLayout.PrimarySurface = 0x7f1103d8
+com.honeywell.barcodeexample:dimen/m3_bottomappbar_fab_end_margin = 0x7f0600c0
+com.honeywell.barcodeexample:dimen/m3_bottom_sheet_elevation = 0x7f0600bb
+com.honeywell.barcodeexample:style/TextAppearance.M3.Sys.Typescale.DisplaySmall = 0x7f1101d2
+com.honeywell.barcodeexample:style/Base.V14.Theme.MaterialComponents.Bridge = 0x7f11008f
+com.honeywell.barcodeexample:color/m3_ref_palette_dynamic_neutral70 = 0x7f0500b0
+com.honeywell.barcodeexample:integer/m3_card_anim_duration_ms = 0x7f09000d
+com.honeywell.barcodeexample:style/TextAppearance.MaterialComponents.Chip = 0x7f1101f6
+com.honeywell.barcodeexample:color/m3_ref_palette_error60 = 0x7f0500f5
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Base.V21.Theme.AppCompat.Light = 0x7f1100a0
 com.honeywell.barcodeexample:style/ShapeAppearance.MaterialComponents.Tooltip = 0x7f110179
 com.honeywell.barcodeexample:styleable/BottomAppBar = 0x7f120018
 com.honeywell.barcodeexample:style/ShapeAppearance.Material3.Tooltip = 0x7f110173
 com.honeywell.barcodeexample:styleable/StateListDrawable = 0x7f120092
+<<<<<<< HEAD
 com.honeywell.barcodeexample:macro/m3_comp_outlined_card_disabled_outline_color = 0x7f0c008b
 com.honeywell.barcodeexample:macro/m3_comp_search_bar_hover_state_layer_color = 0x7f0c00c8
+=======
+com.honeywell.barcodeexample:macro/m3_comp_outlined_text_field_input_text_type = 0x7f0c00a2
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ButtonBar.AlertDialog = 0x7f1100d1
+com.honeywell.barcodeexample:drawable/abc_list_divider_material = 0x7f07004c
+com.honeywell.barcodeexample:dimen/m3_comp_snackbar_container_elevation = 0x7f060174
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/ShapeAppearance.M3.Comp.TextButton.Container.Shape = 0x7f110160
 com.honeywell.barcodeexample:style/ShapeAppearance.Material3.LargeComponent = 0x7f11016f
 com.honeywell.barcodeexample:color/m3_ref_palette_primary80 = 0x7f050129
@@ -474,6 +927,9 @@ com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Widget.ActionMode.Ti
 com.honeywell.barcodeexample:style/ShapeAppearance.Material3.Corner.ExtraSmall = 0x7f110169
 com.honeywell.barcodeexample:style/ShapeAppearance.M3.Sys.Shape.Corner.Full = 0x7f110163
 com.honeywell.barcodeexample:macro/m3_comp_top_app_bar_large_headline_color = 0x7f0c014a
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.Item = 0x7f110419
+com.honeywell.barcodeexample:color/material_divider_color = 0x7f050207
+com.honeywell.barcodeexample:layout/abc_list_menu_item_checkbox = 0x7f0b000e
 com.honeywell.barcodeexample:style/ShapeAppearance.M3.Comp.SearchView.FullScreen.Container.Shape = 0x7f11015b
 com.honeywell.barcodeexample:style/ShapeAppearance.M3.Comp.FilledButton.Container.Shape = 0x7f110155
 com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.Toolbar.Primary = 0x7f1102d9
@@ -483,7 +939,13 @@ com.honeywell.barcodeexample:styleable/ConstraintLayout_placeholder = 0x7f12002c
 com.honeywell.barcodeexample:style/Theme.Material3.DayNight.Dialog.MinWidth = 0x7f11022d
 com.honeywell.barcodeexample:string/mtrl_checkbox_button_icon_path_checked = 0x7f10006d
 com.honeywell.barcodeexample:style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon = 0x7f11014f
+com.honeywell.barcodeexample:style/Base.V14.Theme.MaterialComponents.Light = 0x7f110092
+com.honeywell.barcodeexample:color/m3_slider_thumb_color = 0x7f05014d
+com.honeywell.barcodeexample:style/Widget.Material3.Button.OutlinedButton = 0x7f110349
+com.honeywell.barcodeexample:color/m3_sys_color_dynamic_dark_surface = 0x7f050185
+com.honeywell.barcodeexample:dimen/mtrl_btn_stroke_size = 0x7f060251
 com.honeywell.barcodeexample:id/mtrl_picker_header_toggle = 0x7f080132
+<<<<<<< HEAD
 com.honeywell.barcodeexample:dimen/mtrl_btn_stroke_size = 0x7f060251
 com.honeywell.barcodeexample:color/m3_sys_color_dynamic_dark_surface = 0x7f050185
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3.DynamicColors.Dark = 0x7f110291
@@ -493,14 +955,23 @@ com.honeywell.barcodeexample:color/m3_slider_thumb_color = 0x7f05014d
 com.honeywell.barcodeexample:string/hide_bottom_view_on_scroll_behavior = 0x7f100041
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.EditText = 0x7f1100d8
 com.honeywell.barcodeexample:style/Base.V14.Theme.MaterialComponents.Light = 0x7f110092
+=======
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.EditText = 0x7f1100d8
+com.honeywell.barcodeexample:string/hide_bottom_view_on_scroll_behavior = 0x7f100041
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Dialog.Alert.Framework = 0x7f110290
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.DynamicColors.Dark = 0x7f110291
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1 = 0x7f11014b
 com.honeywell.barcodeexample:styleable/MaterialButton = 0x7f120054
 com.honeywell.barcodeexample:drawable/mtrl_checkbox_button_icon_indeterminate_unchecked = 0x7f0700b7
 com.honeywell.barcodeexample:styleable/StateListDrawableItem = 0x7f120093
 com.honeywell.barcodeexample:style/Widget.Material3.CircularProgressIndicator = 0x7f110363
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Widget.Material3.Light.ActionBar.Solid = 0x7f110383
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.TimePicker = 0x7f110441
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton = 0x7f110418
+=======
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Text = 0x7f110148
 com.honeywell.barcodeexample:id/search_bar_text_view = 0x7f08017f
 com.honeywell.barcodeexample:dimen/m3_fab_border_width = 0x7f0601a0
@@ -514,6 +985,7 @@ com.honeywell.barcodeexample:style/RtlOverlay.Widget.AppCompat.PopupMenuItem = 0
 com.honeywell.barcodeexample:style/Base.Widget.Material3.TabLayout.Secondary = 0x7f11010d
 com.honeywell.barcodeexample:style/TextAppearance.Material3.BodySmall = 0x7f1101e0
 com.honeywell.barcodeexample:style/Widget.Material3.Button = 0x7f110341
+<<<<<<< HEAD
 com.honeywell.barcodeexample:color/material_personalized_color_on_surface_variant = 0x7f05026f
 com.honeywell.barcodeexample:id/south = 0x7f0801ab
 com.honeywell.barcodeexample:style/TextAppearance.Design.Counter.Overflow = 0x7f1101c4
@@ -565,10 +1037,69 @@ com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.Da
 com.honeywell.barcodeexample:id/SHOW_PATH = 0x7f080009
 com.honeywell.barcodeexample:layout/design_layout_snackbar = 0x7f0b0021
 com.honeywell.barcodeexample:style/TextAppearance.Compat.Notification.Time = 0x7f1101c0
+=======
+com.honeywell.barcodeexample:style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon = 0x7f110143
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Large.Inverse = 0x7f110022
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:macro/m3_comp_time_picker_period_selector_unselected_label_text_color = 0x7f0c013b
 com.honeywell.barcodeexample:style/Widget.Material3.TextInputLayout.OutlinedBox = 0x7f1103ca
-com.honeywell.barcodeexample:id/textStart = 0x7f0801d6
+com.honeywell.barcodeexample:style/TextAppearance.Compat.Notification.Time = 0x7f1101c0
 com.honeywell.barcodeexample:dimen/mtrl_progress_track_thickness = 0x7f0602c7
+<<<<<<< HEAD
+=======
+com.honeywell.barcodeexample:id/textStart = 0x7f0801d6
+com.honeywell.barcodeexample:color/material_personalized_color_on_surface_variant = 0x7f05026f
+com.honeywell.barcodeexample:id/south = 0x7f0801ab
+com.honeywell.barcodeexample:style/TextAppearance.Design.Counter.Overflow = 0x7f1101c4
+com.honeywell.barcodeexample:macro/m3_comp_search_bar_container_surface_tint_layer_color = 0x7f0c00c7
+com.honeywell.barcodeexample:style/Base.ThemeOverlay.MaterialComponents.MaterialAlertDialog = 0x7f110085
+com.honeywell.barcodeexample:drawable/abc_list_selector_background_transition_holo_dark = 0x7f070052
+com.honeywell.barcodeexample:dimen/m3_comp_assist_chip_flat_container_elevation = 0x7f0600f4
+com.honeywell.barcodeexample:style/Base.Widget.MaterialComponents.Chip = 0x7f110110
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton = 0x7f110418
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TimePicker = 0x7f110441
+com.honeywell.barcodeexample:style/MaterialAlertDialog.MaterialComponents.Title.Panel = 0x7f11012f
+com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Widget.ActionMode.Title = 0x7f1101b1
+com.honeywell.barcodeexample:style/Base.Theme.AppCompat.Dialog = 0x7f11004d
+com.honeywell.barcodeexample:string/txtBarcodeTitle = 0x7f1000c3
+com.honeywell.barcodeexample:macro/m3_comp_outlined_text_field_caret_color = 0x7f0c0091
+com.honeywell.barcodeexample:style/Theme.AppCompat.Dialog = 0x7f11020e
+com.honeywell.barcodeexample:macro/m3_comp_switch_selected_focus_handle_color = 0x7f0c0100
+com.honeywell.barcodeexample:style/Base.Widget.MaterialComponents.Snackbar = 0x7f110118
+com.honeywell.barcodeexample:color/m3_ref_palette_dynamic_primary60 = 0x7f0500ce
+com.honeywell.barcodeexample:style/Base.Theme.Material3.Light.SideSheetDialog = 0x7f110060
+com.honeywell.barcodeexample:styleable/Transform = 0x7f1200a0
+com.honeywell.barcodeexample:integer/m3_sys_motion_duration_medium4 = 0x7f09001a
+com.honeywell.barcodeexample:style/Widget.Material3.Chip.Input.Icon.Elevated = 0x7f11035f
+com.honeywell.barcodeexample:style/Widget.Material3.TextInputLayout.OutlinedBox.Dense = 0x7f1103cb
+com.honeywell.barcodeexample:attr/actionDropDownStyle = 0x7f03000f
+com.honeywell.barcodeexample:attr/textBackgroundPanY = 0x7f030467
+com.honeywell.barcodeexample:style/Base.Widget.MaterialComponents.CheckedTextView = 0x7f11010f
+com.honeywell.barcodeexample:style/Widget.Material3.CircularProgressIndicator.Medium = 0x7f110365
+com.honeywell.barcodeexample:styleable/NavigationBarView = 0x7f120076
+com.honeywell.barcodeexample:color/m3_ref_palette_dynamic_tertiary40 = 0x7f0500e6
+com.honeywell.barcodeexample:drawable/ic_mtrl_checked_circle = 0x7f070092
+com.honeywell.barcodeexample:style/TextAppearance.M3.Sys.Typescale.LabelLarge = 0x7f1101d6
+com.honeywell.barcodeexample:color/m3_ref_palette_error99 = 0x7f0500fa
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense = 0x7f110437
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.Day = 0x7f110409
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Chip = 0x7f110288
+com.honeywell.barcodeexample:string/abc_action_mode_done = 0x7f100003
+com.honeywell.barcodeexample:dimen/m3_navigation_item_shape_inset_bottom = 0x7f0601aa
+com.honeywell.barcodeexample:style/Widget.Material3.Tooltip = 0x7f1103d1
+com.honeywell.barcodeexample:color/mtrl_chip_background_color = 0x7f0502a9
+com.honeywell.barcodeexample:dimen/mtrl_high_ripple_default_alpha = 0x7f0602a0
+com.honeywell.barcodeexample:id/transition_transform = 0x7f0801f2
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.Button.OutlinedButton = 0x7f1103e9
+com.honeywell.barcodeexample:style/Widget.Material3.SideSheet = 0x7f1103b6
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.CircularProgressIndicator.Medium = 0x7f1103fc
+com.honeywell.barcodeexample:drawable/abc_switch_track_mtrl_alpha = 0x7f07006a
+com.honeywell.barcodeexample:style/Base.Widget.Material3.FloatingActionButton.Small = 0x7f110107
+com.honeywell.barcodeexample:style/Theme.MaterialComponents.DayNight.Dialog.FixedSize = 0x7f110249
+com.honeywell.barcodeexample:layout/design_layout_snackbar = 0x7f0b0021
+com.honeywell.barcodeexample:id/SHOW_PATH = 0x7f080009
+com.honeywell.barcodeexample:macro/m3_comp_navigation_bar_active_focus_icon_color = 0x7f0c004a
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Widget.Material3.MaterialTimePicker.Button = 0x7f1103a0
 com.honeywell.barcodeexample:style/Base.Widget.Material3.FloatingActionButton.Large = 0x7f110106
 com.honeywell.barcodeexample:style/Widget.Material3.MaterialTimePicker.Display.HelperText = 0x7f1103a4
@@ -580,30 +1111,65 @@ com.honeywell.barcodeexample:macro/m3_comp_switch_disabled_unselected_track_outl
 com.honeywell.barcodeexample:style/Widget.Material3.Button.UnelevatedButton = 0x7f110353
 com.honeywell.barcodeexample:id/dragDown = 0x7f0800a9
 com.honeywell.barcodeexample:macro/m3_comp_primary_navigation_tab_active_pressed_state_layer_color = 0x7f0c00ab
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ButtonBar = 0x7f1100d0
 com.honeywell.barcodeexample:styleable/RecycleListView = 0x7f120081
 com.honeywell.barcodeexample:id/disableHome = 0x7f0800a2
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.Button.ButtonBar.AlertDialog = 0x7f1100cd
 com.honeywell.barcodeexample:macro/m3_comp_switch_selected_hover_handle_color = 0x7f0c0105
 com.honeywell.barcodeexample:dimen/m3_sys_motion_easing_legacy_control_x1 = 0x7f0601e8
+=======
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.RatingBar = 0x7f1100ec
+com.honeywell.barcodeexample:macro/m3_comp_secondary_navigation_tab_active_label_text_color = 0x7f0c00dd
+com.honeywell.barcodeexample:id/disableHome = 0x7f0800a2
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.Button.ButtonBar.AlertDialog = 0x7f1100cd
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ProgressBar.Horizontal = 0x7f1100eb
+com.honeywell.barcodeexample:styleable/KeyCycle = 0x7f120045
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.Year.Selected = 0x7f11041d
+com.honeywell.barcodeexample:style/Widget.Material3.FloatingActionButton.Primary = 0x7f11037b
+com.honeywell.barcodeexample:macro/m3_comp_switch_selected_hover_handle_color = 0x7f0c0105
+com.honeywell.barcodeexample:dimen/m3_sys_motion_easing_legacy_control_x1 = 0x7f0601e8
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.PopupMenu = 0x7f1100e7
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/TextAppearance.Widget.AppCompat.Toolbar.Title = 0x7f110204
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.PopupMenu = 0x7f1100e7
 com.honeywell.barcodeexample:color/m3_sys_color_dark_surface_container_high = 0x7f05016a
 com.honeywell.barcodeexample:attr/errorIconDrawable = 0x7f0301b3
-com.honeywell.barcodeexample:style/Base.Widget.Material3.CardView = 0x7f1100fd
+com.honeywell.barcodeexample:integer/design_snackbar_text_max_lines = 0x7f090007
 com.honeywell.barcodeexample:drawable/m3_avd_show_password = 0x7f07009d
+com.honeywell.barcodeexample:style/Base.Widget.Material3.CardView = 0x7f1100fd
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ListView.DropDown = 0x7f1100e5
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/TextAppearance.MaterialComponents.Tooltip = 0x7f110201
 com.honeywell.barcodeexample:style/Base.V14.Theme.MaterialComponents = 0x7f11008e
 com.honeywell.barcodeexample:dimen/m3_comp_suggestion_chip_flat_container_elevation = 0x7f060177
 com.honeywell.barcodeexample:layout/mtrl_alert_select_dialog_multichoice = 0x7f0b0048
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3.FloatingActionButton.Secondary = 0x7f110299
+=======
+com.honeywell.barcodeexample:style/Widget.Material3.BottomSheet = 0x7f11033e
+com.honeywell.barcodeexample:style/ShapeAppearanceOverlay.Material3.Chip = 0x7f11017b
+com.honeywell.barcodeexample:styleable/MotionEffect = 0x7f120068
+com.honeywell.barcodeexample:id/bottom = 0x7f080061
+com.honeywell.barcodeexample:dimen/design_bottom_navigation_height = 0x7f060063
+com.honeywell.barcodeexample:color/m3_sys_color_dark_inverse_primary = 0x7f050154
+com.honeywell.barcodeexample:style/TextAppearance.MaterialComponents.Tooltip = 0x7f110201
+com.honeywell.barcodeexample:style/Base.V14.Theme.MaterialComponents = 0x7f11008e
+com.honeywell.barcodeexample:dimen/m3_comp_suggestion_chip_flat_container_elevation = 0x7f060177
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.Snackbar = 0x7f11042e
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TimePicker.Display.Divider = 0x7f110445
+com.honeywell.barcodeexample:layout/mtrl_alert_select_dialog_multichoice = 0x7f0b0048
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.FloatingActionButton.Secondary = 0x7f110299
+com.honeywell.barcodeexample:style/Theme.Material3.DayNight.BottomSheetDialog = 0x7f11022a
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.Light.ActionBar.Solid = 0x7f1100db
 com.honeywell.barcodeexample:style/Base.Widget.MaterialComponents.MaterialCalendar.NavigationButton = 0x7f110112
 com.honeywell.barcodeexample:drawable/mtrl_switch_track_decoration = 0x7f0700d3
 com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView = 0x7f1102b7
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Theme.Material3.DayNight.BottomSheetDialog = 0x7f11022a
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Subhead.Inverse = 0x7f11002e
+=======
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Widget.Material3.ActionMode = 0x7f110332
 com.honeywell.barcodeexample:drawable/m3_popupmenu_background_overlay = 0x7f07009f
 com.honeywell.barcodeexample:string/mtrl_checkbox_button_path_checked = 0x7f100071
@@ -612,17 +1178,25 @@ com.honeywell.barcodeexample:drawable/m3_tabs_rounded_line_indicator = 0x7f0700a
 com.honeywell.barcodeexample:drawable/m3_password_eye = 0x7f07009e
 com.honeywell.barcodeexample:macro/m3_comp_switch_unselected_pressed_state_layer_color = 0x7f0c011d
 com.honeywell.barcodeexample:style/Base.V28.Theme.AppCompat.Light = 0x7f1100b6
+<<<<<<< HEAD
 com.honeywell.barcodeexample:interpolator/m3_sys_motion_easing_standard_accelerate = 0x7f0a000c
+=======
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:dimen/m3_chip_corner_size = 0x7f0600ec
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.DropDownItem.Spinner = 0x7f1100d7
 com.honeywell.barcodeexample:style/Theme.MaterialComponents.Light.NoActionBar = 0x7f110267
 com.honeywell.barcodeexample:style/ShapeAppearance.MaterialComponents.SmallComponent = 0x7f110178
 com.honeywell.barcodeexample:string/mtrl_picker_range_header_title = 0x7f100091
+<<<<<<< HEAD
+=======
+com.honeywell.barcodeexample:interpolator/m3_sys_motion_easing_standard_accelerate = 0x7f0a000c
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:dimen/m3_navigation_rail_item_padding_bottom = 0x7f0601b8
 com.honeywell.barcodeexample:dimen/m3_navigation_menu_headline_horizontal_padding = 0x7f0601b0
 com.honeywell.barcodeexample:layout/mtrl_search_view = 0x7f0b0063
 com.honeywell.barcodeexample:style/Widget.Material3.FloatingActionButton.Small.Primary = 0x7f11037d
 com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.OutlinedBox.Dense = 0x7f1102bb
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.DrawerArrowToggle.Common = 0x7f1100d6
 com.honeywell.barcodeexample:style/TextAppearance.Design.Error = 0x7f1101c5
 com.honeywell.barcodeexample:color/m3_sys_color_light_on_tertiary_container = 0x7f0501ca
@@ -636,6 +1210,19 @@ com.honeywell.barcodeexample:style/Base.V7.Widget.AppCompat.EditText = 0x7f1100b
 com.honeywell.barcodeexample:style/ThemeOverlay.AppCompat.Dark = 0x7f11026e
 com.honeywell.barcodeexample:id/navigation_header_container = 0x7f080141
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.Button.Borderless.Colored = 0x7f1100cc
+=======
+com.honeywell.barcodeexample:color/m3_sys_color_light_on_tertiary_container = 0x7f0501ca
+com.honeywell.barcodeexample:string/mtrl_picker_text_input_date_hint = 0x7f100095
+com.honeywell.barcodeexample:color/material_slider_halo_color = 0x7f050294
+com.honeywell.barcodeexample:style/TextAppearance.Design.Error = 0x7f1101c5
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.DrawerArrowToggle.Common = 0x7f1100d6
+com.honeywell.barcodeexample:style/ThemeOverlay.AppCompat.Dark = 0x7f11026e
+com.honeywell.barcodeexample:id/navigation_header_container = 0x7f080141
+com.honeywell.barcodeexample:styleable/TextEffects = 0x7f12009a
+com.honeywell.barcodeexample:style/Base.V7.Widget.AppCompat.EditText = 0x7f1100bd
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.Button.Borderless.Colored = 0x7f1100cc
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ActionBar.TabText = 0x7f1100c2
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:macro/m3_comp_time_input_time_input_field_supporting_text_color = 0x7f0c012a
 com.honeywell.barcodeexample:style/Base.V7.Theme.AppCompat.Light.Dialog = 0x7f1100ba
 com.honeywell.barcodeexample:style/Theme.Material3.DynamicColors.DayNight = 0x7f110232
@@ -648,18 +1235,27 @@ com.honeywell.barcodeexample:id/dragEnd = 0x7f0800aa
 com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox = 0x7f1102d1
 com.honeywell.barcodeexample:menu/activity_main = 0x7f0d0000
 com.honeywell.barcodeexample:macro/m3_comp_time_input_time_input_field_supporting_text_type = 0x7f0c012b
+<<<<<<< HEAD
 com.honeywell.barcodeexample:macro/m3_comp_search_bar_supporting_text_color = 0x7f0c00cf
 com.honeywell.barcodeexample:color/m3_sys_color_dynamic_dark_surface_container = 0x7f050187
+=======
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/TextAppearance.Material3.DisplayLarge = 0x7f1101e1
 com.honeywell.barcodeexample:style/Theme.Material3.Dark.Dialog = 0x7f110223
 com.honeywell.barcodeexample:style/Base.V24.Theme.Material3.Light = 0x7f1100b0
 com.honeywell.barcodeexample:style/Base.Theme.TheDeltaScannerV2 = 0x7f110074
+<<<<<<< HEAD
+=======
+com.honeywell.barcodeexample:macro/m3_comp_search_bar_supporting_text_color = 0x7f0c00cf
+com.honeywell.barcodeexample:color/m3_sys_color_dynamic_dark_surface_container = 0x7f050187
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Base.V14.ThemeOverlay.Material3.SideSheetDialog = 0x7f110098
 com.honeywell.barcodeexample:style/Base.ThemeOverlay.MaterialComponents.Dialog.Alert.Framework = 0x7f110083
 com.honeywell.barcodeexample:style/Base.V14.ThemeOverlay.MaterialComponents.BottomSheetDialog = 0x7f110099
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.CircularProgressIndicator = 0x7f1103fa
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.MonthNavigationButton = 0x7f11041a
 com.honeywell.barcodeexample:dimen/design_bottom_navigation_text_size = 0x7f06006a
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.TimePicker.Display.Divider = 0x7f110445
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.Snackbar = 0x7f11042e
 com.honeywell.barcodeexample:dimen/m3_comp_snackbar_container_elevation = 0x7f060174
@@ -669,6 +1265,8 @@ com.honeywell.barcodeexample:style/Theme.MaterialComponents.DayNight.BottomSheet
 com.honeywell.barcodeexample:drawable/abc_list_divider_material = 0x7f07004c
 com.honeywell.barcodeexample:macro/m3_comp_outlined_text_field_input_text_type = 0x7f0c00a2
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ButtonBar.AlertDialog = 0x7f1100d1
+=======
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:color/m3_sys_color_dynamic_dark_surface_container_high = 0x7f050188
 com.honeywell.barcodeexample:attr/tabBackground = 0x7f03041d
 com.honeywell.barcodeexample:color/m3_ref_palette_dynamic_tertiary90 = 0x7f0500eb
@@ -680,8 +1278,13 @@ com.honeywell.barcodeexample:macro/m3_comp_fab_surface_icon_color = 0x7f0c0029
 com.honeywell.barcodeexample:style/Base.Widget.Material3.MaterialCalendar.NavigationButton = 0x7f110109
 com.honeywell.barcodeexample:id/sharedValueUnset = 0x7f08019b
 com.honeywell.barcodeexample:style/Base.ThemeOverlay.MaterialComponents.Dialog = 0x7f110081
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Base.V7.Theme.AppCompat = 0x7f1100b7
 com.honeywell.barcodeexample:string/m3_sys_motion_easing_legacy = 0x7f10004e
+=======
+com.honeywell.barcodeexample:string/m3_sys_motion_easing_legacy = 0x7f10004e
+com.honeywell.barcodeexample:style/Base.V7.Theme.AppCompat = 0x7f1100b7
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Base.ThemeOverlay.AppCompat.Dark = 0x7f110077
 com.honeywell.barcodeexample:dimen/m3_comp_extended_fab_primary_hover_state_layer_opacity = 0x7f060107
 com.honeywell.barcodeexample:styleable/MotionLabel = 0x7f12006a
@@ -702,6 +1305,7 @@ com.honeywell.barcodeexample:style/Base.Theme.MaterialComponents.Dialog = 0x7f11
 com.honeywell.barcodeexample:styleable/FontFamilyFont = 0x7f12003b
 com.honeywell.barcodeexample:macro/m3_comp_slider_disabled_inactive_track_color = 0x7f0c00ef
 com.honeywell.barcodeexample:id/slide = 0x7f0801a3
+<<<<<<< HEAD
 com.honeywell.barcodeexample:styleable/MotionScene = 0x7f12006c
 com.honeywell.barcodeexample:dimen/m3_comp_outlined_text_field_outline_width = 0x7f06014d
 com.honeywell.barcodeexample:dimen/mtrl_switch_track_width = 0x7f0602df
@@ -713,11 +1317,18 @@ com.honeywell.barcodeexample:style/Widget.Design.FloatingActionButton = 0x7f1103
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.Item = 0x7f110419
 com.honeywell.barcodeexample:color/material_divider_color = 0x7f050207
 com.honeywell.barcodeexample:layout/abc_list_menu_item_checkbox = 0x7f0b000e
+=======
+com.honeywell.barcodeexample:style/Widget.AppCompat.Spinner.DropDown = 0x7f11031d
+com.honeywell.barcodeexample:dimen/m3_comp_outlined_text_field_outline_width = 0x7f06014d
+com.honeywell.barcodeexample:dimen/mtrl_switch_track_width = 0x7f0602df
+com.honeywell.barcodeexample:styleable/MotionScene = 0x7f12006c
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:id/search_mag_icon = 0x7f080184
 com.honeywell.barcodeexample:id/mtrl_picker_header_selection_text = 0x7f080130
 com.honeywell.barcodeexample:style/Base.Theme.Material3.Light = 0x7f11005d
 com.honeywell.barcodeexample:style/Widget.Design.BottomSheet.Modal = 0x7f110328
 com.honeywell.barcodeexample:style/Widget.Material3.FloatingActionButton.Small.Tertiary = 0x7f110380
+com.honeywell.barcodeexample:style/Widget.Design.BottomSheet.Modal = 0x7f110328
 com.honeywell.barcodeexample:style/MaterialAlertDialog.Material3.Title.Text.CenterStacked = 0x7f110128
 com.honeywell.barcodeexample:style/Base.Theme.Material3.Dark.BottomSheetDialog = 0x7f11005a
 com.honeywell.barcodeexample:style/Widget.Design.Snackbar = 0x7f11032d
@@ -728,7 +1339,10 @@ com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Display1 = 0x7f11019
 com.honeywell.barcodeexample:style/Base.TextAppearance.Material3.Search = 0x7f110043
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.CheckedTextView = 0x7f1103f4
 com.honeywell.barcodeexample:id/accessibility_custom_action_3 = 0x7f080027
+com.honeywell.barcodeexample:style/Widget.Material3.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu = 0x7f1103c8
+com.honeywell.barcodeexample:string/androidx_startup = 0x7f10001e
 com.honeywell.barcodeexample:color/primary_dark_material_dark = 0x7f0502d8
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Widget.Material3.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu = 0x7f1103c8
 com.honeywell.barcodeexample:string/androidx_startup = 0x7f10001e
 com.honeywell.barcodeexample:id/center = 0x7f08006d
@@ -737,10 +1351,19 @@ com.honeywell.barcodeexample:style/Widget.Material3.MaterialCalendar.Item = 0x7f
 com.honeywell.barcodeexample:id/activity_chooser_view_content = 0x7f080045
 com.honeywell.barcodeexample:string/abc_menu_delete_shortcut_label = 0x7f10000a
 com.honeywell.barcodeexample:styleable/TextAppearance = 0x7f120099
+=======
+com.honeywell.barcodeexample:id/center = 0x7f08006d
+com.honeywell.barcodeexample:id/honorRequest = 0x7f0800dd
+com.honeywell.barcodeexample:style/Widget.Material3.MaterialCalendar.Item = 0x7f110396
+com.honeywell.barcodeexample:styleable/TextAppearance = 0x7f120099
+com.honeywell.barcodeexample:id/activity_chooser_view_content = 0x7f080045
+com.honeywell.barcodeexample:string/abc_menu_delete_shortcut_label = 0x7f10000a
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:macro/m3_comp_top_app_bar_small_container_color = 0x7f0c014e
 com.honeywell.barcodeexample:color/material_personalized_color_surface_bright = 0x7f05027e
 com.honeywell.barcodeexample:style/Base.TextAppearance.MaterialComponents.Button = 0x7f110045
 com.honeywell.barcodeexample:id/parent_matrix = 0x7f08015b
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Header = 0x7f11003e
 com.honeywell.barcodeexample:style/TextAppearance.Compat.Notification.Info = 0x7f1101be
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle = 0x7f110037
@@ -758,6 +1381,21 @@ com.honeywell.barcodeexample:dimen/design_bottom_navigation_height = 0x7f060063
 com.honeywell.barcodeexample:dimen/m3_comp_switch_track_height = 0x7f060182
 com.honeywell.barcodeexample:dimen/m3_bottomappbar_fab_end_margin = 0x7f0600c0
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.AppBarLayout.PrimarySurface = 0x7f1103d8
+=======
+com.honeywell.barcodeexample:style/Base.TextAppearance.MaterialComponents.Badge = 0x7f110044
+com.honeywell.barcodeexample:string/bottomsheet_drag_handle_clicked = 0x7f100029
+com.honeywell.barcodeexample:style/Base.V26.Widget.AppCompat.Toolbar = 0x7f1100b4
+com.honeywell.barcodeexample:id/listViewBarcodeData = 0x7f0800f9
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Header = 0x7f11003e
+com.honeywell.barcodeexample:style/TextAppearance.Compat.Notification.Info = 0x7f1101be
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle = 0x7f110037
+com.honeywell.barcodeexample:style/Base.Theme.AppCompat.Light.DialogWhenLarge = 0x7f110058
+com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large = 0x7f11019c
+com.honeywell.barcodeexample:id/dialog_button = 0x7f08009f
+com.honeywell.barcodeexample:drawable/$m3_avd_show_password__0 = 0x7f070009
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ListPopupWindow = 0x7f1100e3
+com.honeywell.barcodeexample:id/cradle = 0x7f08008c
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.ActionBar.Menu = 0x7f110032
 com.honeywell.barcodeexample:styleable/Slider = 0x7f12008a
 com.honeywell.barcodeexample:styleable/Carousel = 0x7f12001e
@@ -765,6 +1403,7 @@ com.honeywell.barcodeexample:style/Theme.MaterialComponents.DayNight.Dialog.MinW
 com.honeywell.barcodeexample:string/settings = 0x7f1000ba
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.Year.Today = 0x7f11041e
 com.honeywell.barcodeexample:style/Base.MaterialAlertDialog.MaterialComponents.Title.Icon = 0x7f110013
+<<<<<<< HEAD
 com.honeywell.barcodeexample:string/bottomsheet_drag_handle_clicked = 0x7f100029
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.Light.ActionBar.TabView = 0x7f1100df
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.Day.Today = 0x7f11040c
@@ -782,6 +1421,20 @@ com.honeywell.barcodeexample:id/carryVelocity = 0x7f08006c
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.ActionMode.Title = 0x7f110038
 com.honeywell.barcodeexample:drawable/abc_ic_go_search_api_material = 0x7f070041
 com.honeywell.barcodeexample:style/Widget.Material3.MaterialCalendar.YearNavigationButton = 0x7f11039c
+=======
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.Day.Today = 0x7f11040c
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.Light.ActionBar.TabView = 0x7f1100df
+com.honeywell.barcodeexample:color/m3_ref_palette_neutral_variant10 = 0x7f050114
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Tooltip = 0x7f110031
+com.honeywell.barcodeexample:style/Base.V23.Theme.AppCompat.Light = 0x7f1100ad
+com.honeywell.barcodeexample:id/carryVelocity = 0x7f08006c
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.ActionMode.Title = 0x7f110038
+com.honeywell.barcodeexample:drawable/abc_ic_go_search_api_material = 0x7f070041
+com.honeywell.barcodeexample:style/Widget.Material3.MaterialCalendar.YearNavigationButton = 0x7f11039c
+com.honeywell.barcodeexample:dimen/mtrl_calendar_text_input_padding_top = 0x7f060279
+com.honeywell.barcodeexample:id/action_image = 0x7f08003d
+com.honeywell.barcodeexample:style/TextAppearance.Design.Snackbar.Message = 0x7f1101ca
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Title.Inverse = 0x7f110030
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3.DayNight.BottomSheetDialog = 0x7f11028c
 com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog = 0x7f1102c7
@@ -794,9 +1447,15 @@ com.honeywell.barcodeexample:style/Widget.Material3.FloatingActionButton.Primary
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Small = 0x7f11002b
 com.honeywell.barcodeexample:style/Base.V21.ThemeOverlay.AppCompat.Dialog = 0x7f1100a6
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Large = 0x7f110021
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Widget.AppCompat.Toolbar.Button.Navigation = 0x7f110323
 com.honeywell.barcodeexample:id/withText = 0x7f080203
 com.honeywell.barcodeexample:drawable/abc_action_bar_item_background_material = 0x7f070029
+=======
+com.honeywell.barcodeexample:style/Widget.Material3.Button.UnelevatedButton = 0x7f110353
+com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.TimePicker = 0x7f1102d5
+com.honeywell.barcodeexample:macro/m3_comp_switch_disabled_unselected_track_outline_color = 0x7f0c00ff
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:dimen/m3_navigation_rail_default_width = 0x7f0601b1
 com.honeywell.barcodeexample:style/Base.AlertDialog.AppCompat.Light = 0x7f11000c
 com.honeywell.barcodeexample:layout/abc_action_mode_close_item_material = 0x7f0b0005
@@ -824,8 +1483,11 @@ com.honeywell.barcodeexample:string/mtrl_picker_toggle_to_year_selection = 0x7f1
 com.honeywell.barcodeexample:id/accessibility_custom_action_2 = 0x7f08001c
 com.honeywell.barcodeexample:string/mtrl_picker_toggle_to_calendar_input_mode = 0x7f10009c
 com.honeywell.barcodeexample:dimen/material_emphasis_medium = 0x7f06021b
-com.honeywell.barcodeexample:style/Widget.MaterialComponents.TimePicker.Display.TextInputEditText = 0x7f110447
 com.honeywell.barcodeexample:style/Platform.V21.AppCompat.Light = 0x7f11013d
+<<<<<<< HEAD
+=======
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TimePicker.Display.TextInputEditText = 0x7f110447
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:string/mtrl_picker_save = 0x7f100093
 com.honeywell.barcodeexample:style/Base.ThemeOverlay.AppCompat.Light = 0x7f11007b
 com.honeywell.barcodeexample:color/material_dynamic_neutral_variant40 = 0x7f05021a
@@ -841,6 +1503,7 @@ com.honeywell.barcodeexample:style/Theme.MaterialComponents.DayNight = 0x7f11024
 com.honeywell.barcodeexample:string/mtrl_checkbox_state_description_indeterminate = 0x7f100076
 com.honeywell.barcodeexample:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Title = 0x7f110149
 com.honeywell.barcodeexample:macro/m3_comp_time_picker_headline_type = 0x7f0c0130
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/TextAppearance.MaterialComponents.Headline4 = 0x7f1101fa
 com.honeywell.barcodeexample:style/Base.Theme.MaterialComponents.DialogWhenLarge = 0x7f110069
 com.honeywell.barcodeexample:dimen/m3_navigation_item_icon_padding = 0x7f0601a9
@@ -858,18 +1521,41 @@ com.honeywell.barcodeexample:style/Widget.AppCompat.Light.ActionButton.CloseMode
 com.honeywell.barcodeexample:color/m3_slider_active_track_color = 0x7f05014a
 com.honeywell.barcodeexample:string/mtrl_checkbox_button_icon_path_group_name = 0x7f10006e
 com.honeywell.barcodeexample:styleable/DialogFragmentNavigator = 0x7f120032
+=======
+com.honeywell.barcodeexample:styleable/TabItem = 0x7f120097
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.Snackbar.FullWidth = 0x7f11042f
+com.honeywell.barcodeexample:color/m3_slider_halo_color = 0x7f05014b
+com.honeywell.barcodeexample:style/TextAppearance.MaterialComponents.Headline4 = 0x7f1101fa
+com.honeywell.barcodeexample:style/Base.Theme.MaterialComponents.DialogWhenLarge = 0x7f110069
+com.honeywell.barcodeexample:dimen/m3_navigation_item_icon_padding = 0x7f0601a9
+com.honeywell.barcodeexample:styleable/MenuGroup = 0x7f120063
+com.honeywell.barcodeexample:styleable/ExtendedFloatingActionButton_Behavior_Layout = 0x7f120036
+com.honeywell.barcodeexample:id/material_hour_tv = 0x7f08010b
+com.honeywell.barcodeexample:string/analysis = 0x7f10001d
+com.honeywell.barcodeexample:layout/mtrl_picker_header_toggle = 0x7f0b005f
+com.honeywell.barcodeexample:style/Widget.AppCompat.Light.ActionButton.CloseMode = 0x7f1102ff
+com.honeywell.barcodeexample:color/m3_slider_active_track_color = 0x7f05014a
+com.honeywell.barcodeexample:styleable/DialogFragmentNavigator = 0x7f120032
+com.honeywell.barcodeexample:string/mtrl_checkbox_button_icon_path_group_name = 0x7f10006e
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:string/scan = 0x7f1000b4
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox.Dense = 0x7f11027c
 com.honeywell.barcodeexample:style/Widget.Material3.Button.TonalButton = 0x7f110351
 com.honeywell.barcodeexample:layout/abc_action_bar_up_container = 0x7f0b0001
 com.honeywell.barcodeexample:drawable/btn_checkbox_unchecked_to_checked_mtrl_animation = 0x7f07007d
+<<<<<<< HEAD
 com.honeywell.barcodeexample:string/mtrl_badge_numberless_content_description = 0x7f10006c
 com.honeywell.barcodeexample:style/TextAppearance.Material3.DisplayMedium = 0x7f1101e2
+=======
+com.honeywell.barcodeexample:style/TextAppearance.Material3.DisplayMedium = 0x7f1101e2
+com.honeywell.barcodeexample:string/mtrl_badge_numberless_content_description = 0x7f10006c
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:string/menu_settings = 0x7f10006b
 com.honeywell.barcodeexample:style/Theme.AppCompat.DayNight = 0x7f110207
 com.honeywell.barcodeexample:string/material_timepicker_pm = 0x7f100068
 com.honeywell.barcodeexample:style/Theme.MaterialComponents.Bridge = 0x7f11023e
 com.honeywell.barcodeexample:macro/m3_comp_divider_color = 0x7f0c0013
+<<<<<<< HEAD
 com.honeywell.barcodeexample:string/material_timepicker_minute = 0x7f100067
 com.honeywell.barcodeexample:style/Theme.MaterialComponents.NoActionBar = 0x7f110269
 com.honeywell.barcodeexample:color/material_dynamic_primary50 = 0x7f050228
@@ -879,21 +1565,42 @@ com.honeywell.barcodeexample:attr/layoutManager = 0x7f030272
 com.honeywell.barcodeexample:dimen/m3_comp_radio_button_unselected_focus_state_layer_opacity = 0x7f06015c
 com.honeywell.barcodeexample:style/TextAppearance.MaterialComponents.TimePicker.Title = 0x7f110200
 com.honeywell.barcodeexample:string/material_timepicker_clock_mode_description = 0x7f100065
+=======
+com.honeywell.barcodeexample:style/Theme.MaterialComponents.NoActionBar = 0x7f110269
+com.honeywell.barcodeexample:string/material_timepicker_minute = 0x7f100067
+com.honeywell.barcodeexample:color/material_dynamic_primary50 = 0x7f050228
+com.honeywell.barcodeexample:id/design_menu_item_text = 0x7f08009c
+com.honeywell.barcodeexample:style/TextAppearance.MaterialComponents.TimePicker.Title = 0x7f110200
+com.honeywell.barcodeexample:string/material_timepicker_clock_mode_description = 0x7f100065
+com.honeywell.barcodeexample:attr/layoutManager = 0x7f030272
+com.honeywell.barcodeexample:dimen/m3_comp_radio_button_unselected_focus_state_layer_opacity = 0x7f06015c
+com.honeywell.barcodeexample:style/Theme.Design.Light.BottomSheetDialog = 0x7f11021e
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:string/material_motion_easing_decelerated = 0x7f10005d
 com.honeywell.barcodeexample:style/Widget.Material3.MaterialCalendar.Fullscreen = 0x7f11038d
 com.honeywell.barcodeexample:string/material_motion_easing_accelerated = 0x7f10005c
 com.honeywell.barcodeexample:style/ShapeAppearance.M3.Comp.NavigationRail.ActiveIndicator.Shape = 0x7f110158
 com.honeywell.barcodeexample:macro/m3_comp_radio_button_selected_hover_state_layer_color = 0x7f0c00bb
 com.honeywell.barcodeexample:style/Base.V21.Theme.MaterialComponents.Dialog = 0x7f1100a3
+<<<<<<< HEAD
 com.honeywell.barcodeexample:string/mtrl_checkbox_button_path_name = 0x7f100073
 com.honeywell.barcodeexample:string/m3_sys_motion_easing_standard_decelerate = 0x7f100054
+=======
+com.honeywell.barcodeexample:string/m3_sys_motion_easing_standard_decelerate = 0x7f100054
+com.honeywell.barcodeexample:string/mtrl_checkbox_button_path_name = 0x7f100073
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Window.Fullscreen = 0x7f11018a
 com.honeywell.barcodeexample:drawable/abc_switch_thumb_material = 0x7f070069
 com.honeywell.barcodeexample:interpolator/mtrl_linear_out_slow_in = 0x7f0a0011
 com.honeywell.barcodeexample:string/mtrl_switch_thumb_path_name = 0x7f1000a3
 com.honeywell.barcodeexample:id/beginOnFirstDraw = 0x7f08005d
+<<<<<<< HEAD
 com.honeywell.barcodeexample:string/m3_sys_motion_easing_standard_accelerate = 0x7f100053
 com.honeywell.barcodeexample:style/Base.Widget.MaterialComponents.PopupMenu.ContextMenu = 0x7f110114
+=======
+com.honeywell.barcodeexample:style/Base.Widget.MaterialComponents.PopupMenu.ContextMenu = 0x7f110114
+com.honeywell.barcodeexample:string/m3_sys_motion_easing_standard_accelerate = 0x7f100053
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:color/m3_sys_color_dark_tertiary_container = 0x7f050171
 com.honeywell.barcodeexample:string/m3_sys_motion_easing_linear = 0x7f100051
 com.honeywell.barcodeexample:style/Widget.AppCompat.ActionButton.CloseMode = 0x7f1102e1
@@ -902,19 +1609,34 @@ com.honeywell.barcodeexample:style/ThemeOverlay.Material3.MaterialAlertDialog = 
 com.honeywell.barcodeexample:string/home_fragment_label = 0x7f100043
 com.honeywell.barcodeexample:dimen/m3_sys_motion_easing_standard_accelerate_control_x1 = 0x7f0601f4
 com.honeywell.barcodeexample:style/Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge = 0x7f11024c
+<<<<<<< HEAD
 com.honeywell.barcodeexample:string/home = 0x7f100042
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.Year = 0x7f11041c
 com.honeywell.barcodeexample:dimen/material_helper_text_font_1_3_padding_horizontal = 0x7f060223
 com.honeywell.barcodeexample:string/error_a11y_label = 0x7f10003c
 com.honeywell.barcodeexample:style/TextAppearance.Material3.SearchView = 0x7f1101ec
 com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents = 0x7f1102b3
+=======
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.Year = 0x7f11041c
+com.honeywell.barcodeexample:string/home = 0x7f100042
+com.honeywell.barcodeexample:dimen/material_helper_text_font_1_3_padding_horizontal = 0x7f060223
+com.honeywell.barcodeexample:string/error_a11y_label = 0x7f10003c
+com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents = 0x7f1102b3
+com.honeywell.barcodeexample:style/TextAppearance.Material3.SearchView = 0x7f1101ec
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:string/editPostamble = 0x7f100039
 com.honeywell.barcodeexample:style/Widget.Material3.MaterialDivider = 0x7f11039d
 com.honeywell.barcodeexample:string/dest_title = 0x7f100038
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ActionBar.Solid = 0x7f1100c0
+<<<<<<< HEAD
 com.honeywell.barcodeexample:string/datawedge_intent_key_source = 0x7f100037
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.HeaderLayout = 0x7f110413
 com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Body1 = 0x7f11018e
+=======
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.MaterialCalendar.HeaderLayout = 0x7f110413
+com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Body1 = 0x7f11018e
+com.honeywell.barcodeexample:string/datawedge_intent_key_source = 0x7f100037
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:dimen/mtrl_calendar_month_vertical_padding = 0x7f060270
 com.honeywell.barcodeexample:dimen/material_filled_edittext_font_1_3_padding_bottom = 0x7f06021c
 com.honeywell.barcodeexample:string/mtrl_picker_announce_current_selection = 0x7f10007e
@@ -929,8 +1651,13 @@ com.honeywell.barcodeexample:macro/m3_comp_filled_tonal_button_container_color =
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Small.Inverse = 0x7f11002c
 com.honeywell.barcodeexample:macro/m3_comp_filled_tonal_icon_button_container_color = 0x7f0c003e
 com.honeywell.barcodeexample:style/ThemeOverlay.AppCompat.Dark.ActionBar = 0x7f11026f
+<<<<<<< HEAD
 com.honeywell.barcodeexample:dimen/m3_comp_primary_navigation_tab_active_hover_state_layer_opacity = 0x7f06014f
 com.honeywell.barcodeexample:color/m3_ref_palette_tertiary50 = 0x7f050140
+=======
+com.honeywell.barcodeexample:color/m3_ref_palette_tertiary50 = 0x7f050140
+com.honeywell.barcodeexample:dimen/m3_comp_primary_navigation_tab_active_hover_state_layer_opacity = 0x7f06014f
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Widget.AppCompat.SeekBar.Discrete = 0x7f11031b
 com.honeywell.barcodeexample:string/bottomsheet_action_expand = 0x7f100027
 com.honeywell.barcodeexample:string/activity_action_from_service = 0x7f10001b
@@ -938,11 +1665,17 @@ com.honeywell.barcodeexample:string/abc_toolbar_collapse_description = 0x7f10001
 com.honeywell.barcodeexample:string/abc_searchview_description_clear = 0x7f100013
 com.honeywell.barcodeexample:styleable/FloatingActionButton_Behavior_Layout = 0x7f120038
 com.honeywell.barcodeexample:integer/m3_sys_shape_corner_medium_corner_family = 0x7f090024
+<<<<<<< HEAD
 com.honeywell.barcodeexample:color/m3_sys_color_dark_on_error_container = 0x7f050158
 com.honeywell.barcodeexample:dimen/tooltip_y_offset_touch = 0x7f060307
 com.honeywell.barcodeexample:dimen/abc_list_item_padding_horizontal_material = 0x7f060033
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.RatingBar = 0x7f1100ec
 com.honeywell.barcodeexample:macro/m3_comp_secondary_navigation_tab_active_label_text_color = 0x7f0c00dd
+=======
+com.honeywell.barcodeexample:dimen/tooltip_y_offset_touch = 0x7f060307
+com.honeywell.barcodeexample:dimen/abc_list_item_padding_horizontal_material = 0x7f060033
+com.honeywell.barcodeexample:styleable/FloatingActionButton_Behavior_Layout = 0x7f120038
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:string/abc_menu_sym_shortcut_label = 0x7f100010
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Toolbar.Surface = 0x7f1102b1
 com.honeywell.barcodeexample:id/rounded = 0x7f08016f
@@ -958,8 +1691,13 @@ com.honeywell.barcodeexample:style/Base.Widget.AppCompat.CompoundButton.CheckBox
 com.honeywell.barcodeexample:layout/abc_action_bar_title_item = 0x7f0b0000
 com.honeywell.barcodeexample:macro/m3_comp_switch_disabled_unselected_handle_color = 0x7f0c00fc
 com.honeywell.barcodeexample:id/scan = 0x7f080176
+<<<<<<< HEAD
 com.honeywell.barcodeexample:raw/sonic_death_sound = 0x7f0f0000
 com.honeywell.barcodeexample:string/material_slider_range_start = 0x7f100062
+=======
+com.honeywell.barcodeexample:string/material_slider_range_start = 0x7f100062
+com.honeywell.barcodeexample:raw/sonic_death_sound = 0x7f0f0000
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:dimen/material_emphasis_disabled_background = 0x7f060219
 com.honeywell.barcodeexample:id/skipped = 0x7f0801a2
 com.honeywell.barcodeexample:styleable/NavHost = 0x7f120072
@@ -998,9 +1736,14 @@ com.honeywell.barcodeexample:string/abc_menu_shift_shortcut_label = 0x7f10000e
 com.honeywell.barcodeexample:dimen/mtrl_toolbar_default_height = 0x7f0602e9
 com.honeywell.barcodeexample:id/design_menu_item_action_area = 0x7f08009a
 com.honeywell.barcodeexample:macro/m3_comp_time_picker_period_selector_selected_hover_state_layer_color = 0x7f0c0136
+<<<<<<< HEAD
 com.honeywell.barcodeexample:macro/m3_comp_navigation_drawer_active_label_text_color = 0x7f0c006b
 com.honeywell.barcodeexample:style/ShapeAppearance.MaterialComponents = 0x7f110174
+=======
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Widget.AppCompat.TextView.SpinnerItem = 0x7f110321
+com.honeywell.barcodeexample:macro/m3_comp_navigation_drawer_active_label_text_color = 0x7f0c006b
+com.honeywell.barcodeexample:style/ShapeAppearance.MaterialComponents = 0x7f110174
 com.honeywell.barcodeexample:macro/m3_comp_time_picker_clock_dial_color = 0x7f0c012c
 com.honeywell.barcodeexample:id/chain = 0x7f080072
 com.honeywell.barcodeexample:macro/m3_comp_time_input_time_input_field_label_text_color = 0x7f0c0129
@@ -1028,6 +1771,8 @@ com.honeywell.barcodeexample:style/Widget.AppCompat.EditText = 0x7f1102f3
 com.honeywell.barcodeexample:macro/m3_comp_switch_selected_pressed_track_color = 0x7f0c010d
 com.honeywell.barcodeexample:macro/m3_comp_navigation_bar_active_focus_label_text_color = 0x7f0c004b
 com.honeywell.barcodeexample:color/m3_ref_palette_primary95 = 0x7f05012b
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ActionButton = 0x7f1100c4
+com.honeywell.barcodeexample:style/Widget.Design.CollapsingToolbar = 0x7f110329
 com.honeywell.barcodeexample:id/textEnd = 0x7f0801d3
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small = 0x7f110024
 com.honeywell.barcodeexample:id/icon = 0x7f0800df
@@ -1036,11 +1781,14 @@ com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Title = 0x7f1101a7
 com.honeywell.barcodeexample:style/Base.ThemeOverlay.Material3.BottomSheetDialog = 0x7f11007d
 com.honeywell.barcodeexample:dimen/m3_navigation_item_vertical_padding = 0x7f0601ae
 com.honeywell.barcodeexample:color/m3_ref_palette_dynamic_neutral_variant70 = 0x7f0500c2
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ActionButton = 0x7f1100c4
 com.honeywell.barcodeexample:dimen/m3_sys_motion_easing_standard_accelerate_control_y2 = 0x7f0601f7
 com.honeywell.barcodeexample:style/ShapeAppearanceOverlay.Material3.NavigationView.Item = 0x7f110181
 com.honeywell.barcodeexample:attr/marginHorizontal = 0x7f0302d2
 com.honeywell.barcodeexample:style/Widget.Design.CollapsingToolbar = 0x7f110329
+=======
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Base.V24.Theme.Material3.Light.Dialog = 0x7f1100b1
 com.honeywell.barcodeexample:macro/m3_comp_switch_selected_hover_state_layer_color = 0x7f0c0107
 com.honeywell.barcodeexample:color/mtrl_btn_text_color_selector = 0x7f0502a3
@@ -1055,10 +1803,17 @@ com.honeywell.barcodeexample:macro/m3_comp_slider_label_container_color = 0x7f0c
 com.honeywell.barcodeexample:style/Widget.Material3.TextInputLayout.FilledBox.Dense = 0x7f1103c7
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.ActionBar.Primary = 0x7f1103d2
 com.honeywell.barcodeexample:color/m3_sys_color_dark_surface_container_highest = 0x7f05016b
+<<<<<<< HEAD
 com.honeywell.barcodeexample:styleable/TextInputLayout = 0x7f12009c
 com.honeywell.barcodeexample:color/material_dynamic_tertiary80 = 0x7f050245
 com.honeywell.barcodeexample:attr/telltales_tailScale = 0x7f03043d
 com.honeywell.barcodeexample:macro/m3_comp_slider_disabled_handle_color = 0x7f0c00ee
+=======
+com.honeywell.barcodeexample:macro/m3_comp_slider_disabled_handle_color = 0x7f0c00ee
+com.honeywell.barcodeexample:color/material_dynamic_tertiary80 = 0x7f050245
+com.honeywell.barcodeexample:attr/telltales_tailScale = 0x7f03043d
+com.honeywell.barcodeexample:styleable/TextInputLayout = 0x7f12009c
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:macro/m3_comp_sheet_bottom_docked_drag_handle_color = 0x7f0c00e8
 com.honeywell.barcodeexample:dimen/material_time_picker_minimum_screen_height = 0x7f060229
 com.honeywell.barcodeexample:macro/m3_comp_secondary_navigation_tab_with_icon_inactive_icon_color = 0x7f0c00e5
@@ -1089,13 +1844,22 @@ com.honeywell.barcodeexample:style/Platform.AppCompat = 0x7f110133
 com.honeywell.barcodeexample:macro/m3_comp_radio_button_unselected_pressed_state_layer_color = 0x7f0c00c5
 com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Inverse = 0x7f110197
 com.honeywell.barcodeexample:color/m3_ref_palette_neutral96 = 0x7f050110
+<<<<<<< HEAD
 com.honeywell.barcodeexample:styleable/AppCompatTextHelper = 0x7f120013
 com.honeywell.barcodeexample:color/pink = 0x7f0502d7
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox = 0x7f11027b
 com.honeywell.barcodeexample:macro/m3_comp_switch_unselected_handle_color = 0x7f0c0114
 com.honeywell.barcodeexample:style/Base.Theme.AppCompat.Dialog.MinWidth = 0x7f110050
 com.honeywell.barcodeexample:macro/m3_comp_radio_button_unselected_focus_icon_color = 0x7f0c00bf
+=======
+com.honeywell.barcodeexample:color/pink = 0x7f0502d7
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox = 0x7f11027b
+com.honeywell.barcodeexample:styleable/AppCompatTextHelper = 0x7f120013
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:dimen/m3_comp_fab_primary_hover_state_layer_opacity = 0x7f06010f
+com.honeywell.barcodeexample:style/Base.Theme.AppCompat.Dialog.MinWidth = 0x7f110050
+com.honeywell.barcodeexample:macro/m3_comp_radio_button_unselected_focus_icon_color = 0x7f0c00bf
+com.honeywell.barcodeexample:macro/m3_comp_switch_unselected_handle_color = 0x7f0c0114
 com.honeywell.barcodeexample:macro/m3_comp_radio_button_selected_focus_icon_color = 0x7f0c00b8
 com.honeywell.barcodeexample:id/material_value_index = 0x7f080115
 com.honeywell.barcodeexample:dimen/m3_navigation_rail_item_active_indicator_margin_horizontal = 0x7f0601b5
@@ -1145,6 +1909,7 @@ com.honeywell.barcodeexample:macro/m3_comp_navigation_drawer_inactive_label_text
 com.honeywell.barcodeexample:macro/m3_comp_navigation_drawer_inactive_focus_label_text_color = 0x7f0c0073
 com.honeywell.barcodeexample:styleable/Fragment = 0x7f12003d
 com.honeywell.barcodeexample:id/month_grid = 0x7f08011a
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.Light.ActionBar = 0x7f1100da
 com.honeywell.barcodeexample:attr/collapsingToolbarLayoutLargeSize = 0x7f0300ed
 com.honeywell.barcodeexample:color/m3_sys_color_dynamic_light_inverse_primary = 0x7f050192
@@ -1161,6 +1926,23 @@ com.honeywell.barcodeexample:style/Widget.AppCompat.RatingBar.Small = 0x7f110317
 com.honeywell.barcodeexample:color/mtrl_tabs_ripple_color = 0x7f0502cd
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.TabLayout.PrimarySurface = 0x7f110433
 com.honeywell.barcodeexample:attr/listDividerAlertDialog = 0x7f0302c2
+=======
+com.honeywell.barcodeexample:style/Widget.AppCompat.ListView.DropDown = 0x7f11030e
+com.honeywell.barcodeexample:macro/m3_comp_navigation_drawer_headline_color = 0x7f0c0070
+com.honeywell.barcodeexample:attr/collapsingToolbarLayoutLargeSize = 0x7f0300ed
+com.honeywell.barcodeexample:color/m3_sys_color_dynamic_light_inverse_primary = 0x7f050192
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.Light.ActionBar = 0x7f1100da
+com.honeywell.barcodeexample:style/ThemeOverlay.AppCompat = 0x7f11026c
+com.honeywell.barcodeexample:id/ghost_view = 0x7f0800d0
+com.honeywell.barcodeexample:macro/m3_comp_navigation_drawer_active_indicator_color = 0x7f0c006a
+com.honeywell.barcodeexample:styleable/MaterialButtonToggleGroup = 0x7f120055
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.BottomNavigationView.Colored = 0x7f1103e3
+com.honeywell.barcodeexample:style/Widget.MaterialComponents.TabLayout.PrimarySurface = 0x7f110433
+com.honeywell.barcodeexample:attr/listDividerAlertDialog = 0x7f0302c2
+com.honeywell.barcodeexample:color/mtrl_tabs_ripple_color = 0x7f0502cd
+com.honeywell.barcodeexample:color/mtrl_card_view_ripple = 0x7f0502a8
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.SideSheetDialog = 0x7f1102aa
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:id/counter = 0x7f08008a
 com.honeywell.barcodeexample:id/selected = 0x7f080196
 com.honeywell.barcodeexample:id/confirm_button = 0x7f080081
@@ -1175,11 +1957,19 @@ com.honeywell.barcodeexample:id/accessibility_custom_action_26 = 0x7f080023
 com.honeywell.barcodeexample:macro/m3_comp_navigation_bar_active_pressed_icon_color = 0x7f0c0053
 com.honeywell.barcodeexample:id/forever = 0x7f0800cc
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.AutoCompleteTextView.FilledBox.Dense = 0x7f1103db
+<<<<<<< HEAD
 com.honeywell.barcodeexample:macro/m3_comp_dialog_headline_color = 0x7f0c000f
 com.honeywell.barcodeexample:dimen/m3_comp_time_picker_time_selector_hover_state_layer_opacity = 0x7f060191
 com.honeywell.barcodeexample:macro/m3_comp_navigation_bar_active_indicator_color = 0x7f0c0051
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ActivityChooserView = 0x7f1100c8
 com.honeywell.barcodeexample:string/mtrl_picker_text_input_day_abbr = 0x7f100098
+=======
+com.honeywell.barcodeexample:dimen/m3_comp_time_picker_time_selector_hover_state_layer_opacity = 0x7f060191
+com.honeywell.barcodeexample:string/mtrl_picker_text_input_day_abbr = 0x7f100098
+com.honeywell.barcodeexample:macro/m3_comp_navigation_bar_active_indicator_color = 0x7f0c0051
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ActivityChooserView = 0x7f1100c8
+com.honeywell.barcodeexample:macro/m3_comp_dialog_headline_color = 0x7f0c000f
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:styleable/FragmentContainerView = 0x7f12003e
 com.honeywell.barcodeexample:macro/m3_comp_bottom_app_bar_container_color = 0x7f0c0005
 com.honeywell.barcodeexample:macro/m3_comp_navigation_bar_active_focus_state_layer_color = 0x7f0c004c
@@ -1188,8 +1978,13 @@ com.honeywell.barcodeexample:macro/m3_comp_linear_progress_indicator_active_indi
 com.honeywell.barcodeexample:macro/m3_comp_navigation_bar_active_hover_icon_color = 0x7f0c004d
 com.honeywell.barcodeexample:id/tag_unhandled_key_listeners = 0x7f0801cf
 com.honeywell.barcodeexample:style/ShapeAppearance.Material3.Corner.None = 0x7f11016d
+<<<<<<< HEAD
 com.honeywell.barcodeexample:macro/m3_comp_input_chip_label_text_type = 0x7f0c0046
 com.honeywell.barcodeexample:macro/m3_comp_outlined_text_field_label_text_color = 0x7f0c00a3
+=======
+com.honeywell.barcodeexample:macro/m3_comp_outlined_text_field_label_text_color = 0x7f0c00a3
+com.honeywell.barcodeexample:macro/m3_comp_input_chip_label_text_type = 0x7f0c0046
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/TextAppearance.Material3.BodyMedium = 0x7f1101df
 com.honeywell.barcodeexample:id/transitionToStart = 0x7f0801ed
 com.honeywell.barcodeexample:id/easeOut = 0x7f0800b2
@@ -1223,12 +2018,20 @@ com.honeywell.barcodeexample:macro/m3_comp_fab_primary_icon_color = 0x7f0c0023
 com.honeywell.barcodeexample:drawable/abc_textfield_search_material = 0x7f070075
 com.honeywell.barcodeexample:drawable/mtrl_checkbox_button_icon_checked_unchecked = 0x7f0700b5
 com.honeywell.barcodeexample:color/m3_sys_color_light_surface_container_low = 0x7f0501d6
+<<<<<<< HEAD
+=======
+com.honeywell.barcodeexample:color/m3_ref_palette_dynamic_primary30 = 0x7f0500cb
+com.honeywell.barcodeexample:style/Platform.V25.AppCompat.Light = 0x7f11013f
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:color/mtrl_navigation_item_text_color = 0x7f0502be
 com.honeywell.barcodeexample:color/design_default_color_error = 0x7f050044
 com.honeywell.barcodeexample:macro/m3_comp_extended_fab_tertiary_icon_color = 0x7f0c0020
 com.honeywell.barcodeexample:string/btnSwitchScanners = 0x7f10002e
+<<<<<<< HEAD
 com.honeywell.barcodeexample:color/m3_ref_palette_dynamic_primary30 = 0x7f0500cb
 com.honeywell.barcodeexample:style/Platform.V25.AppCompat.Light = 0x7f11013f
+=======
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/Widget.Material3.Chip.Assist = 0x7f110358
 com.honeywell.barcodeexample:macro/m3_comp_extended_fab_tertiary_container_color = 0x7f0c001f
 com.honeywell.barcodeexample:id/enterAlways = 0x7f0800ba
@@ -1245,9 +2048,17 @@ com.honeywell.barcodeexample:id/material_timepicker_container = 0x7f080111
 com.honeywell.barcodeexample:macro/m3_comp_extended_fab_primary_icon_color = 0x7f0c0019
 com.honeywell.barcodeexample:style/Widget.Material3.MaterialTimePicker.Display.TextInputEditText = 0x7f1103a5
 com.honeywell.barcodeexample:style/Base.V26.Theme.AppCompat = 0x7f1100b2
+<<<<<<< HEAD
 com.honeywell.barcodeexample:dimen/mtrl_navigation_rail_text_size = 0x7f0602b9
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3.ExtendedFloatingActionButton.Primary = 0x7f110294
+=======
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:id/backButton = 0x7f08005a
+com.honeywell.barcodeexample:dimen/mtrl_navigation_rail_text_size = 0x7f0602b9
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.ExtendedFloatingActionButton.Primary = 0x7f110294
+com.honeywell.barcodeexample:drawable/ic_search_black_24 = 0x7f070096
+com.honeywell.barcodeexample:id/material_timepicker_container = 0x7f080111
+com.honeywell.barcodeexample:color/material_personalized_color_control_activated = 0x7f050261
 com.honeywell.barcodeexample:macro/m3_comp_extended_fab_primary_container_shape = 0x7f0c0018
 com.honeywell.barcodeexample:macro/m3_comp_dialog_headline_type = 0x7f0c0010
 com.honeywell.barcodeexample:macro/m3_comp_circular_progress_indicator_active_indicator_color = 0x7f0c000d
@@ -1271,11 +2082,19 @@ com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.BottomAppBar.
 com.honeywell.barcodeexample:style/Widget.Material3.Badge = 0x7f110338
 com.honeywell.barcodeexample:layout/select_dialog_multichoice_material = 0x7f0b006d
 com.honeywell.barcodeexample:layout/scan_screen = 0x7f0b006a
+<<<<<<< HEAD
 com.honeywell.barcodeexample:dimen/design_snackbar_extra_spacing_horizontal = 0x7f060082
 com.honeywell.barcodeexample:attr/expandedTitleGravity = 0x7f0301bd
 com.honeywell.barcodeexample:style/TextAppearance.Compat.Notification.Title = 0x7f1101c1
 com.honeywell.barcodeexample:layout/notification_template_part_time = 0x7f0b0069
 com.honeywell.barcodeexample:style/ShapeAppearance.Material3.MediumComponent = 0x7f110170
+=======
+com.honeywell.barcodeexample:style/ShapeAppearance.Material3.MediumComponent = 0x7f110170
+com.honeywell.barcodeexample:style/TextAppearance.Compat.Notification.Title = 0x7f1101c1
+com.honeywell.barcodeexample:layout/notification_template_part_time = 0x7f0b0069
+com.honeywell.barcodeexample:attr/expandedTitleGravity = 0x7f0301bd
+com.honeywell.barcodeexample:dimen/design_snackbar_extra_spacing_horizontal = 0x7f060082
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:layout/notification_template_icon_group = 0x7f0b0067
 com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Widget.PopupMenu.Header = 0x7f1101b8
 com.honeywell.barcodeexample:style/ShapeAppearance.M3.Comp.NavigationDrawer.ActiveIndicator.Shape = 0x7f110157
@@ -1286,9 +2105,15 @@ com.honeywell.barcodeexample:layout/mtrl_picker_header_title_text = 0x7f0b005e
 com.honeywell.barcodeexample:attr/forceApplySystemWindowInsetTop = 0x7f03020c
 com.honeywell.barcodeexample:id/actionDown = 0x7f080030
 com.honeywell.barcodeexample:drawable/mtrl_switch_thumb_pressed_checked = 0x7f0700cd
+<<<<<<< HEAD
 com.honeywell.barcodeexample:layout/mtrl_picker_header_dialog = 0x7f0b005b
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3 = 0x7f110276
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Large = 0x7f11003f
+=======
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3 = 0x7f110276
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Large = 0x7f11003f
+com.honeywell.barcodeexample:layout/mtrl_picker_header_dialog = 0x7f0b005b
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:layout/mtrl_navigation_rail_item = 0x7f0b0057
 com.honeywell.barcodeexample:id/accessibility_custom_action_13 = 0x7f080015
 com.honeywell.barcodeexample:id/auto = 0x7f080056
@@ -1296,13 +2121,24 @@ com.honeywell.barcodeexample:style/Widget.Material3.NavigationView = 0x7f1103aa
 com.honeywell.barcodeexample:layout/mtrl_calendar_vertical = 0x7f0b0053
 com.honeywell.barcodeexample:color/m3_sys_color_dynamic_light_background = 0x7f050190
 com.honeywell.barcodeexample:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.SubmenuArrow = 0x7f110147
+<<<<<<< HEAD
 com.honeywell.barcodeexample:macro/m3_comp_outlined_autocomplete_text_field_caret_color = 0x7f0c0082
 com.honeywell.barcodeexample:dimen/m3_sys_motion_easing_emphasized_accelerate_control_y2 = 0x7f0601df
 com.honeywell.barcodeexample:attr/itemPaddingBottom = 0x7f030253
 com.honeywell.barcodeexample:id/dimensions = 0x7f0800a0
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Search = 0x7f1102a9
+=======
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:drawable/ic_m3_chip_checked_circle = 0x7f070090
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.Search = 0x7f1102a9
+com.honeywell.barcodeexample:id/dimensions = 0x7f0800a0
 com.honeywell.barcodeexample:drawable/$mtrl_checkbox_button_icon_indeterminate_unchecked__2 = 0x7f070016
+<<<<<<< HEAD
+=======
+com.honeywell.barcodeexample:attr/itemPaddingBottom = 0x7f030253
+com.honeywell.barcodeexample:dimen/m3_sys_motion_easing_emphasized_accelerate_control_y2 = 0x7f0601df
+com.honeywell.barcodeexample:macro/m3_comp_outlined_autocomplete_text_field_caret_color = 0x7f0c0082
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:layout/mtrl_calendar_horizontal = 0x7f0b004e
 com.honeywell.barcodeexample:id/stretch = 0x7f0801bf
 com.honeywell.barcodeexample:integer/mtrl_chip_anim_duration = 0x7f090035
@@ -1335,10 +2171,17 @@ com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.MaterialAlert
 com.honeywell.barcodeexample:styleable/CoordinatorLayout = 0x7f12002f
 com.honeywell.barcodeexample:macro/m3_comp_search_view_header_input_text_color = 0x7f0c00d6
 com.honeywell.barcodeexample:layout/analysis_screen = 0x7f0b001d
+<<<<<<< HEAD
 com.honeywell.barcodeexample:macro/m3_comp_elevated_card_container_color = 0x7f0c0015
 com.honeywell.barcodeexample:id/accessibility_custom_action_15 = 0x7f080017
 com.honeywell.barcodeexample:string/material_slider_value = 0x7f100063
 com.honeywell.barcodeexample:color/m3_sys_color_dynamic_light_on_secondary = 0x7f050197
+=======
+com.honeywell.barcodeexample:string/material_slider_value = 0x7f100063
+com.honeywell.barcodeexample:color/m3_sys_color_dynamic_light_on_secondary = 0x7f050197
+com.honeywell.barcodeexample:macro/m3_comp_elevated_card_container_color = 0x7f0c0015
+com.honeywell.barcodeexample:id/accessibility_custom_action_15 = 0x7f080017
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:dimen/abc_list_item_height_small_material = 0x7f060032
 com.honeywell.barcodeexample:attr/layout_constraintCircleRadius = 0x7f030283
 com.honeywell.barcodeexample:layout/abc_tooltip = 0x7f0b001b
@@ -1355,13 +2198,21 @@ com.honeywell.barcodeexample:layout/abc_dialog_title_material = 0x7f0b000c
 com.honeywell.barcodeexample:macro/m3_comp_filled_icon_button_toggle_selected_icon_color = 0x7f0c0034
 com.honeywell.barcodeexample:layout/abc_alert_dialog_button_bar_material = 0x7f0b0008
 com.honeywell.barcodeexample:color/secondary_text_default_material_dark = 0x7f0502e3
+<<<<<<< HEAD
+=======
+com.honeywell.barcodeexample:string/mtrl_switch_thumb_path_unchecked = 0x7f1000a5
+com.honeywell.barcodeexample:layout/material_clock_period_toggle_land = 0x7f0b003a
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:styleable/CheckedTextView = 0x7f12001f
 com.honeywell.barcodeexample:integer/status_bar_notification_info_maxnum = 0x7f090043
 com.honeywell.barcodeexample:style/Theme.MaterialComponents.DayNight.DarkActionBar.Bridge = 0x7f110244
 com.honeywell.barcodeexample:dimen/design_appbar_elevation = 0x7f06005e
 com.honeywell.barcodeexample:dimen/m3_searchbar_outlined_stroke_width = 0x7f0601c3
+<<<<<<< HEAD
 com.honeywell.barcodeexample:string/mtrl_switch_thumb_path_unchecked = 0x7f1000a5
 com.honeywell.barcodeexample:layout/material_clock_period_toggle_land = 0x7f0b003a
+=======
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:layout/abc_action_menu_layout = 0x7f0b0003
 com.honeywell.barcodeexample:layout/material_clockface_textview = 0x7f0b003b
 com.honeywell.barcodeexample:style/Theme.MaterialComponents.Light.DarkActionBar = 0x7f11025c
@@ -1380,15 +2231,27 @@ com.honeywell.barcodeexample:id/barrier = 0x7f08005b
 com.honeywell.barcodeexample:integer/mtrl_switch_thumb_viewport_size = 0x7f09003b
 com.honeywell.barcodeexample:string/paint = 0x7f1000ad
 com.honeywell.barcodeexample:dimen/m3_comp_time_picker_period_selector_hover_state_layer_opacity = 0x7f06018d
+<<<<<<< HEAD
+=======
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large = 0x7f110023
+com.honeywell.barcodeexample:id/easeInOut = 0x7f0800b1
+com.honeywell.barcodeexample:style/Widget.Material3.Snackbar.FullWidth = 0x7f1103bd
+com.honeywell.barcodeexample:color/material_dynamic_primary80 = 0x7f05022b
+com.honeywell.barcodeexample:id/disablePostScroll = 0x7f0800a4
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:id/paint = 0x7f080156
-com.honeywell.barcodeexample:dimen/mtrl_tooltip_cornerSize = 0x7f0602eb
 com.honeywell.barcodeexample:dimen/mtrl_btn_inset = 0x7f060248
+<<<<<<< HEAD
 com.honeywell.barcodeexample:layout/scanner_select_dialog = 0x7f0b006b
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large = 0x7f110023
 com.honeywell.barcodeexample:id/easeInOut = 0x7f0800b1
 com.honeywell.barcodeexample:style/Widget.Material3.Snackbar.FullWidth = 0x7f1103bd
 com.honeywell.barcodeexample:color/material_dynamic_primary80 = 0x7f05022b
 com.honeywell.barcodeexample:id/disablePostScroll = 0x7f0800a4
+=======
+com.honeywell.barcodeexample:dimen/mtrl_tooltip_cornerSize = 0x7f0602eb
+com.honeywell.barcodeexample:layout/scanner_select_dialog = 0x7f0b006b
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:integer/mtrl_switch_thumb_post_morphing_duration = 0x7f090037
 com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.BottomSheetDialog = 0x7f1102be
 com.honeywell.barcodeexample:integer/mtrl_switch_thumb_motion_duration = 0x7f090036
@@ -1444,8 +2307,13 @@ com.honeywell.barcodeexample:macro/m3_comp_navigation_drawer_inactive_hover_stat
 com.honeywell.barcodeexample:id/touch_outside = 0x7f0801eb
 com.honeywell.barcodeexample:style/Platform.MaterialComponents.Dialog = 0x7f110136
 com.honeywell.barcodeexample:integer/m3_sys_motion_duration_short2 = 0x7f09001c
+<<<<<<< HEAD
 com.honeywell.barcodeexample:id/fade = 0x7f0800bf
 com.honeywell.barcodeexample:style/MaterialAlertDialog.MaterialComponents.Title.Icon = 0x7f11012d
+=======
+com.honeywell.barcodeexample:style/MaterialAlertDialog.MaterialComponents.Title.Icon = 0x7f11012d
+com.honeywell.barcodeexample:id/fade = 0x7f0800bf
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/TextAppearance.AppCompat.Widget.Switch = 0x7f1101bb
 com.honeywell.barcodeexample:id/title_template = 0x7f0801e7
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.CompoundButton.Switch = 0x7f1100d4
@@ -1461,6 +2329,10 @@ com.honeywell.barcodeexample:id/title = 0x7f0801e5
 com.honeywell.barcodeexample:styleable/AppCompatImageView = 0x7f120011
 com.honeywell.barcodeexample:macro/m3_comp_outlined_text_field_error_outline_color = 0x7f0c0097
 com.honeywell.barcodeexample:id/blocking = 0x7f080060
+<<<<<<< HEAD
+=======
+com.honeywell.barcodeexample:string/abc_searchview_description_voice = 0x7f100017
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:id/textinput_error = 0x7f0801de
 com.honeywell.barcodeexample:id/textinput_counter = 0x7f0801dd
 com.honeywell.barcodeexample:macro/m3_comp_sheet_side_docked_container_color = 0x7f0c00ea
@@ -1537,7 +2409,10 @@ com.honeywell.barcodeexample:id/toggle = 0x7f0801e8
 com.honeywell.barcodeexample:drawable/$mtrl_switch_thumb_unchecked_pressed__0 = 0x7f070027
 com.honeywell.barcodeexample:macro/m3_comp_text_button_label_text_color = 0x7f0c0124
 com.honeywell.barcodeexample:id/time = 0x7f0801e3
+<<<<<<< HEAD
 com.honeywell.barcodeexample:string/abc_searchview_description_voice = 0x7f100017
+=======
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:id/sawtooth = 0x7f080174
 com.honeywell.barcodeexample:macro/m3_comp_switch_selected_hover_track_color = 0x7f0c0108
 com.honeywell.barcodeexample:styleable/SnackbarLayout = 0x7f12008c
@@ -1605,8 +2480,13 @@ com.honeywell.barcodeexample:dimen/mtrl_badge_toolbar_action_menu_item_vertical_
 com.honeywell.barcodeexample:id/settingsButton = 0x7f080198
 com.honeywell.barcodeexample:id/mtrl_motion_snapshot_view = 0x7f08012d
 com.honeywell.barcodeexample:style/Widget.AppCompat.ActionBar.TabText = 0x7f1102de
+<<<<<<< HEAD
 com.honeywell.barcodeexample:id/mtrl_internal_children_alpha_tag = 0x7f08012c
 com.honeywell.barcodeexample:id/navigation_bar_item_icon_container = 0x7f08013c
+=======
+com.honeywell.barcodeexample:id/navigation_bar_item_icon_container = 0x7f08013c
+com.honeywell.barcodeexample:id/mtrl_internal_children_alpha_tag = 0x7f08012c
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:id/mtrl_picker_header = 0x7f08012f
 com.honeywell.barcodeexample:id/material_clock_period_pm_button = 0x7f080108
 com.honeywell.barcodeexample:style/Theme.MaterialComponents.Dialog.Alert.Bridge = 0x7f110252
@@ -1633,8 +2513,13 @@ com.honeywell.barcodeexample:string/barcode_analysis_fragment_label = 0x7f100024
 com.honeywell.barcodeexample:id/material_timepicker_view = 0x7f080114
 com.honeywell.barcodeexample:id/material_timepicker_cancel_button = 0x7f080110
 com.honeywell.barcodeexample:string/datawedge_intent_key_data = 0x7f100035
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ProgressBar = 0x7f1100ea
 com.honeywell.barcodeexample:style/Base.Theme.MaterialComponents.Dialog.Bridge = 0x7f110066
+=======
+com.honeywell.barcodeexample:style/Base.Theme.MaterialComponents.Dialog.Bridge = 0x7f110066
+com.honeywell.barcodeexample:style/Base.Widget.AppCompat.ProgressBar = 0x7f1100ea
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:id/material_textinput_timepicker = 0x7f08010f
 com.honeywell.barcodeexample:style/TextAppearance.Design.CollapsingToolbar.Expanded = 0x7f1101c2
 com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.DayNight.BottomSheetDialog = 0x7f1102c1
@@ -1681,8 +2566,13 @@ com.honeywell.barcodeexample:id/header_title = 0x7f0800d8
 com.honeywell.barcodeexample:id/graph_wrap = 0x7f0800d4
 com.honeywell.barcodeexample:style/Theme.Material3.Light.SideSheetDialog = 0x7f11023b
 com.honeywell.barcodeexample:dimen/design_bottom_navigation_item_max_width = 0x7f060065
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Base.Widget.MaterialComponents.TextInputLayout = 0x7f11011a
 com.honeywell.barcodeexample:id/search_close_btn = 0x7f080181
+=======
+com.honeywell.barcodeexample:id/search_close_btn = 0x7f080181
+com.honeywell.barcodeexample:style/Base.Widget.MaterialComponents.TextInputLayout = 0x7f11011a
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/TextAppearance.MaterialComponents.Caption = 0x7f1101f5
 com.honeywell.barcodeexample:id/fill_vertical = 0x7f0800c2
 com.honeywell.barcodeexample:style/Widget.AppCompat.Button = 0x7f1102e6
@@ -1745,8 +2635,13 @@ com.honeywell.barcodeexample:style/Theme.AppCompat.DayNight.DialogWhenLarge = 0x
 com.honeywell.barcodeexample:styleable/MenuView = 0x7f120065
 com.honeywell.barcodeexample:id/closest = 0x7f08007e
 com.honeywell.barcodeexample:style/Base.Theme.MaterialComponents.Dialog.Alert = 0x7f110065
+<<<<<<< HEAD
 com.honeywell.barcodeexample:id/clear = 0x7f080079
 com.honeywell.barcodeexample:id/fitEnd = 0x7f0800c5
+=======
+com.honeywell.barcodeexample:id/fitEnd = 0x7f0800c5
+com.honeywell.barcodeexample:id/clear = 0x7f080079
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:id/chains = 0x7f080074
 com.honeywell.barcodeexample:string/m3_sys_motion_easing_legacy_decelerate = 0x7f100050
 com.honeywell.barcodeexample:style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense = 0x7f110337
@@ -1767,8 +2662,13 @@ com.honeywell.barcodeexample:style/Widget.Material3.MaterialCalendar.HeaderLayou
 com.honeywell.barcodeexample:attr/colorOnSurface = 0x7f03010a
 com.honeywell.barcodeexample:dimen/mtrl_progress_circular_inset_extra_small = 0x7f0602bb
 com.honeywell.barcodeexample:color/m3_sys_color_light_surface_container = 0x7f0501d3
+<<<<<<< HEAD
 com.honeywell.barcodeexample:styleable/AppCompatEmojiHelper = 0x7f120010
 com.honeywell.barcodeexample:id/bounceEnd = 0x7f080064
+=======
+com.honeywell.barcodeexample:id/bounceEnd = 0x7f080064
+com.honeywell.barcodeexample:styleable/AppCompatEmojiHelper = 0x7f120010
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:id/baseline = 0x7f08005c
 com.honeywell.barcodeexample:id/inward = 0x7f0800ea
 com.honeywell.barcodeexample:id/autoCompleteToStart = 0x7f080059
@@ -1783,8 +2683,13 @@ com.honeywell.barcodeexample:id/androidx_window_activity_scope = 0x7f08004e
 com.honeywell.barcodeexample:style/Base.ThemeOverlay.AppCompat.Dark.ActionBar = 0x7f110078
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.TextView = 0x7f110440
 com.honeywell.barcodeexample:layout/mtrl_picker_header_fullscreen = 0x7f0b005c
+<<<<<<< HEAD
 com.honeywell.barcodeexample:macro/m3_comp_navigation_drawer_active_pressed_state_layer_color = 0x7f0c006e
 com.honeywell.barcodeexample:id/always = 0x7f08004b
+=======
+com.honeywell.barcodeexample:id/always = 0x7f08004b
+com.honeywell.barcodeexample:macro/m3_comp_navigation_drawer_active_pressed_state_layer_color = 0x7f0c006e
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:id/packed = 0x7f080155
 com.honeywell.barcodeexample:styleable/MaterialTextAppearance = 0x7f12005f
 com.honeywell.barcodeexample:style/Animation.AppCompat.DropDownUp = 0x7f110003
@@ -1808,6 +2713,7 @@ com.honeywell.barcodeexample:color/m3_sys_color_light_primary_container = 0x7f05
 com.honeywell.barcodeexample:attr/materialCalendarHeaderDivider = 0x7f0302e4
 com.honeywell.barcodeexample:id/accessibility_custom_action_17 = 0x7f080019
 com.honeywell.barcodeexample:dimen/mtrl_switch_text_padding = 0x7f0602db
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox = 0x7f1102b8
 com.honeywell.barcodeexample:id/accessibility_custom_action_11 = 0x7f080013
 com.honeywell.barcodeexample:layout/mtrl_calendar_month_navigation = 0x7f0b0051
@@ -1815,6 +2721,15 @@ com.honeywell.barcodeexample:style/TextAppearance.M3.Sys.Typescale.HeadlineLarge
 com.honeywell.barcodeexample:style/ThemeOverlay.Material3.NavigationView = 0x7f1102a7
 com.honeywell.barcodeexample:id/actions = 0x7f080044
 com.honeywell.barcodeexample:dimen/design_fab_image_size = 0x7f060070
+=======
+com.honeywell.barcodeexample:id/accessibility_custom_action_11 = 0x7f080013
+com.honeywell.barcodeexample:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox = 0x7f1102b8
+com.honeywell.barcodeexample:layout/mtrl_calendar_month_navigation = 0x7f0b0051
+com.honeywell.barcodeexample:style/TextAppearance.M3.Sys.Typescale.HeadlineLarge = 0x7f1101d3
+com.honeywell.barcodeexample:style/ThemeOverlay.Material3.NavigationView = 0x7f1102a7
+com.honeywell.barcodeexample:dimen/design_fab_image_size = 0x7f060070
+com.honeywell.barcodeexample:id/actions = 0x7f080044
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:id/sharedValueSet = 0x7f08019a
 com.honeywell.barcodeexample:drawable/abc_scrubber_track_mtrl_alpha = 0x7f070061
 com.honeywell.barcodeexample:attr/tabPadding = 0x7f03042d
@@ -1822,12 +2737,18 @@ com.honeywell.barcodeexample:id/TOP_START = 0x7f08000d
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Body2 = 0x7f110018
 com.honeywell.barcodeexample:string/path_password_eye_mask_visible = 0x7f1000b2
 com.honeywell.barcodeexample:styleable/Insets = 0x7f120043
+<<<<<<< HEAD
 com.honeywell.barcodeexample:id/TOP_END = 0x7f08000c
 com.honeywell.barcodeexample:id/line1 = 0x7f0800f4
+=======
+com.honeywell.barcodeexample:id/line1 = 0x7f0800f4
+com.honeywell.barcodeexample:id/TOP_END = 0x7f08000c
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:id/NO_DEBUG = 0x7f080006
 com.honeywell.barcodeexample:style/TextAppearance.Material3.TitleMedium = 0x7f1101ef
 com.honeywell.barcodeexample:dimen/m3_comp_filter_chip_flat_unselected_outline_width = 0x7f060124
 com.honeywell.barcodeexample:style/Base.Widget.MaterialComponents.PopupMenu = 0x7f110113
+<<<<<<< HEAD
 com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.Button = 0x7f110039
 com.honeywell.barcodeexample:style/TextAppearance.Material3.SearchBar = 0x7f1101eb
 com.honeywell.barcodeexample:style/Widget.Material3.Toolbar.OnSurface = 0x7f1103cf
@@ -1835,6 +2756,15 @@ com.honeywell.barcodeexample:drawable/scanpaintbuttons = 0x7f0700e2
 com.honeywell.barcodeexample:macro/m3_comp_outlined_text_field_focus_input_text_color = 0x7f0c009a
 com.honeywell.barcodeexample:drawable/notification_template_icon_bg = 0x7f0700de
 com.honeywell.barcodeexample:macro/m3_comp_switch_selected_pressed_handle_color = 0x7f0c010a
+=======
+com.honeywell.barcodeexample:style/TextAppearance.Material3.SearchBar = 0x7f1101eb
+com.honeywell.barcodeexample:style/Base.TextAppearance.AppCompat.Widget.Button = 0x7f110039
+com.honeywell.barcodeexample:style/Widget.Material3.Toolbar.OnSurface = 0x7f1103cf
+com.honeywell.barcodeexample:drawable/scanpaintbuttons = 0x7f0700e2
+com.honeywell.barcodeexample:macro/m3_comp_outlined_text_field_focus_input_text_color = 0x7f0c009a
+com.honeywell.barcodeexample:macro/m3_comp_switch_selected_pressed_handle_color = 0x7f0c010a
+com.honeywell.barcodeexample:drawable/notification_template_icon_bg = 0x7f0700de
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:attr/compatShadowEnabled = 0x7f030130
 com.honeywell.barcodeexample:style/Widget.MaterialComponents.LinearProgressIndicator = 0x7f110406
 com.honeywell.barcodeexample:layout/mtrl_layout_snackbar = 0x7f0b0055
@@ -1852,6 +2782,10 @@ com.honeywell.barcodeexample:drawable/$mtrl_switch_thumb_pressed_unchecked__0 = 
 com.honeywell.barcodeexample:id/mtrl_calendar_text_input_frame = 0x7f080128
 com.honeywell.barcodeexample:string/abc_action_bar_up_description = 0x7f100001
 com.honeywell.barcodeexample:color/m3_sys_color_dynamic_dark_on_primary_container = 0x7f050178
+<<<<<<< HEAD
+=======
+com.honeywell.barcodeexample:layout/abc_expanded_menu_layout = 0x7f0b000d
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:style/ShapeAppearanceOverlay.MaterialComponents.ExtendedFloatingActionButton = 0x7f110187
 com.honeywell.barcodeexample:layout/abc_expanded_menu_layout = 0x7f0b000d
 com.honeywell.barcodeexample:drawable/mtrl_ic_arrow_drop_up = 0x7f0700be
@@ -1863,13 +2797,19 @@ com.honeywell.barcodeexample:color/m3_ref_palette_error100 = 0x7f0500f0
 com.honeywell.barcodeexample:attr/verticalOffsetWithText = 0x7f0304d2
 com.honeywell.barcodeexample:drawable/mtrl_checkbox_button_icon_unchecked_checked = 0x7f0700b8
 com.honeywell.barcodeexample:style/AlertDialog.AppCompat = 0x7f110000
+<<<<<<< HEAD
 com.honeywell.barcodeexample:macro/m3_comp_fab_tertiary_icon_color = 0x7f0c002b
 com.honeywell.barcodeexample:id/jumpToEnd = 0x7f0800ed
+=======
+com.honeywell.barcodeexample:id/jumpToEnd = 0x7f0800ed
+com.honeywell.barcodeexample:macro/m3_comp_fab_tertiary_icon_color = 0x7f0c002b
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:drawable/mtrl_checkbox_button_icon = 0x7f0700b3
 com.honeywell.barcodeexample:attr/customColorValue = 0x7f030162
 com.honeywell.barcodeexample:drawable/material_ic_keyboard_arrow_previous_black_24dp = 0x7f0700ac
 com.honeywell.barcodeexample:drawable/material_ic_keyboard_arrow_next_black_24dp = 0x7f0700ab
 com.honeywell.barcodeexample:integer/cancel_button_image_alpha = 0x7f090004
+<<<<<<< HEAD
 com.honeywell.barcodeexample:string/abc_shareactionprovider_share_with = 0x7f100018
 com.honeywell.barcodeexample:drawable/material_ic_keyboard_arrow_left_black_24dp = 0x7f0700aa
 com.honeywell.barcodeexample:drawable/material_ic_clear_black_24dp = 0x7f0700a8
@@ -1877,6 +2817,15 @@ com.honeywell.barcodeexample:style/Platform.V25.AppCompat = 0x7f11013e
 com.honeywell.barcodeexample:style/Theme.Material3.Dark.SideSheetDialog = 0x7f110228
 com.honeywell.barcodeexample:drawable/material_ic_calendar_black_24dp = 0x7f0700a7
 com.honeywell.barcodeexample:dimen/m3_appbar_size_compact = 0x7f0600a9
+=======
+com.honeywell.barcodeexample:drawable/material_ic_keyboard_arrow_left_black_24dp = 0x7f0700aa
+com.honeywell.barcodeexample:string/abc_shareactionprovider_share_with = 0x7f100018
+com.honeywell.barcodeexample:drawable/material_ic_clear_black_24dp = 0x7f0700a8
+com.honeywell.barcodeexample:style/Platform.V25.AppCompat = 0x7f11013e
+com.honeywell.barcodeexample:style/Theme.Material3.Dark.SideSheetDialog = 0x7f110228
+com.honeywell.barcodeexample:dimen/m3_appbar_size_compact = 0x7f0600a9
+com.honeywell.barcodeexample:drawable/material_ic_calendar_black_24dp = 0x7f0700a7
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 com.honeywell.barcodeexample:drawable/m3_tabs_transparent_background = 0x7f0700a5
 com.honeywell.barcodeexample:dimen/m3_btn_text_btn_padding_right = 0x7f0600d9
 com.honeywell.barcodeexample:drawable/abc_scrubber_control_off_mtrl_alpha = 0x7f07005d
@@ -2946,8 +3895,8 @@ com.honeywell.barcodeexample:color/androidx_core_secondary_text_default_material
 com.honeywell.barcodeexample:color/m3_sys_color_light_surface_container_high = 0x7f0501d4
 com.honeywell.barcodeexample:style/Widget.Material3.CollapsingToolbar.Large = 0x7f110368
 com.honeywell.barcodeexample:styleable/ListPopupWindow = 0x7f120050
-com.honeywell.barcodeexample:attr/behavior_expandedOffset = 0x7f03006a
 com.honeywell.barcodeexample:dimen/m3_comp_checkbox_selected_disabled_container_opacity = 0x7f0600fb
+com.honeywell.barcodeexample:attr/behavior_expandedOffset = 0x7f03006a
 com.honeywell.barcodeexample:dimen/mtrl_calendar_header_toggle_margin_top = 0x7f06026c
 com.honeywell.barcodeexample:color/m3_sys_color_light_surface_bright = 0x7f0501d2
 com.honeywell.barcodeexample:color/m3_ref_palette_dynamic_secondary95 = 0x7f0500df

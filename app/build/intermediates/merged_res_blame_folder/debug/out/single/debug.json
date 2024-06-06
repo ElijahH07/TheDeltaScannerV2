@@ -1,11 +1,16 @@
 [
     {
+<<<<<<< HEAD
         "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout_settings_screen.xml.flat",
         "source": "com.honeywell.barcodeexample.app-main-48:/layout/settings_screen.xml"
     },
     {
         "merged": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\drawable_homebuttons.xml.flat",
         "source": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\drawable\\homebuttons.xml"
+=======
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\raw_sonic_tally_sound.mp3.flat",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\raw\\sonic_tally_sound.mp3"
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
     },
     {
         "merged": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\drawable_scanpaintbuttons.xml.flat",
@@ -32,8 +37,17 @@
         "source": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\settings_screen.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\raw_sonic_tally_sound.mp3.flat",
         "source": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\raw\\sonic_tally_sound.mp3"
+=======
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\layout-v21_analysis_screen.xml.flat",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout-v21\\analysis_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\drawable_img.png.flat",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\drawable\\img.png"
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
     },
     {
         "merged": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\raw_sonic_death_sound.mp3.flat",

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Thu Jun 06 11:51:38 PDT 2024
 base.0=C\:\\Users\\edyaw\\AndroidStudioProjects\\TheDeltaScannerV2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\edyaw\\AndroidStudioProjects\\TheDeltaScannerV2\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
@@ -7,6 +8,17 @@ base.4=C\:\\Users\\edyaw\\AndroidStudioProjects\\TheDeltaScannerV2\\app\\build\\
 base.5=C\:\\Users\\edyaw\\AndroidStudioProjects\\TheDeltaScannerV2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
 base.6=C\:\\Users\\edyaw\\AndroidStudioProjects\\TheDeltaScannerV2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
 base.7=C\:\\Users\\edyaw\\AndroidStudioProjects\\TheDeltaScannerV2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+=======
+#Thu Jun 06 11:31:34 PDT 2024
+base.0=C\:\\Users\\d1intern\\AndroidStudioProjects\\TheDeltaScannerV2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\d1intern\\AndroidStudioProjects\\TheDeltaScannerV2\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\d1intern\\AndroidStudioProjects\\TheDeltaScannerV2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.3=C\:\\Users\\d1intern\\AndroidStudioProjects\\TheDeltaScannerV2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.4=C\:\\Users\\d1intern\\AndroidStudioProjects\\TheDeltaScannerV2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.5=C\:\\Users\\d1intern\\AndroidStudioProjects\\TheDeltaScannerV2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.6=C\:\\Users\\d1intern\\AndroidStudioProjects\\TheDeltaScannerV2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.7=C\:\\Users\\d1intern\\AndroidStudioProjects\\TheDeltaScannerV2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+>>>>>>> c0d599701b9bdde81a5defa26915151309364c9e
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=0/classes.dex
