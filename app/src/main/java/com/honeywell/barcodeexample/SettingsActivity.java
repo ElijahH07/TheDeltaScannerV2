@@ -78,7 +78,7 @@ public class SettingsActivity extends Activity {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SettingsActivity.this, Barcode_type.class);
+                Intent intent = new Intent("android.intent.action.BARCODETYPE");
                 startActivity(intent);
             }
         });

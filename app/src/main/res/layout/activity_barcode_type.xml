@@ -9,7 +9,7 @@
     android:paddingRight="16dp"
     android:orientation="vertical"
     android:background="@color/c1"
-    tools:context=".Barcode_type">
+    tools:context=".BarcodeTypeActivity">
 
     <TextView
         android:id="@+id/BarcodeSelection"

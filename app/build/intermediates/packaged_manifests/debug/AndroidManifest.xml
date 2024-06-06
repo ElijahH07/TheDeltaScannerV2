@@ -23,11 +23,7 @@
         android:extractNativeLibs="false"
         android:icon="@drawable/d1sw_logo"
         android:label="@string/app_name"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.honeywell.barcodeexample.Barcode_type"
-            android:exported="false" />
         <activity
             android:name="com.honeywell.barcodeexample.StartActivity"
             android:exported="true"
@@ -104,6 +100,16 @@
             android:label="DeltaOne Software ~ Settings" >
             <intent-filter>
                 <action android:name="android.intent.action.SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.honeywell.barcodeexample.BarcodeTypeActivity"
+            android:exported="true"
+            android:label="DeltaOne Software ~ Home" >
+            <intent-filter>
+                <action android:name="android.intent.action.BARCODETYPE" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
