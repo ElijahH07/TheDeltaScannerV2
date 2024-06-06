@@ -3980,6 +3980,7 @@ int string searchbar_scrolling_view_behavior 0x7f1000b7
 int string searchview_clear_text_content_description 0x7f1000b8
 int string searchview_navigation_content_description 0x7f1000b9
 int string settings 0x7f1000ba
+int string settings_icon 0x7f1000c7
 int string settings_paint_fragment_label 0x7f1000bb
 int string settings_scan_fragment_label 0x7f1000bc
 int string side_sheet_accessibility_pane_title 0x7f1000bd

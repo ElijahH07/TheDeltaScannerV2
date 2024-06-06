@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:versionCode="197000073"
@@ -7,14 +7,17 @@
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="33" />
-    <!--    <uses-permission android:name="com.symbol.emdk.permission.EMDK" />-->
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/d1sw_logo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.honeywell.barcodeexample.StartActivity"
+            android:name=".Barcode_type"
+            android:exported="false" />
+        <activity
+            android:name=".StartActivity"
             android:exported="true"
             android:label="DeltaOne Software">
             <intent-filter>
@@ -23,9 +26,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="com.honeywell.barcodeexample.HoneywellHomeActivity"
+            android:name=".HoneywellHomeActivity"
             android:exported="true"
             android:label="DeltaOne Software ~ Home">
             <intent-filter>
@@ -35,7 +37,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.honeywell.barcodeexample.ZebraHomeActivity"
+            android:name=".ZebraHomeActivity"
             android:exported="true"
             android:label="DeltaOne Software ~ Home">
             <intent-filter>
@@ -44,9 +46,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="com.honeywell.barcodeexample.ScannerSelectionBarcodeActivity"
+            android:name=".ScannerSelectionBarcodeActivity"
             android:exported="true"
             android:label="DeltaOne Software ~ Scanner Select">
             <intent-filter>
@@ -56,7 +57,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.honeywell.barcodeexample.HoneywellScanActivity"
+            android:name=".HoneywellScanActivity"
             android:exported="true"
             android:label="DeltaOne Software ~ Scan Screen">
             <intent-filter>
@@ -66,7 +67,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.honeywell.barcodeexample.ZebraScanActivity"
+            android:name=".ZebraScanActivity"
             android:exported="true"
             android:label="DeltaOne Software ~ Scan Screen">
             <intent-filter>
@@ -75,9 +76,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="com.honeywell.barcodeexample.AnalysisActivity"
+            android:name=".AnalysisActivity"
             android:exported="true"
             android:label="DeltaOne Software ~ Analysis">
             <intent-filter>
@@ -87,7 +87,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.honeywell.barcodeexample.SettingsActivity"
+            android:name=".SettingsActivity"
             android:exported="true"
             android:label="DeltaOne Software ~ Settings">
             <intent-filter>
@@ -97,4 +97,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

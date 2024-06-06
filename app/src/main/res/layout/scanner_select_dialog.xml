@@ -9,7 +9,9 @@
         android:layout_height="wrap_content"
         android:fastScrollEnabled="true"
         android:scrollbarStyle="insideInset"
-        android:textFilterEnabled="false" />
+        android:textFilterEnabled="false"
+
+        />
 
     <Button
         android:id="@+id/dialogButtonOK"
@@ -17,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/listScanners"
         android:background="@android:drawable/dialog_holo_light_frame"
-        android:backgroundTint="@color/c2"
+        android:backgroundTint="@color/c4"
         android:text=" Ok " />
 
 </RelativeLayout>

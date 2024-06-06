@@ -3981,6 +3981,7 @@ string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
 string settings
+string settings_icon
 string settings_paint_fragment_label
 string settings_scan_fragment_label
 string side_sheet_accessibility_pane_title

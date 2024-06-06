@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,7 +21,7 @@ public final class HomeScreenBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageButton buttonScannerSelectBarcode;
+  public final Button buttonScannerSelectBarcode;
 
   @NonNull
   public final Button paint;
@@ -34,7 +33,7 @@ public final class HomeScreenBinding implements ViewBinding {
   public final TextView title;
 
   private HomeScreenBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton buttonScannerSelectBarcode, @NonNull Button paint, @NonNull Button scan,
+      @NonNull Button buttonScannerSelectBarcode, @NonNull Button paint, @NonNull Button scan,
       @NonNull TextView title) {
     this.rootView = rootView;
     this.buttonScannerSelectBarcode = buttonScannerSelectBarcode;
@@ -71,7 +70,7 @@ public final class HomeScreenBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.buttonScannerSelectBarcode;
-      ImageButton buttonScannerSelectBarcode = ViewBindings.findChildViewById(rootView, id);
+      Button buttonScannerSelectBarcode = ViewBindings.findChildViewById(rootView, id);
       if (buttonScannerSelectBarcode == null) {
         break missingId;
       }
