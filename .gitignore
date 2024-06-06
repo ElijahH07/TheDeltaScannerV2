@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 local.properties
-=======
->>>>>>> 6c6107d2473e3ea81a5e13ce286476638f32c141
+app/build
+.gradle
