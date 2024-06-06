@@ -32,6 +32,9 @@ public final class SettingsScreenBinding implements ViewBinding {
   public final Button backButton;
 
   @NonNull
+  public final Button barcodeselectbutton;
+
+  @NonNull
   public final CheckBox counter;
 
   @NonNull
@@ -47,13 +50,15 @@ public final class SettingsScreenBinding implements ViewBinding {
   public final CheckBox timer;
 
   private SettingsScreenBinding(@NonNull FrameLayout rootView, @NonNull TextView amntScan,
-      @NonNull EditText amntScanInput, @NonNull Button backButton, @NonNull CheckBox counter,
+      @NonNull EditText amntScanInput, @NonNull Button backButton,
+      @NonNull Button barcodeselectbutton, @NonNull CheckBox counter,
       @NonNull TextView settingsTitle, @NonNull CheckBox sound, @NonNull TextView textView,
       @NonNull CheckBox timer) {
     this.rootView = rootView;
     this.amntScan = amntScan;
     this.amntScanInput = amntScanInput;
     this.backButton = backButton;
+    this.barcodeselectbutton = barcodeselectbutton;
     this.counter = counter;
     this.settingsTitle = settingsTitle;
     this.sound = sound;
@@ -106,6 +111,12 @@ public final class SettingsScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.barcodeselectbutton;
+      Button barcodeselectbutton = ViewBindings.findChildViewById(rootView, id);
+      if (barcodeselectbutton == null) {
+        break missingId;
+      }
+
       id = R.id.counter;
       CheckBox counter = ViewBindings.findChildViewById(rootView, id);
       if (counter == null) {
@@ -137,7 +148,7 @@ public final class SettingsScreenBinding implements ViewBinding {
       }
 
       return new SettingsScreenBinding((FrameLayout) rootView, amntScan, amntScanInput, backButton,
-          counter, settingsTitle, sound, textView, timer);
+          barcodeselectbutton, counter, settingsTitle, sound, textView, timer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

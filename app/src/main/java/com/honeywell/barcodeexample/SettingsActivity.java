@@ -19,6 +19,8 @@ public class SettingsActivity extends Activity {
     private CheckBox sound;
     private TextView counterText;
     private EditText counterInput;
+    private Button barcodeselectbutton;
+
     //endregion
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,6 +72,18 @@ public class SettingsActivity extends Activity {
                 finish();
             }
         });
+
+        barcodeselectbutton = (Button) findViewById(R.id.barcodeselectbutton);
+        barcodeselectbutton.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SettingsActivity.this, Barcode_type.class);
+                startActivity(intent);
+            }
+        });
+
+
         counter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -16,261 +16,268 @@
 11-->[:DataCollectionLib] C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\DataCollectionLib\build\.transforms\fcd5a96308475560e9e85440e0b6072d\transformed\DataCollection\AndroidManifest.xml:11:22-75
 12
 13    <permission
-13-->[androidx.core:core:1.9.0] C:\Users\edyaw\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+13-->[androidx.core:core:1.13.0] C:\Users\edyaw\.gradle\caches\transforms-3\188198fe5f47380f947ba80cf13bf6be\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
 14        android:name="com.honeywell.barcodeexample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.9.0] C:\Users\edyaw\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+14-->[androidx.core:core:1.13.0] C:\Users\edyaw\.gradle\caches\transforms-3\188198fe5f47380f947ba80cf13bf6be\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
 15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.9.0] C:\Users\edyaw\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+15-->[androidx.core:core:1.13.0] C:\Users\edyaw\.gradle\caches\transforms-3\188198fe5f47380f947ba80cf13bf6be\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
 16
-17    <uses-permission android:name="com.honeywell.barcodeexample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- <uses-permission android:name="com.symbol.emdk.permission.EMDK" /> -->
-17-->[androidx.core:core:1.9.0] C:\Users\edyaw\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.9.0] C:\Users\edyaw\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-18    <application
-18-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:11:5-99:19
-19        android:allowBackup="true"
-19-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:12:9-35
-20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.9.0] C:\Users\edyaw\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:icon="@drawable/d1sw_logo"
-23-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:13:9-43
-24        android:label="@string/app_name"
-24-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:14:9-41
-25        android:testOnly="true"
-26        android:theme="@style/AppTheme" >
-26-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:15:9-40
-27        <activity
-27-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:16:9-25:20
-28            android:name="com.honeywell.barcodeexample.StartActivity"
-28-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:17:13-70
-29            android:exported="true"
-29-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:18:13-36
-30            android:label="DeltaOne Software" >
-30-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:19:13-46
-31            <intent-filter>
-31-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:20:13-24:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:21:17-69
-32-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:21:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:23:17-77
-34-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:23:27-74
-35            </intent-filter>
-36        </activity>
-37        <activity
-37-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:27:9-36:20
-38            android:name="com.honeywell.barcodeexample.HoneywellHomeActivity"
-38-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:28:13-78
-39            android:exported="true"
-39-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:29:13-36
-40            android:label="DeltaOne Software ~ Home" >
-40-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:30:13-53
-41            <intent-filter>
-41-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:31:13-35:29
-42                <action android:name="android.intent.action.HONEYHOME" />
-42-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:32:17-74
-42-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:32:25-71
-43
-44                <category android:name="android.intent.category.DEFAULT" />
-44-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:17-76
-44-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:27-73
-45            </intent-filter>
-46        </activity>
-47        <activity
-47-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:37:9-46:20
-48            android:name="com.honeywell.barcodeexample.ZebraHomeActivity"
-48-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:38:13-74
-49            android:exported="true"
-49-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:39:13-36
-50            android:label="DeltaOne Software ~ Home" >
-50-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:40:13-53
-51            <intent-filter>
-51-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:41:13-45:29
-52                <action android:name="android.intent.action.ZEBRAHOME" />
-52-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:42:17-74
-52-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:42:25-71
-53
-54                <category android:name="android.intent.category.DEFAULT" />
-54-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:17-76
-54-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:27-73
-55            </intent-filter>
-56        </activity>
-57        <activity
-57-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:48:9-57:20
-58            android:name="com.honeywell.barcodeexample.ScannerSelectionBarcodeActivity"
-58-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:49:13-88
-59            android:exported="true"
-59-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:50:13-36
-60            android:label="DeltaOne Software ~ Scanner Select" >
-60-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:51:13-63
-61            <intent-filter>
-61-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:52:13-56:29
-62                <action android:name="android.intent.action.SCANNERSELECTBARCODEACTIVITY" />
-62-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:53:17-93
-62-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:53:25-90
-63
-64                <category android:name="android.intent.category.DEFAULT" />
-64-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:17-76
-64-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:27-73
-65            </intent-filter>
-66        </activity>
-67        <activity
-67-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:58:9-67:20
-68            android:name="com.honeywell.barcodeexample.HoneywellScanActivity"
-68-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:59:13-78
-69            android:exported="true"
-69-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:60:13-36
-70            android:label="DeltaOne Software ~ Scan Screen" >
-70-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:61:13-60
-71            <intent-filter>
-71-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:62:13-66:29
-72                <action android:name="android.intent.action.HONEYSCAN" />
-72-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:63:17-74
-72-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:63:25-71
-73
-74                <category android:name="android.intent.category.DEFAULT" />
-74-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:17-76
-74-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:27-73
-75            </intent-filter>
-76        </activity>
-77        <activity
-77-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:68:9-77:20
-78            android:name="com.honeywell.barcodeexample.ZebraScanActivity"
-78-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:69:13-74
-79            android:exported="true"
-79-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:70:13-36
-80            android:label="DeltaOne Software ~ Scan Screen" >
-80-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:71:13-60
-81            <intent-filter>
-81-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:72:13-76:29
-82                <action android:name="android.intent.action.ZEBRASCAN" />
-82-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:73:17-74
-82-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:73:25-71
-83
-84                <category android:name="android.intent.category.DEFAULT" />
-84-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:17-76
-84-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:27-73
-85            </intent-filter>
-86        </activity>
-87        <activity
-87-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:79:9-88:20
-88            android:name="com.honeywell.barcodeexample.AnalysisActivity"
-88-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:80:13-73
-89            android:exported="true"
-89-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:81:13-36
-90            android:label="DeltaOne Software ~ Analysis" >
-90-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:82:13-57
-91            <intent-filter>
-91-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:83:13-87:29
-92                <action android:name="android.intent.action.ANALYSIS" />
-92-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:84:17-73
-92-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:84:25-70
-93
-94                <category android:name="android.intent.category.DEFAULT" />
-94-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:17-76
-94-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:27-73
-95            </intent-filter>
-96        </activity>
-97        <activity
-97-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:89:9-98:20
-98            android:name="com.honeywell.barcodeexample.SettingsActivity"
-98-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:90:13-73
-99            android:exported="true"
-99-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:91:13-36
-100            android:label="DeltaOne Software ~ Settings" >
-100-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:92:13-57
-101            <intent-filter>
-101-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:93:13-97:29
-102                <action android:name="android.intent.action.SETTINGS" />
-102-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:94:17-73
-102-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:94:25-70
-103
-104                <category android:name="android.intent.category.DEFAULT" />
-104-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:17-76
-104-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:27-73
-105            </intent-filter>
-106        </activity>
+17    <uses-permission android:name="com.honeywell.barcodeexample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.13.0] C:\Users\edyaw\.gradle\caches\transforms-3\188198fe5f47380f947ba80cf13bf6be\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.13.0] C:\Users\edyaw\.gradle\caches\transforms-3\188198fe5f47380f947ba80cf13bf6be\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:11:5-99:19
+20        android:allowBackup="true"
+20-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:12:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.13.0] C:\Users\edyaw\.gradle\caches\transforms-3\188198fe5f47380f947ba80cf13bf6be\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@drawable/d1sw_logo"
+24-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:13:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:14:9-41
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:15:9-40
+28        <activity
+28-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:16:9-18:40
+29            android:name="com.honeywell.barcodeexample.Barcode_type"
+29-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:17:13-41
+30            android:exported="false" />
+30-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:18:13-37
+31        <activity
+31-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:19:9-28:20
+32            android:name="com.honeywell.barcodeexample.StartActivity"
+32-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:20:13-42
+33            android:exported="true"
+33-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:21:13-36
+34            android:label="DeltaOne Software" >
+34-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:22:13-46
+35            <intent-filter>
+35-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:23:13-27:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:24:17-69
+36-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:24:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:26:17-77
+38-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:26:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:29:9-38:20
+42            android:name="com.honeywell.barcodeexample.HoneywellHomeActivity"
+42-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:30:13-50
+43            android:exported="true"
+43-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:31:13-36
+44            android:label="DeltaOne Software ~ Home" >
+44-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:32:13-53
+45            <intent-filter>
+45-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:33:13-37:29
+46                <action android:name="android.intent.action.HONEYHOME" />
+46-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:17-74
+46-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:34:25-71
+47
+48                <category android:name="android.intent.category.DEFAULT" />
+48-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:36:17-76
+48-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:36:27-73
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:39:9-48:20
+52            android:name="com.honeywell.barcodeexample.ZebraHomeActivity"
+52-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:40:13-46
+53            android:exported="true"
+53-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:41:13-36
+54            android:label="DeltaOne Software ~ Home" >
+54-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:42:13-53
+55            <intent-filter>
+55-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:43:13-47:29
+56                <action android:name="android.intent.action.ZEBRAHOME" />
+56-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:44:17-74
+56-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:44:25-71
+57
+58                <category android:name="android.intent.category.DEFAULT" />
+58-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:36:17-76
+58-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:36:27-73
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:49:9-58:20
+62            android:name="com.honeywell.barcodeexample.ScannerSelectionBarcodeActivity"
+62-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:50:13-60
+63            android:exported="true"
+63-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:51:13-36
+64            android:label="DeltaOne Software ~ Scanner Select" >
+64-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:52:13-63
+65            <intent-filter>
+65-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:53:13-57:29
+66                <action android:name="android.intent.action.SCANNERSELECTBARCODEACTIVITY" />
+66-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:54:17-93
+66-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:54:25-90
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:36:17-76
+68-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:36:27-73
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:59:9-68:20
+72            android:name="com.honeywell.barcodeexample.HoneywellScanActivity"
+72-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:60:13-50
+73            android:exported="true"
+73-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:61:13-36
+74            android:label="DeltaOne Software ~ Scan Screen" >
+74-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:62:13-60
+75            <intent-filter>
+75-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:63:13-67:29
+76                <action android:name="android.intent.action.HONEYSCAN" />
+76-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:64:17-74
+76-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:64:25-71
+77
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:36:17-76
+78-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:36:27-73
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:69:9-78:20
+82            android:name="com.honeywell.barcodeexample.ZebraScanActivity"
+82-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:70:13-46
+83            android:exported="true"
+83-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:71:13-36
+84            android:label="DeltaOne Software ~ Scan Screen" >
+84-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:72:13-60
+85            <intent-filter>
+85-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:73:13-77:29
+86                <action android:name="android.intent.action.ZEBRASCAN" />
+86-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:74:17-74
+86-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:74:25-71
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:36:17-76
+88-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:36:27-73
+89            </intent-filter>
+90        </activity>
+91        <activity
+91-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:79:9-88:20
+92            android:name="com.honeywell.barcodeexample.AnalysisActivity"
+92-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:80:13-45
+93            android:exported="true"
+93-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:81:13-36
+94            android:label="DeltaOne Software ~ Analysis" >
+94-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:82:13-57
+95            <intent-filter>
+95-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:83:13-87:29
+96                <action android:name="android.intent.action.ANALYSIS" />
+96-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:84:17-73
+96-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:84:25-70
+97
+98                <category android:name="android.intent.category.DEFAULT" />
+98-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:36:17-76
+98-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:36:27-73
+99            </intent-filter>
+100        </activity>
+101        <activity
+101-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:89:9-98:20
+102            android:name="com.honeywell.barcodeexample.SettingsActivity"
+102-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:90:13-45
+103            android:exported="true"
+103-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:91:13-36
+104            android:label="DeltaOne Software ~ Settings" >
+104-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:92:13-57
+105            <intent-filter>
+105-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:93:13-97:29
+106                <action android:name="android.intent.action.SETTINGS" />
+106-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:94:17-73
+106-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:94:25-70
 107
-108        <provider
-108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edyaw\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-109            android:name="androidx.startup.InitializationProvider"
-109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edyaw\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-110            android:authorities="com.honeywell.barcodeexample.androidx-startup"
-110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edyaw\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-111            android:exported="false" >
-111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edyaw\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-112            <meta-data
-112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edyaw\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-113                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edyaw\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-114                android:value="androidx.startup" />
-114-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edyaw\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-115            <meta-data
-115-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\edyaw\.gradle\caches\transforms-3\25269b7bd72d9a2134a14b4ac7ff36e5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-116                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-116-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\edyaw\.gradle\caches\transforms-3\25269b7bd72d9a2134a14b4ac7ff36e5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-117                android:value="androidx.startup" />
-117-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\edyaw\.gradle\caches\transforms-3\25269b7bd72d9a2134a14b4ac7ff36e5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-118            <meta-data
-118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-119                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-120                android:value="androidx.startup" />
-120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-121        </provider>
-122
-123        <uses-library
-123-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-124            android:name="androidx.window.extensions"
-124-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-125            android:required="false" />
-125-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-126        <uses-library
-126-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-127            android:name="androidx.window.sidecar"
-127-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-128            android:required="false" />
-128-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-129
-130        <receiver
-130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-131            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-132            android:directBootAware="false"
-132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-133            android:enabled="true"
-133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-134            android:exported="true"
-134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-135            android:permission="android.permission.DUMP" >
-135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-136            <intent-filter>
-136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-137                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-138            </intent-filter>
-139            <intent-filter>
-139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-140                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-141            </intent-filter>
-142            <intent-filter>
-142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-143                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-144            </intent-filter>
-145            <intent-filter>
-145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-146                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\15243181c2f23928d559fe6eaa375031\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-147            </intent-filter>
-148        </receiver>
-149    </application>
-150
-151</manifest>
+108                <category android:name="android.intent.category.DEFAULT" />
+108-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:36:17-76
+108-->C:\Users\edyaw\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:36:27-73
+109            </intent-filter>
+110        </activity>
+111
+112        <uses-library
+112-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+113            android:name="androidx.window.extensions"
+113-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+114            android:required="false" />
+114-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+115        <uses-library
+115-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+116            android:name="androidx.window.sidecar"
+116-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+117            android:required="false" />
+117-->[androidx.window:window:1.0.0] C:\Users\edyaw\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+118
+119        <provider
+119-->[androidx.emoji2:emoji2:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\44c8f432fd31c19fc211397ffb4de32e\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+120            android:name="androidx.startup.InitializationProvider"
+120-->[androidx.emoji2:emoji2:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\44c8f432fd31c19fc211397ffb4de32e\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+121            android:authorities="com.honeywell.barcodeexample.androidx-startup"
+121-->[androidx.emoji2:emoji2:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\44c8f432fd31c19fc211397ffb4de32e\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+122            android:exported="false" >
+122-->[androidx.emoji2:emoji2:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\44c8f432fd31c19fc211397ffb4de32e\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+123            <meta-data
+123-->[androidx.emoji2:emoji2:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\44c8f432fd31c19fc211397ffb4de32e\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+124                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+124-->[androidx.emoji2:emoji2:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\44c8f432fd31c19fc211397ffb4de32e\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+125                android:value="androidx.startup" />
+125-->[androidx.emoji2:emoji2:1.3.0] C:\Users\edyaw\.gradle\caches\transforms-3\44c8f432fd31c19fc211397ffb4de32e\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+126            <meta-data
+126-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\edyaw\.gradle\caches\transforms-3\4cdf8d469b2560abc2fcfd45cf7835de\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+127                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+127-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\edyaw\.gradle\caches\transforms-3\4cdf8d469b2560abc2fcfd45cf7835de\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+128                android:value="androidx.startup" />
+128-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\edyaw\.gradle\caches\transforms-3\4cdf8d469b2560abc2fcfd45cf7835de\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+129            <meta-data
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+130                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+131                android:value="androidx.startup" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+132        </provider>
+133
+134        <receiver
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+135            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+136            android:directBootAware="false"
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+137            android:enabled="true"
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+138            android:exported="true"
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+139            android:permission="android.permission.DUMP" >
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+141                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+144                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+147                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+148            </intent-filter>
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+150                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\edyaw\.gradle\caches\transforms-3\03f56ac335fd76a97772a5306d7a6512\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+151            </intent-filter>
+152        </receiver>
+153    </application>
+154
+155</manifest>
