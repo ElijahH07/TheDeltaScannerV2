@@ -3280,6 +3280,7 @@ int id fitStart 0x7f0800d2
 int id fitToContents 0x7f0800d3
 int id fitXY 0x7f0800d4
 int id fixed 0x7f0800d5
+int id flash 0x7f080218
 int id flip 0x7f0800d6
 int id floating 0x7f0800d7
 int id forever 0x7f0800d8

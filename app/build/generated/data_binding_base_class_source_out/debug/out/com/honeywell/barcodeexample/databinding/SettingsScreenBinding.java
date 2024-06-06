@@ -38,6 +38,9 @@ public final class SettingsScreenBinding implements ViewBinding {
   public final CheckBox counter;
 
   @NonNull
+  public final CheckBox flash;
+
+  @NonNull
   public final TextView settingsTitle;
 
   @NonNull
@@ -51,7 +54,7 @@ public final class SettingsScreenBinding implements ViewBinding {
 
   private SettingsScreenBinding(@NonNull ScrollView rootView, @NonNull TextView amntScan,
       @NonNull EditText amntScanInput, @NonNull Button backButton,
-      @NonNull Button barcodeselectbutton, @NonNull CheckBox counter,
+      @NonNull Button barcodeselectbutton, @NonNull CheckBox counter, @NonNull CheckBox flash,
       @NonNull TextView settingsTitle, @NonNull CheckBox sound, @NonNull TextView textView,
       @NonNull CheckBox timer) {
     this.rootView = rootView;
@@ -60,6 +63,7 @@ public final class SettingsScreenBinding implements ViewBinding {
     this.backButton = backButton;
     this.barcodeselectbutton = barcodeselectbutton;
     this.counter = counter;
+    this.flash = flash;
     this.settingsTitle = settingsTitle;
     this.sound = sound;
     this.textView = textView;
@@ -123,6 +127,12 @@ public final class SettingsScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.flash;
+      CheckBox flash = ViewBindings.findChildViewById(rootView, id);
+      if (flash == null) {
+        break missingId;
+      }
+
       id = R.id.settingsTitle;
       TextView settingsTitle = ViewBindings.findChildViewById(rootView, id);
       if (settingsTitle == null) {
@@ -148,7 +158,7 @@ public final class SettingsScreenBinding implements ViewBinding {
       }
 
       return new SettingsScreenBinding((ScrollView) rootView, amntScan, amntScanInput, backButton,
-          barcodeselectbutton, counter, settingsTitle, sound, textView, timer);
+          barcodeselectbutton, counter, flash, settingsTitle, sound, textView, timer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

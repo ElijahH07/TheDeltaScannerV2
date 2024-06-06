@@ -76,6 +76,40 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\values-v16_values-v16.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\edyaw\\.gradle\\caches\\transforms-3\\f519227ce83c25a4daf72bc8b7b65062\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\edyaw\\.gradle\\caches\\transforms-3\\55dedc70b95a473650eda30d4efd0f99\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\values-bs_values-bs.arsc.flat",
             "map": [
                 {
@@ -146,40 +180,6 @@
                         "startOffsets": "8000,8103",
                         "endColumns": "102,124",
                         "endOffsets": "8098,8223"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\values-v16_values-v16.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\edyaw\\.gradle\\caches\\transforms-3\\f519227ce83c25a4daf72bc8b7b65062\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\edyaw\\.gradle\\caches\\transforms-3\\55dedc70b95a473650eda30d4efd0f99\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]
@@ -351,6 +351,36 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\values-w480dp-port-v13_values-w480dp-port-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\edyaw\\.gradle\\caches\\transforms-3\\090f337ed676e5ed26d304bf1a78644b\\transformed\\material-1.9.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,170,226,293,358,413,478",
+                        "endColumns": "58,55,55,66,64,54,64,68",
+                        "endOffsets": "109,165,221,288,353,408,473,542"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\values-ldrtl-v17_values-ldrtl-v17.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\edyaw\\.gradle\\caches\\transforms-3\\090f337ed676e5ed26d304bf1a78644b\\transformed\\material-1.9.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,191",
+                        "endColumns": "135,140",
+                        "endOffsets": "186,327"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\values-hy_values-hy.arsc.flat",
             "map": [
                 {
@@ -421,36 +451,6 @@
                         "startOffsets": "8298",
                         "endColumns": "100",
                         "endOffsets": "8394"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\values-ldrtl-v17_values-ldrtl-v17.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\edyaw\\.gradle\\caches\\transforms-3\\090f337ed676e5ed26d304bf1a78644b\\transformed\\material-1.9.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,191",
-                        "endColumns": "135,140",
-                        "endOffsets": "186,327"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\values-w480dp-port-v13_values-w480dp-port-v13.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\edyaw\\.gradle\\caches\\transforms-3\\090f337ed676e5ed26d304bf1a78644b\\transformed\\material-1.9.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,170,226,293,358,413,478",
-                        "endColumns": "58,55,55,66,64,54,64,68",
-                        "endOffsets": "109,165,221,288,353,408,473,542"
                     }
                 }
             ]

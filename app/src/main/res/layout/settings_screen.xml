@@ -1,79 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1a1f3d">
-<FrameLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+
     android:background="#1a1f3d">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="scan_screen.xml" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#1a1f3d">
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="scan_screen.xml"/>
+
+        <TextView
+            android:id="@+id/settingsTitle"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text="@string/settings"
+            android:layout_margin="10sp"
+            android:textColor="@color/c4"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            />
 
         <CheckBox
             android:id="@+id/timer"
-            android:layout_width="160sp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
             android:buttonTint="@color/white"
-            android:drawablePadding="5dp"
             android:fontFamily="serif"
-            android:paddingLeft="5dp"
-            android:paddingTop="5dp"
-            android:paddingRight="5dp"
             android:shadowColor="#59000000"
             android:shadowDy="10"
             android:shadowRadius="10"
             android:text="@string/timer"
             android:textColor="@color/white"
-            android:textSize="30sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/sound"
-            app:layout_constraintVertical_bias="0.039" />
+            android:textSize="30sp" />
 
         <CheckBox
             android:id="@+id/sound"
-            android:layout_width="160sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:buttonTint="@color/white"
-            android:drawablePadding="5dp"
             android:fontFamily="serif"
-            android:paddingLeft="5dp"
-            android:paddingTop="5dp"
-            android:paddingRight="5dp"
+            android:layout_margin="10sp"
             android:shadowColor="#59000000"
             android:shadowDy="10"
             android:shadowRadius="10"
             android:text="@string/sound"
             android:textColor="@color/white"
             android:textSize="30sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/settingsTitle" />
+            />
+
+        <CheckBox
+            android:id="@+id/flash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:buttonTint="@color/white"
+            android:fontFamily="serif"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text="FLASH"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:visibility="visible" />
 
         <CheckBox
             android:id="@+id/counter"
+            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:buttonTint="@color/white"
-            android:drawablePadding="5dp"
+            android:layout_margin="10sp"
             android:fontFamily="serif"
-            android:paddingLeft="5dp"
-            android:paddingTop="5dp"
-            android:paddingRight="5dp"
+
             android:shadowColor="#59000000"
             android:shadowDy="10"
             android:shadowRadius="10"
@@ -81,40 +102,40 @@
             android:textColor="@color/white"
             android:textSize="30sp"
             android:visibility="visible"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/timer" />
+            />
+
+
+
+
 
         <TextView
             android:id="@+id/amntScan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:drawablePadding="5dp"
             android:fontFamily="serif"
+            android:layout_gravity="center"
             android:shadowColor="#59000000"
             android:shadowDy="10"
             android:shadowRadius="10"
+            android:layout_margin="10sp"
             android:text="@string/numScan"
             android:textColor="@color/c4"
             android:textSize="24sp"
-            android:visibility="invisible"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/counter"
-            app:layout_constraintVertical_bias="0.076" />
+            android:visibility="visible"
+            />
 
         <EditText
             android:id="@+id/amntScanInput"
             android:layout_width="93dp"
             android:layout_height="48dp"
-            android:drawablePadding="5dp"
+
             android:ems="5"
             android:fontFamily="serif"
             android:gravity="center_horizontal"
             android:importantForAutofill="no"
             android:inputType="number"
             android:maxLength="5"
+            android:layout_gravity="center"
             android:shadowColor="#59000000"
             android:shadowDy="10"
             android:shadowRadius="10"
@@ -125,72 +146,41 @@
             android:textColorHint="@color/c4"
             android:textColorLink="@color/c4"
             android:textSize="24sp"
+            android:layout_margin="10sp"
             android:visibility="invisible"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/amntScan"
-            app:layout_constraintVertical_bias="0.213"
-            tools:ignore="LabelFor" />
+            />
 
-        <Button
-            android:id="@+id/backButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/deltascanbox"
-            android:backgroundTint="@color/c4"
-            android:fontFamily="serif"
-            android:gravity="center"
-            android:padding="10sp"
-            android:text="@string/back"
-            android:textColor="@color/c1"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/barcodeselectbutton"
-            app:layout_constraintVertical_bias="0.076" />
+
 
         <Button
             android:id="@+id/barcodeselectbutton"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
             android:background="@drawable/deltascanbox"
             android:backgroundTint="@color/c4"
             android:fontFamily="serif"
             android:gravity="center"
-            android:padding="10sp"
             android:text="BARCODE SELECT"
-            android:textColor="@color/c1"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/amntScanInput" />
-
-        <TextView
-            android:id="@+id/settingsTitle"
+            android:textColor="@color/white"
+            android:padding="10sp"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/backButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="52dp"
+            android:background="@drawable/deltascanbox"
+            android:padding="10sp"
+            android:backgroundTint="@color/c4"
             android:fontFamily="serif"
             android:gravity="center"
-            android:padding="10dp"
-            android:shadowColor="#59000000"
-            android:shadowDy="10"
-            android:shadowRadius="10"
-            android:text="@string/settings"
-            android:textColor="@color/c4"
-            android:textSize="50sp"
-            android:textStyle="bold"
-            android:typeface="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.494"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:layout_gravity="center"
+            />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-</FrameLayout>
+    </LinearLayout>
 </ScrollView>

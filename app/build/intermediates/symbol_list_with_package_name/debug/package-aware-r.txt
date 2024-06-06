@@ -3281,6 +3281,7 @@ id fitStart
 id fitToContents
 id fitXY
 id fixed
+id flash
 id flip
 id floating
 id forever
