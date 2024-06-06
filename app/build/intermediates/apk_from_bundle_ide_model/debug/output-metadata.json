@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "EXTRACTED_APKS",
+    "kind": "Directory"
+  },
+  "applicationId": "com.honeywell.barcodeexample",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "outputFile": "../../extracted_apks/debug/base-en.apk"
+    },
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "outputFile": "../../extracted_apks/debug/base-hdpi.apk"
+    },
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "outputFile": "../../extracted_apks/debug/base-master.apk"
+    }
+  ],
+  "elementType": "File"
+}

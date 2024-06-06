@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c1"
+        android:fontFamily="serif"
+        android:gravity="left"
+        android:padding="6dp"
+        android:text="@string/txtBarcodeTitle"
+        android:textColor="@color/white"
+        android:textSize="13sp">
+    </TextView>
+
+    <Button
+        android:id="@+id/buttonSwitchScanners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="@color/c1"
+        android:fontFamily="serif"
+        android:text="@string/btnSwitchScanners"
+        android:textColor="@color/white" />
+
+    <ListView
+        android:id="@+id/listViewBarcodeData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp">
+
+    </ListView>
+
+</LinearLayout>

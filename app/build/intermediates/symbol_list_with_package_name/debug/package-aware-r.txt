@@ -3070,6 +3070,7 @@ drawable tooltip_frame_light
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id BarcodeSelection
 id CTRL
 id FUNCTION
 id META
@@ -3158,6 +3159,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id backButton
+id barcodetypebutton
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3169,6 +3171,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button
 id buttonPanel
 id buttonScannerSelectBarcode
 id buttonSwitchScanners
@@ -3184,6 +3187,15 @@ id center_vertical
 id chain
 id chain2
 id chains
+id checkBox
+id checkBox2
+id checkBox3
+id checkBox4
+id checkBox5
+id checkBox6
+id checkBox7
+id checkBox8
+id checkBox9
 id checkbox
 id checked
 id chronometer
@@ -3321,6 +3333,7 @@ id list_item
 id locale
 id ltr
 id m3_side_sheet
+id main
 id marquee
 id masked
 id match_constraint
@@ -3704,6 +3717,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_barcode_type
 layout activity_selection_barcode
 layout analysis_screen
 layout custom_dialog

@@ -1,34 +1,30 @@
 [
     {
-        "merged": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-mergeDebugResources-45:\\layout\\scanner_select_dialog.xml",
-        "source": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\scanner_select_dialog.xml"
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/list_layout.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/list_layout.xml"
     },
     {
-        "merged": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-mergeDebugResources-45:\\layout\\scan_screen.xml",
-        "source": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\scan_screen.xml"
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/activity_barcode_type.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/activity_barcode_type.xml"
     },
     {
-        "merged": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-mergeDebugResources-45:\\layout\\list_layout.xml",
-        "source": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\list_layout.xml"
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/activity_selection_barcode.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/activity_selection_barcode.xml"
     },
     {
-        "merged": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-mergeDebugResources-45:\\layout\\incompatible_device.xml",
-        "source": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\incompatible_device.xml"
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/scanner_select_dialog.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/scanner_select_dialog.xml"
     },
     {
         "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/settings_screen.xml",
         "source": "com.honeywell.barcodeexample.app-main-48:/layout/settings_screen.xml"
     },
     {
-        "merged": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-mergeDebugResources-45:\\layout\\settings_screen.xml",
-        "source": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\settings_screen.xml"
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/incompatible_device.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/incompatible_device.xml"
     },
     {
-        "merged": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-mergeDebugResources-45:\\layout\\home_screen.xml",
-        "source": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\home_screen.xml"
-    },
-    {
-        "merged": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-mergeDebugResources-45:\\layout\\activity_selection_barcode.xml",
-        "source": "C:\\Users\\edyaw\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\activity_selection_barcode.xml"
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/home_screen.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/home_screen.xml"
     }
 ]

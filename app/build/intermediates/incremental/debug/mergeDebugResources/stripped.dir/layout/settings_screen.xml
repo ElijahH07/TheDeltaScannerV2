@@ -20,9 +20,9 @@
 
         <CheckBox
             android:id="@+id/timer"
-            android:layout_width="wrap_content"
+            android:layout_width="160sp"
             android:layout_height="wrap_content"
-            android:buttonTint="@color/c2"
+            android:buttonTint="@color/white"
             android:drawablePadding="5dp"
             android:fontFamily="serif"
             android:paddingLeft="5dp"
@@ -43,9 +43,9 @@
 
         <CheckBox
             android:id="@+id/sound"
-            android:layout_width="wrap_content"
+            android:layout_width="160sp"
             android:layout_height="wrap_content"
-            android:buttonTint="@color/c2"
+            android:buttonTint="@color/white"
             android:drawablePadding="5dp"
             android:fontFamily="serif"
             android:paddingLeft="5dp"
@@ -68,7 +68,7 @@
             android:id="@+id/counter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:buttonTint="@color/c2"
+            android:buttonTint="@color/white"
             android:drawablePadding="5dp"
             android:fontFamily="serif"
             android:paddingLeft="5dp"
@@ -101,7 +101,7 @@
             android:shadowDy="10"
             android:shadowRadius="10"
             android:text="@string/settings"
-            android:textColor="#A51A1A"
+            android:textColor="@color/c4"
             android:textSize="60sp"
             android:textStyle="bold"
             android:typeface="normal"
@@ -166,7 +166,8 @@
             android:id="@+id/backButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@android:drawable/dialog_holo_light_frame"
+            android:background="@drawable/deltascanbox"
+            android:padding="10sp"
             android:backgroundTint="@color/c4"
             android:fontFamily="serif"
             android:gravity="center"
@@ -178,6 +179,24 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.729" />
+            app:layout_constraintVertical_bias="0.808" />
+
+        <Button
+            android:id="@+id/barcodetypebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/deltascanbox"
+            android:padding="10sp"
+            android:backgroundTint="@color/c4"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Barcode Type"
+            android:textColor="@color/c1"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/backButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/settingsTitle"
+            app:layout_constraintVertical_bias="0.954" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
