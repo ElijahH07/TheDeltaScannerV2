@@ -2,6 +2,7 @@ package com.honeywell.barcodeexample;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -19,6 +20,12 @@ public class ZebraHomeActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_screen);
+
+
+        //SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+        //int defaultValue = getResources().getInteger(R.integer.saved_high_score_default_key);
+        //int highScore = sharedPref.getInt(getString(R.string.saved_high_score_key), defaultValue);
+
         Toast toast = Toast.makeText(getApplicationContext(), "zebra", Toast.LENGTH_SHORT);
         toast.show();
         ActivitySetting();
