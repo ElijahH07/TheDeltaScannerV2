@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class ZebraHomeActivity extends Activity {
+public class ZebraHomeActivity extends BaseActivity {
     //region
     private Button btnScannerSelectBarcode;
     private Button paintButton;

@@ -10,7 +10,7 @@ import android.widget.ListView;
 import java.sql.Array;
 import java.util.ArrayList;
 
-public class AnalysisActivity extends Activity {
+public class AnalysisActivity extends BaseActivity {
     private Button backButton;
     private ListView barcodeList;
     private ArrayList<String> dataList;

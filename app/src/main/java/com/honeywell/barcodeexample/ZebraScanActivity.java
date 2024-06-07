@@ -29,7 +29,7 @@ import java.util.Set;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class ZebraScanActivity extends Activity {
+public class ZebraScanActivity extends BaseActivity {
 
     //region Zebra
     // DataWedge Sample supporting DataWedge APIs up to DW 7.0

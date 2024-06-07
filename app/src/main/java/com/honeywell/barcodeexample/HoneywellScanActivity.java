@@ -61,7 +61,7 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
     private MediaPlayer sonicSound3; //same sound as sonicSound
     private MediaPlayer sonicTallySound;
 
-    boolean defaultValue=false;
+    boolean defaultValue=true;
     //endregion
 
     @Override
@@ -254,6 +254,7 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
     @Override
     public void onResume() {
         super.onResume();
+        HoneywellSetup();
         filter.addAction("Settings");
         registerReceiver(mReceiver, filter);
         if (barcodeReader != null) {

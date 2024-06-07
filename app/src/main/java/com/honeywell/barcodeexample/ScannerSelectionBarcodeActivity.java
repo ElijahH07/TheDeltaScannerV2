@@ -32,7 +32,7 @@ import com.honeywell.aidc.ScannerUnavailableException;
 import com.honeywell.aidc.InvalidScannerNameException;
 
 
-public class ScannerSelectionBarcodeActivity extends Activity implements BarcodeReader.BarcodeListener, BarcodeReader.TriggerListener {
+public class ScannerSelectionBarcodeActivity extends BaseActivity implements BarcodeReader.BarcodeListener, BarcodeReader.TriggerListener {
 //region
     private com.honeywell.aidc.AidcManager mAidcManager;
     private com.honeywell.aidc.BarcodeReader mBarcodeReader;
