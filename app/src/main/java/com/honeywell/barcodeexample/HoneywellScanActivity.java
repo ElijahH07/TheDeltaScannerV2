@@ -60,6 +60,7 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
     private MediaPlayer sonicSound2; //same sound as sonicSound
     private MediaPlayer sonicSound3; //same sound as sonicSound
     private MediaPlayer sonicTallySound;
+    private boolean flash;
 
     boolean defaultValue=true;
     //endregion
@@ -68,9 +69,9 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //        SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+        flash = sharedPref.getBoolean("flash", false);
+
         setUp();
-        Toast toast = Toast.makeText(getApplicationContext(), android.os.Build.MODEL, Toast.LENGTH_SHORT);
-        toast.show();
         HoneywellSetup();
         ActivitySetting();
 
@@ -254,9 +255,8 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
     @Override
     public void onResume() {
         super.onResume();
+        secondSetUp();
         HoneywellSetup();
-        filter.addAction("Settings");
-        registerReceiver(mReceiver, filter);
         if (barcodeReader != null) {
             try {
                 barcodeReader.claim();
@@ -300,27 +300,7 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
     }
     //endregion
 
-    //region BroadcastReceiver from settings
-    BroadcastReceiver mReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            if (intent.getBooleanExtra("time", false)) {
-                timer.setVisibility(View.VISIBLE);
-            } else {
-                timer.setVisibility(View.INVISIBLE);
-                startTime = -1;
-                timer.setText(R.string.time);
-            }
-            maxCount = intent.getIntExtra("count", 0);
-            if (maxCount != -1) {
-                counter.setVisibility(View.VISIBLE);
-                setCounter();
-            } else {
-                counter.setVisibility(View.INVISIBLE);
-            }
-            soundEnabled = intent.getBooleanExtra("sound", true);
-        }
-    };
+
     IntentFilter filter = new IntentFilter();
 
     //endregion
@@ -444,7 +424,6 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
     }
 
     private void setUp() {
-        LocalBroadcastManager.getInstance(this).registerReceiver(mReceiver, new IntentFilter("Settings"));
         soundEnabled = true;
         mode = getIntent().getIntExtra("mode", 0);
         scannedData = new ArrayList<>();
@@ -465,5 +444,23 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
         sonicDeathSound2 = MediaPlayer.create(getApplicationContext(), R.raw.sonic_death_sound);
         sonicTallySound = MediaPlayer.create(getApplicationContext(), R.raw.sonic_tally_sound);
     }
+    private void secondSetUp() {
+        if (sharedPref.getBoolean("timer", false)) {
+            timer.setVisibility(View.VISIBLE);
+        } else {
+            timer.setVisibility(View.INVISIBLE);
+            startTime = -1;
+            timer.setText(R.string.time);
+        }
+        maxCount = sharedPref.getInt("count", -1);
+        if (maxCount != -1) {
+            counter.setVisibility(View.VISIBLE);
+            setCounter();
+        } else {
+            counter.setVisibility(View.INVISIBLE);
+        }
+        soundEnabled = sharedPref.getBoolean("sound", true);
+    }
+
     //endregion
 }

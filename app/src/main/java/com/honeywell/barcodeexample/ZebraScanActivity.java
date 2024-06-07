@@ -61,6 +61,7 @@ public class ZebraScanActivity extends BaseActivity {
     private int currTime;
     private boolean isTimerOn;
     private boolean soundEnabled;
+    private boolean flash;
     private MediaPlayer sonicDeathSound;
     private MediaPlayer sonicDeathSound2; //same sound as sonicDeathSound
     private MediaPlayer sonicSound;
@@ -72,9 +73,12 @@ public class ZebraScanActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        flash = sharedPref.getBoolean("flash", false);
+
         setUp();
 
-        CreateDWProfile(this, mode); // create DataWedge profile that links to this app
+        CreateDWProfile(this, mode, flash); // create DataWedge profile that links to this app
 
         if (mode ==1) {
             Toast toast = Toast.makeText(getApplicationContext(), "Zebra Paint", Toast.LENGTH_SHORT);
@@ -93,7 +97,7 @@ public class ZebraScanActivity extends BaseActivity {
         ActivitySetting();
     }
 
-    public static void CreateDWProfile(Context context, int mode) {
+    public static void CreateDWProfile(Context context, int mode, boolean flash) {
         //sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_CREATE_PROFILE, PROFILE_NAME); // i guess you cant initialize? (uncommenting breaks everything)
 
         //  Requires DataWedge 6.4
@@ -122,7 +126,12 @@ public class ZebraScanActivity extends BaseActivity {
         // add extra features in barcodeprops Bundle (SEE https://techdocs.zebra.com/datawedge/8-1/guide/api/setconfig/)
 
         //barcodeProps.putString("name", "key");
-        barcodeProps.putString("illumination_mode", "off"); // torch is on, off is off
+        if (flash) {
+            barcodeProps.putString("illumination_mode", "torch"); // torch is on, off is off
+        }else {
+            barcodeProps.putString("illumination_mode", "off"); // torch is on, off is off
+        }
+
 
         // End of extra features
 
@@ -271,8 +280,9 @@ public class ZebraScanActivity extends BaseActivity {
     @Override
     public void onResume() {
         super.onResume();
-        filter.addAction("Settings");
-        registerReceiver(mReceiver, filter);
+        secondSetUp();
+        CreateDWProfile(ZebraScanActivity.this, mode, flash);
+        //registerReceiver(mReceiver, filter);
         IntentFilter filter = new IntentFilter();
         filter.addCategory(Intent.CATEGORY_DEFAULT);
         filter.addAction(getResources().getString(R.string.activity_intent_filter_action));
@@ -303,26 +313,26 @@ public class ZebraScanActivity extends BaseActivity {
     //endregion
 
     //region BroadcastReceiver from settings
-    BroadcastReceiver mReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            if (intent.getBooleanExtra("time", false)) {
-                timer.setVisibility(View.VISIBLE);
-            } else {
-                timer.setVisibility(View.INVISIBLE);
-                startTime = -1;
-                timer.setText(R.string.time);
-            }
-            maxCount = intent.getIntExtra("count", 0);
-            if (maxCount != -1) {
-                counter.setVisibility(View.VISIBLE);
-                setCounter();
-            } else {
-                counter.setVisibility(View.INVISIBLE);
-            }
-            soundEnabled = intent.getBooleanExtra("sound", true);
-        }
-    };
+//    BroadcastReceiver mReceiver = new BroadcastReceiver() {
+//        @Override
+//        public void onReceive(Context context, Intent intent) {
+//            if (intent.getBooleanExtra("time", false)) {
+//                timer.setVisibility(View.VISIBLE);
+//            } else {
+//                timer.setVisibility(View.INVISIBLE);
+//                startTime = -1;
+//                timer.setText(R.string.time);
+//            }
+//            maxCount = intent.getIntExtra("count", 0);
+//            if (maxCount != -1) {
+//                counter.setVisibility(View.VISIBLE);
+//                setCounter();
+//            } else {
+//                counter.setVisibility(View.INVISIBLE);
+//            }
+//            soundEnabled = intent.getBooleanExtra("sound", true);
+//        }
+//    };
     IntentFilter filter = new IntentFilter();
 
     //endregion
@@ -352,12 +362,7 @@ public class ZebraScanActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 // get the intent action string from AndroidManifest.xml
-                isTimerOn = false;
                 Intent intent = new Intent("android.intent.action.SETTINGS");
-                intent.putExtra("frag", mode);
-                intent.putExtra("timer", timer.getVisibility() == View.VISIBLE);
-                intent.putExtra("countAmnt", maxCount);
-                intent.putExtra("sound", soundEnabled);
                 startActivity(intent);
             }
         });
@@ -446,7 +451,7 @@ public class ZebraScanActivity extends BaseActivity {
     }
 
     private void setUp() {
-        LocalBroadcastManager.getInstance(this).registerReceiver(mReceiver, new IntentFilter("Settings"));
+        //LocalBroadcastManager.getInstance(this).registerReceiver(mReceiver, new IntentFilter("Settings"));
         soundEnabled = true;
         mode = getIntent().getIntExtra("mode", 0);
         scannedData = new ArrayList<>();
@@ -466,6 +471,40 @@ public class ZebraScanActivity extends BaseActivity {
         sonicDeathSound = MediaPlayer.create(getApplicationContext(), R.raw.sonic_death_sound);
         sonicDeathSound2 = MediaPlayer.create(getApplicationContext(), R.raw.sonic_death_sound);
         sonicTallySound = MediaPlayer.create(getApplicationContext(), R.raw.sonic_tally_sound);
+
+        if (sharedPref.getBoolean("timer", false)) {
+            timer.setVisibility(View.VISIBLE);
+        } else {
+            timer.setVisibility(View.INVISIBLE);
+            startTime = -1;
+            timer.setText(R.string.time);
+        }
+        maxCount = sharedPref.getInt("count", -1);
+        if (maxCount != -1) {
+            counter.setVisibility(View.VISIBLE);
+            setCounter();
+        } else {
+            counter.setVisibility(View.INVISIBLE);
+        }
+        soundEnabled = sharedPref.getBoolean("sound", true);
+    }
+
+    private void secondSetUp() {
+        if (sharedPref.getBoolean("timer", false)) {
+            timer.setVisibility(View.VISIBLE);
+        } else {
+            timer.setVisibility(View.INVISIBLE);
+            startTime = -1;
+            timer.setText(R.string.time);
+        }
+        maxCount = sharedPref.getInt("count", -1);
+        if (maxCount != -1) {
+            counter.setVisibility(View.VISIBLE);
+            setCounter();
+        } else {
+            counter.setVisibility(View.INVISIBLE);
+        }
+        soundEnabled = sharedPref.getBoolean("sound", true);
     }
 }
 //endregion
