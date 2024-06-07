@@ -5,19 +5,22 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 
 
-public class BarcodeTypeActivity extends Activity {
+public class BarcodeTypeActivity extends BaseActivity {
+    protected boolean setInHistory;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         // get sharedPref
-        SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+//        SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+
 
         boolean defaultValue = true; //checkBoxes are defaulted to checked
 
@@ -99,11 +102,10 @@ public class BarcodeTypeActivity extends Activity {
         CheckBox DataMatrix;
         DataMatrix = findViewById(R.id.checkBox4);
 
-        DataMatrix.setChecked(sharedPref.getBoolean("Code 39", defaultValue));
+        DataMatrix.setChecked(sharedPref.getBoolean("DataMatrix", defaultValue));
         DataMatrix.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedPref.edit();
 
                 editor.putBoolean("DataMatrix", DataMatrix.isChecked());

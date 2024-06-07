@@ -15,7 +15,7 @@ import com.honeywell.aidc.AidcManager.CreatedCallback;
 import com.honeywell.aidc.BarcodeReader;
 import com.honeywell.aidc.InvalidScannerNameException;
 
-public class HoneywellHomeActivity extends Activity {
+public class HoneywellHomeActivity extends BaseActivity {
 //region
     private static BarcodeReader barcodeReader;
     private AidcManager manager;

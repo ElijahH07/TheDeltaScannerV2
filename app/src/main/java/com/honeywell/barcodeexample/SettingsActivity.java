@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-public class SettingsActivity extends Activity {
+public class SettingsActivity extends BaseActivity {
     //region
     private Button backButton;
     private CheckBox timer;

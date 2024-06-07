@@ -5,6 +5,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.media.MediaPlayer;
 import android.os.Build;
@@ -33,7 +34,7 @@ import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class HoneywellScanActivity extends Activity implements BarcodeReader.BarcodeListener, BarcodeReader.TriggerListener {
+public class HoneywellScanActivity extends BaseActivity implements BarcodeReader.BarcodeListener, BarcodeReader.TriggerListener {
     //region
     private com.honeywell.aidc.BarcodeReader barcodeReader;
     private ListView barcodeList;
@@ -59,17 +60,20 @@ public class HoneywellScanActivity extends Activity implements BarcodeReader.Bar
     private MediaPlayer sonicSound2; //same sound as sonicSound
     private MediaPlayer sonicSound3; //same sound as sonicSound
     private MediaPlayer sonicTallySound;
+
+    boolean defaultValue=false;
     //endregion
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+//        SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
         setUp();
         Toast toast = Toast.makeText(getApplicationContext(), android.os.Build.MODEL, Toast.LENGTH_SHORT);
         toast.show();
         HoneywellSetup();
         ActivitySetting();
+
     }
 
     private void HoneywellSetup() {
@@ -103,18 +107,20 @@ public class HoneywellScanActivity extends Activity implements BarcodeReader.Bar
             barcodeReader.addTriggerListener(this);
 
             Map<String, Object> properties = new HashMap<String, Object>();
+
             // Set Symbologies On/Off
-            properties.put(BarcodeReader.PROPERTY_CODE_128_ENABLED, true);
-            properties.put(BarcodeReader.PROPERTY_GS1_128_ENABLED, true);
-            properties.put(BarcodeReader.PROPERTY_QR_CODE_ENABLED, true);
-            properties.put(BarcodeReader.PROPERTY_CODE_39_ENABLED, true);
-            properties.put(BarcodeReader.PROPERTY_DATAMATRIX_ENABLED, true);
-            properties.put(BarcodeReader.PROPERTY_UPC_A_ENABLE, true);
-            properties.put(BarcodeReader.PROPERTY_EAN_13_ENABLED, false);
-            properties.put(BarcodeReader.PROPERTY_AZTEC_ENABLED, false);
+//            SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+            properties.put(BarcodeReader.PROPERTY_CODE_128_ENABLED, sharedPref.getBoolean("Code 128", defaultValue));
+            properties.put(BarcodeReader.PROPERTY_GS1_128_ENABLED, sharedPref.getBoolean("GS1-128", defaultValue));
+            properties.put(BarcodeReader.PROPERTY_QR_CODE_ENABLED, sharedPref.getBoolean("QR", defaultValue));
+            properties.put(BarcodeReader.PROPERTY_CODE_39_ENABLED, sharedPref.getBoolean("Code 39", defaultValue));
+            properties.put(BarcodeReader.PROPERTY_DATAMATRIX_ENABLED, sharedPref.getBoolean("DataMatrix", defaultValue));
+            properties.put(BarcodeReader.PROPERTY_UPC_A_ENABLE, sharedPref.getBoolean("UPC/EAN", defaultValue));
+            properties.put(BarcodeReader.PROPERTY_EAN_13_ENABLED, sharedPref.getBoolean("UPC/EAN", defaultValue));
+            properties.put(BarcodeReader.PROPERTY_AZTEC_ENABLED, sharedPref.getBoolean("Aztec", defaultValue));
             properties.put(BarcodeReader.PROPERTY_CODABAR_ENABLED, false);
-            properties.put(BarcodeReader.PROPERTY_INTERLEAVED_25_ENABLED, false);
-            properties.put(BarcodeReader.PROPERTY_PDF_417_ENABLED, false);
+            properties.put(BarcodeReader.PROPERTY_INTERLEAVED_25_ENABLED, sharedPref.getBoolean("I. 2 of 5", defaultValue));
+            properties.put(BarcodeReader.PROPERTY_PDF_417_ENABLED, sharedPref.getBoolean("PDF-417", defaultValue));
             // Set Max Code 39 barcode length
             properties.put(BarcodeReader.PROPERTY_CODE_39_MAXIMUM_LENGTH, 10);
             // Turn on center decoding

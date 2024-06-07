@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 import com.honeywell.barcodeexample.R;
 
-public class StartActivity extends Activity {
+public class StartActivity extends BaseActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState){
