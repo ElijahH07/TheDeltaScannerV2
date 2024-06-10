@@ -23,6 +23,7 @@ TheDeltaScannerV2 is an Android app designed to showcase the capabilities of bar
 2. **Open Project:** Navigate to Version Control and enter the repository URL to access the project.
 3. **Configure SDK:** In Gradle scripts `local.properties`, update sdk.dir to your SDK file path.
 4. **Add Configurations:** Go to the top bar, select "Add Configurations," then choose "Android app" and specify the module `TheDeltaScannerV2.app.main`.
+   ![Example](./media/configuration.png)
 5. **Deploy APK:** Select "Deploy (APK from app Bundle)" and click OK to deploy the app.
 6. **Build and Run:** Build the project and run it on Zebra or Honeywell Android devices.
 7. **Additional Step for Zebra Devices:** Ensure you have downloaded and installed the DataWedge app for Zebra devices.
