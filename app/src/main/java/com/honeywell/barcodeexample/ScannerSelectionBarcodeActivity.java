@@ -20,7 +20,10 @@ import android.view.View.OnTouchListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
 import android.content.pm.ActivityInfo;
@@ -44,79 +47,97 @@ public class ScannerSelectionBarcodeActivity extends BaseActivity implements Bar
 //endregion
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_selection_barcode);
 
-        if(Build.MODEL.startsWith("VM1A")) {
-            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-        }
-        else{
-            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        }
+        try {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_selection_barcode);
 
-        // get initial list
-        barcodeList = (ListView) findViewById(R.id.listViewBarcodeData);
-
-        mSwitchScannersButton = (Button) findViewById(R.id.buttonSwitchScanners);
-        mSwitchScannersButton.setOnTouchListener(new OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    scannerSelection(mAidcManager.listConnectedBarcodeDevices());
-                }
-                return true;
+            if(Build.MODEL.startsWith("VM1A")) {
+                setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
             }
-        });
+            else{
+                setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+            }
 
-        /*
-         * Get new AidcManager
-         */
-        AidcManager.create(this, new CreatedCallback() {
+            // get initial list
+            barcodeList = (ListView) findViewById(R.id.listViewBarcodeData);
 
-            @Override
-            public void onCreated(AidcManager aidcManager) {
-                mAidcManager = aidcManager;
-                mAidcManager.addBarcodeDeviceListener(new BarcodeDeviceListener() {
-
-                    @Override
-                    public void onBarcodeDeviceConnectionEvent(BarcodeDeviceConnectionEvent event) {
-                        // Could use this to call scannerSelection like when
-                        // press switch scanner button.
-                        // Here we just use it to notify the user when a scanner
-                        // is attached or detached and
-                        // give a toast.
-                        String connected;
-                        if (event.getConnectionStatus() == AidcManager.BARCODE_DEVICE_DISCONNECTED) {
-                            connected = "Disconnected";
-                        } else {
-                            connected = "Connected";
-                        }
-
-                        // Only act on the event if the app is in the resume state. The app could
-                        // store the connection event and BarcodeReaderInfo object if the app is
-                        // not in the resume state so the proper imager claim can be made in onResume
-                        if (mResume) {
-                            final String message = "Scanner: "
-                                    + event.getBarcodeReaderInfo().getFriendlyName() + " is "
-                                    + connected;
-                            ((Activity) mContext).runOnUiThread(new Runnable() {
-
-                                @Override
-                                public void run() {
-                                    Toast.makeText(mContext, message, Toast.LENGTH_SHORT).show();
-                                }
-
-                            });
-                        }
+            mSwitchScannersButton = (Button) findViewById(R.id.buttonSwitchScanners);
+            mSwitchScannersButton.setOnTouchListener(new OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                        scannerSelection(mAidcManager.listConnectedBarcodeDevices());
                     }
-                });
-                initialize();
-            }
-        });
+                    return true;
+                }
+            });
+
+            /*
+             * Get new AidcManager
+             */
+            AidcManager.create(this, new CreatedCallback() {
+
+                @Override
+                public void onCreated(AidcManager aidcManager) {
+                    mAidcManager = aidcManager;
+                    mAidcManager.addBarcodeDeviceListener(new BarcodeDeviceListener() {
+
+                        @Override
+                        public void onBarcodeDeviceConnectionEvent(BarcodeDeviceConnectionEvent event) {
+                            // Could use this to call scannerSelection like when
+                            // press switch scanner button.
+                            // Here we just use it to notify the user when a scanner
+                            // is attached or detached and
+                            // give a toast.
+                            String connected;
+                            if (event.getConnectionStatus() == AidcManager.BARCODE_DEVICE_DISCONNECTED) {
+                                connected = "Disconnected";
+                            } else {
+                                connected = "Connected";
+                            }
+
+                            // Only act on the event if the app is in the resume state. The app could
+                            // store the connection event and BarcodeReaderInfo object if the app is
+                            // not in the resume state so the proper imager claim can be made in onResume
+                            if (mResume) {
+                                final String message = "Scanner: "
+                                        + event.getBarcodeReaderInfo().getFriendlyName() + " is "
+                                        + connected;
+                                ((Activity) mContext).runOnUiThread(new Runnable() {
+
+                                    @Override
+                                    public void run() {
+                                        Toast.makeText(mContext, message, Toast.LENGTH_SHORT).show();
+                                    }
+
+                                });
+                            }
+                        }
+                    });
+                    initialize();
+                }
+            });
+        } catch (Error e) {
+            System.out.println(e.getMessage());
+            Toast toast = Toast.makeText(getApplicationContext(), "error during Scaner Selection: "+e.getMessage(), Toast.LENGTH_LONG);
+            toast.show();
+            finish();
+        }
+
+
     }
 
     public void initialize() {
-        scannerSelection(mAidcManager.listConnectedBarcodeDevices());
+        try {
+            scannerSelection(mAidcManager.listConnectedBarcodeDevices());
+        } catch(Error e) {
+            System.out.println(e.getMessage());
+            Toast toast = Toast.makeText(getApplicationContext(), "error during Scaner Selection: "+e.getMessage(), Toast.LENGTH_LONG);
+            toast.show();
+            finish();
+        }
+
     }
 
     @Override

@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
@@ -28,19 +29,27 @@ public class SettingsActivity extends BaseActivity {
     //endregion
     @SuppressLint("SetTextI18n")
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.settings_screen);
-        timer = (CheckBox) findViewById(R.id.timer);
-        sound = (CheckBox) findViewById(R.id.sound);
-        counter = (CheckBox) findViewById(R.id.counter);
-        flash = (CheckBox) findViewById(R.id.flash);
-        counterText = (TextView) findViewById(R.id.amntScan);
-        counterInput = (EditText) findViewById(R.id.amntScanInput);
+        try {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.settings_screen);
+            timer = (CheckBox) findViewById(R.id.timer);
+            sound = (CheckBox) findViewById(R.id.sound);
+            counter = (CheckBox) findViewById(R.id.counter);
+            flash = (CheckBox) findViewById(R.id.flash);
+            counterText = (TextView) findViewById(R.id.amntScan);
+            counterInput = (EditText) findViewById(R.id.amntScanInput);
 
 
-        setInput();
+            setInput();
 
-        ActivitySetting();
+            ActivitySetting();
+        } catch (Error e) {
+            System.out.println(e.getMessage());
+            Toast toast = Toast.makeText(getApplicationContext(), "error during Settings Activity: "+e.getMessage(), Toast.LENGTH_LONG);
+            toast.show();
+            finish();
+        }
+
     }
 
     @Override

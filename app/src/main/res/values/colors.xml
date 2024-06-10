@@ -30,13 +30,20 @@
     <color name="c3">#A04668</color>
     <color name="c4">#AB4967</color>
     <color name="c5">#0C1713</color>
-    -->
+
     <color name="c0">#FFFFFFFF</color>
     <color name="c1">#1a1f3d</color>
     <color name="c2">#ffb703</color>
     <color name="c3">#8ecae6</color>
     <color name="c4">#219ebc</color>
     <color name="c5">#FF000000</color>
+    -->
 
+    <color name="c0">#BCD8C1</color>
+    <color name="c1">#222E50</color>
+    <color name="c2">#E9D985</color>
+    <color name="c3">#007991</color>
+    <color name="c4">#219ebc</color>
+    <color name="c5">#FF000000</color>
 
 </resources>

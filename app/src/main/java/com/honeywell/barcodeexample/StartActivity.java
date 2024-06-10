@@ -11,23 +11,34 @@ public class StartActivity extends BaseActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState){
-        super.onCreate(savedInstanceState);
+        try {
+            super.onCreate(savedInstanceState);
 
-        //reset all memory upon reloading the app
-        sharedPref.edit().clear().apply();
+            //reset all memory upon reloading the app
+            sharedPref.edit().clear().apply();
 
-        int device = GetAndroidMacFromManufactureAPI();
-        if(device==0){
-            Toast toast = Toast.makeText(getApplicationContext(), "honeywell", Toast.LENGTH_LONG);
+            int device = GetAndroidMacFromManufactureAPI();
+            if(device==0){
+                Toast toast = Toast.makeText(getApplicationContext(), "honeywell", Toast.LENGTH_LONG);
+                toast.show();
+                startActivity(new Intent("android.intent.action.HONEYHOME"));
+            }
+            else if (device==1) {
+                Toast toast = Toast.makeText(getApplicationContext(), "zebra", Toast.LENGTH_LONG);
+                toast.show();
+                startActivity(new Intent("android.intent.action.ZEBRAHOME"));
+            }
+
+            setContentView(R.layout.incompatible_device);
+        } catch(Error e) {
+            System.out.println(e.getMessage());
+            Toast toast = Toast.makeText(getApplicationContext(), "error starting event: "+e.getMessage(), Toast.LENGTH_LONG);
             toast.show();
-            startActivity(new Intent("android.intent.action.HONEYHOME"));
         }
-        else if (device==1) {
-            Toast toast = Toast.makeText(getApplicationContext(), "zebra", Toast.LENGTH_LONG);
-            toast.show();
-            startActivity(new Intent("android.intent.action.ZEBRAHOME"));
-        }
-        setContentView(R.layout.incompatible_device);
+
+
+
+
     }
 
     public static int GetAndroidMacFromManufactureAPI() {

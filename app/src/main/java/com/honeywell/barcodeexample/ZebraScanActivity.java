@@ -74,19 +74,27 @@ public class ZebraScanActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        setUp();
-
-        UpdateDWProfile(this, mode, sharedPref, defaultValue); // create DataWedge profile that links to this app
-
+        try {
+            setUp();
+            UpdateDWProfile(this, mode, sharedPref, defaultValue); // create DataWedge profile that links to this app
 
 
-        IntentFilter filter = new IntentFilter(); // wait for broadcast intents from the DataWedge app
-        filter.addCategory(Intent.CATEGORY_DEFAULT);
-        filter.addAction(getResources().getString(R.string.activity_intent_filter_action));
-        registerReceiver(myBroadcastReceiver, filter); // receives broadcast intents
 
-        ActivitySetting();
+            IntentFilter filter = new IntentFilter(); // wait for broadcast intents from the DataWedge app
+            filter.addCategory(Intent.CATEGORY_DEFAULT);
+            filter.addAction(getResources().getString(R.string.activity_intent_filter_action));
+            registerReceiver(myBroadcastReceiver, filter); // receives broadcast intents
+
+            ActivitySetting();
+
+        } catch(Error e) {
+            System.out.println(e.getMessage());
+            Toast toast = Toast.makeText(getApplicationContext(), "error during Zebra Scan Activity: "+e.getMessage(), Toast.LENGTH_LONG);
+            toast.show();
+            finish();
+        }
+
+
     }
 
     public static void UpdateDWProfile(Context context, int mode, SharedPreferences sharedPref, boolean defaultValue) {

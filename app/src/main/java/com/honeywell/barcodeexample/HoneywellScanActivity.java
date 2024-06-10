@@ -67,14 +67,21 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+
+        try {
+            super.onCreate(savedInstanceState);
 //        SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
-        flash = sharedPref.getBoolean("flash", false);
+            flash = sharedPref.getBoolean("flash", false);
 
-        setUp();
-        HoneywellSetup();
-        ActivitySetting();
-
+            setUp();
+            HoneywellSetup();
+            ActivitySetting();
+        } catch(Error e) {
+            System.out.println(e.getMessage());
+            Toast toast = Toast.makeText(getApplicationContext(), "error during Honeywell Scan Activity: "+e.getMessage(), Toast.LENGTH_LONG);
+            toast.show();
+            finish();
+        }
     }
 
     private void HoneywellSetup() {

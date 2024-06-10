@@ -26,37 +26,46 @@ public class HoneywellHomeActivity extends BaseActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.home_screen);
-        Toast toast = Toast.makeText(getApplicationContext(), "honeywell", Toast.LENGTH_SHORT);
-        toast.show();
-        if(Build.MODEL.startsWith("VM1A")) {
-            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-        }
-        else{
-            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        }
 
-        // create the AidcManager providing a Context and a
-        // CreatedCallback implementation.
-        AidcManager.create(this, new CreatedCallback() {
 
-            @Override
-            public void onCreated(AidcManager aidcManager) {
-                manager = aidcManager;
-                try{
-                    barcodeReader = manager.createBarcodeReader();
-                }
-                catch (InvalidScannerNameException e){
-                    Toast.makeText(HoneywellHomeActivity.this, "Invalid Scanner Name Exception: " + e.getMessage(), Toast.LENGTH_SHORT).show();
-                }
-                catch (Exception e){
-                    Toast.makeText(HoneywellHomeActivity.this, "Exception: " + e.getMessage(), Toast.LENGTH_SHORT).show();
-                }
+        try {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.home_screen);
+            Toast toast = Toast.makeText(getApplicationContext(), "honeywell", Toast.LENGTH_SHORT);
+            toast.show();
+            if(Build.MODEL.startsWith("VM1A")) {
+                setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
             }
-        });
+            else{
+                setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+            }
 
-        ActivitySetting();
+            // create the AidcManager providing a Context and a
+            // CreatedCallback implementation.
+            AidcManager.create(this, new CreatedCallback() {
+
+                @Override
+                public void onCreated(AidcManager aidcManager) {
+                    manager = aidcManager;
+                    try{
+                        barcodeReader = manager.createBarcodeReader();
+                    }
+                    catch (InvalidScannerNameException e){
+                        Toast.makeText(HoneywellHomeActivity.this, "Invalid Scanner Name Exception: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                    catch (Exception e){
+                        Toast.makeText(HoneywellHomeActivity.this, "Exception: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
+
+            ActivitySetting();
+        } catch(Error e) {
+            System.out.println(e.getMessage());
+            Toast toast = Toast.makeText(getApplicationContext(), "error during Honeywell Scan Activity: "+e.getMessage(), Toast.LENGTH_LONG);
+            toast.show();
+            finish();
+        }
     }
 
     @Override
