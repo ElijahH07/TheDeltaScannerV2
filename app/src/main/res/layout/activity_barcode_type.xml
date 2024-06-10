@@ -25,7 +25,7 @@
             android:textSize="30sp"
             android:textStyle="bold"
             android:typeface="normal"
-            android:textColor="@color/white"
+            android:textColor="@color/c3"
             android:fontFamily="serif"
             android:textAlignment="center"
             android:layout_gravity="center"
@@ -41,7 +41,12 @@
             android:layout_gravity="start"
             android:layout_marginBottom="2dp"
             android:text="UPC/EAN"
-            android:textColor="@color/white"
+            android:textColor="@color/c0"
+            android:buttonTint="@color/c0"
+            android:fontFamily="serif"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
             />
 
 
@@ -50,7 +55,12 @@
             android:layout_height="wrap_content"
             android:text="GS1-128"
             android:layout_width="360dp"
-            android:textColor="@color/white"
+            android:textColor="@color/c0"
+            android:buttonTint="@color/c0"
+            android:fontFamily="serif"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
             />
 
         <CheckBox
@@ -58,7 +68,12 @@
             android:layout_width="360sp"
             android:layout_height="wrap_content"
             android:text="Code 128"
-            android:textColor="@color/white"
+            android:textColor="@color/c0"
+            android:buttonTint="@color/c0"
+            android:fontFamily="serif"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
             />
 
         <CheckBox
@@ -67,7 +82,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:text="Code 39"
-            android:textColor="@color/white"
+            android:textColor="@color/c0"
+            android:buttonTint="@color/c0"
+            android:fontFamily="serif"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
             />
 
         <CheckBox
@@ -75,7 +95,12 @@
             android:layout_width="360sp"
             android:layout_height="wrap_content"
             android:text="DataMatrix"
-            android:textColor="@color/white"
+            android:textColor="@color/c0"
+            android:buttonTint="@color/c0"
+            android:fontFamily="serif"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
             />
 
         <CheckBox
@@ -83,7 +108,12 @@
             android:layout_width="360sp"
             android:layout_height="wrap_content"
             android:text="PDF-417"
-            android:textColor="@color/white"
+            android:textColor="@color/c0"
+            android:buttonTint="@color/c0"
+            android:fontFamily="serif"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
             />
 
         <CheckBox
@@ -91,7 +121,12 @@
             android:layout_width="360sp"
             android:layout_height="wrap_content"
             android:text="QR"
-            android:textColor="@color/white"
+            android:textColor="@color/c0"
+            android:buttonTint="@color/c0"
+            android:fontFamily="serif"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
             />
 
         <CheckBox
@@ -99,7 +134,12 @@
             android:layout_width="360sp"
             android:layout_height="wrap_content"
             android:text="I. 2 of 5"
-            android:textColor="@color/white"
+            android:textColor="@color/c0"
+            android:buttonTint="@color/c0"
+            android:fontFamily="serif"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
             />
 
         <CheckBox
@@ -107,7 +147,12 @@
             android:layout_width="360sp"
             android:layout_height="wrap_content"
             android:text="Aztec"
-            android:textColor="@color/white"
+            android:textColor="@color/c0"
+            android:buttonTint="@color/c0"
+            android:fontFamily="serif"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
             />
 
         <Button
@@ -121,7 +166,7 @@
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:text="Back"
-            android:textColor="@color/white"
+            android:textColor="@color/c5"
             android:textSize="30sp" />
     </LinearLayout>
 </ScrollView>

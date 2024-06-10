@@ -1391,10 +1391,12 @@ int color bright_foreground_material_light 0x7f050028
 int color brown 0x7f050029
 int color button_material_dark 0x7f05002a
 int color button_material_light 0x7f05002b
+int color c0 0x7f0502f1
 int color c1 0x7f05002c
 int color c2 0x7f05002d
 int color c3 0x7f05002e
 int color c4 0x7f05002f
+int color c5 0x7f0502f2
 int color cardview_dark_background 0x7f050030
 int color cardview_light_background 0x7f050031
 int color cardview_shadow_end_color 0x7f050032
@@ -3988,6 +3990,7 @@ int string path_password_eye 0x7f1000b0
 int string path_password_eye_mask_strike_through 0x7f1000b1
 int string path_password_eye_mask_visible 0x7f1000b2
 int string path_password_strike_through 0x7f1000b3
+int string rfidString 0x7f1000c8
 int string scan 0x7f1000b4
 int string scan_fragment_label 0x7f1000b5
 int string search_menu_title 0x7f1000b6

@@ -16,8 +16,8 @@
         "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\settings_screen.xml"
     },
     {
-        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/settings_screen.xml",
-        "source": "com.honeywell.barcodeexample.app-main-48:/layout/settings_screen.xml"
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-45:/layout/home_screen.xml",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/home_screen.xml"
     },
     {
         "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-mergeDebugResources-45:\\layout\\activity_barcode_type.xml",

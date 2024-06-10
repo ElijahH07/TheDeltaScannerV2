@@ -25,6 +25,7 @@
     <string name="barcode_analysis_fragment_label">Barcode Analysis Fragment</string>
     <!-- Labels -->
     <string name="paint">PAINT</string>
+    <string name="rfidString">RFID SCAN</string>
     <string name="scan">SCAN</string>
     <string name="home">HOME</string>
     <string name="back">BACK</string>

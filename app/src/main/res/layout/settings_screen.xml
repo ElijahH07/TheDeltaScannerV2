@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="#1a1f3d">
+    android:background="@color/c1">
 
 
     <LinearLayout
@@ -46,13 +46,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10sp"
-            android:buttonTint="@color/white"
+            android:buttonTint="@color/c0"
             android:fontFamily="serif"
             android:shadowColor="#59000000"
             android:shadowDy="10"
             android:shadowRadius="10"
             android:text="@string/timer"
-            android:textColor="@color/white"
+            android:textColor="@color/c0"
             android:textSize="30sp" />
 
         <CheckBox
@@ -60,14 +60,14 @@
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:buttonTint="@color/white"
+            android:buttonTint="@color/c0"
             android:fontFamily="serif"
             android:layout_margin="10sp"
             android:shadowColor="#59000000"
             android:shadowDy="10"
             android:shadowRadius="10"
             android:text="@string/sound"
-            android:textColor="@color/white"
+            android:textColor="@color/c0"
             android:textSize="30sp"
             />
 
@@ -77,13 +77,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10sp"
-            android:buttonTint="@color/white"
+            android:buttonTint="@color/c0"
             android:fontFamily="serif"
             android:shadowColor="#59000000"
             android:shadowDy="10"
             android:shadowRadius="10"
             android:text="FLASH"
-            android:textColor="@color/white"
+            android:textColor="@color/c0"
             android:textSize="30sp"
             android:visibility="visible" />
 
@@ -92,7 +92,7 @@
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:buttonTint="@color/white"
+            android:buttonTint="@color/c0"
             android:layout_margin="10sp"
             android:fontFamily="serif"
 
@@ -100,7 +100,7 @@
             android:shadowDy="10"
             android:shadowRadius="10"
             android:text="@string/count"
-            android:textColor="@color/white"
+            android:textColor="@color/c0"
             android:textSize="30sp"
             android:visibility="visible"
             />
@@ -120,7 +120,7 @@
             android:shadowRadius="10"
             android:layout_margin="10sp"
             android:text="@string/numScan"
-            android:textColor="@color/c4"
+            android:textColor="@color/c0"
             android:textSize="24sp"
             android:visibility="visible"
             />
@@ -142,10 +142,10 @@
             android:shadowRadius="10"
             android:text=""
             android:textAlignment="center"
-            android:textColor="@color/c4"
-            android:textColorHighlight="@color/c4"
-            android:textColorHint="@color/c4"
-            android:textColorLink="@color/c4"
+            android:textColor="@color/c5"
+            android:textColorHighlight="@color/c0"
+            android:textColorHint="@color/c0"
+            android:textColorLink="@color/c0"
             android:textSize="24sp"
             android:layout_margin="10sp"
             android:visibility="invisible"
@@ -160,11 +160,11 @@
             android:layout_gravity="center"
             android:layout_margin="10sp"
             android:background="@drawable/deltascanbox"
-            android:backgroundTint="@color/c4"
+            android:backgroundTint="@color/c2"
             android:fontFamily="serif"
             android:gravity="center"
             android:text="BARCODE SELECT"
-            android:textColor="@color/white"
+            android:textColor="@color/c5"
             android:padding="10sp"
             android:textSize="20sp" />
         <Button
@@ -173,11 +173,11 @@
             android:layout_height="wrap_content"
             android:background="@drawable/deltascanbox"
             android:padding="10sp"
-            android:backgroundTint="@color/c4"
+            android:backgroundTint="@color/c2"
             android:fontFamily="serif"
             android:gravity="center"
             android:text="@string/back"
-            android:textColor="@color/white"
+            android:textColor="@color/c5"
             android:textSize="20sp"
             android:layout_margin="10sp"
             android:layout_gravity="center"

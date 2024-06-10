@@ -9,4 +9,4 @@
     android:paddingStart="10dp"
     android:paddingEnd="10dp"
     android:textAppearance="?android:attr/textAppearanceListItemSmall"
-    android:textColor="@color/white" />
+    android:textColor="@color/c0" />
