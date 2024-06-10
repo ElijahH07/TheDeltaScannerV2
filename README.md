@@ -27,4 +27,4 @@ TheDeltaScannerV2 is an Android app designed to showcase the capabilities of bar
 6. **Build and Run:** Build the project and run it on Zebra or Honeywell Android devices.
 7. **Additional Step for Zebra Devices:** Ensure you have downloaded and installed the DataWedge app for Zebra devices.
 
-Explore the enhanced features and elevate your scanning experience with TheDeltaScannerV2!
+Explore the enhanced features and elevate your understanding with TheDeltaScannerV2!
