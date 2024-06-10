@@ -7,6 +7,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
@@ -61,32 +62,23 @@ public class ZebraScanActivity extends BaseActivity {
     private int currTime;
     private boolean isTimerOn;
     private boolean soundEnabled;
-    private boolean flash;
     private MediaPlayer sonicDeathSound;
     private MediaPlayer sonicDeathSound2; //same sound as sonicDeathSound
     private MediaPlayer sonicSound;
     private MediaPlayer sonicSound2; //same sound as sonicSound
     private MediaPlayer sonicSound3; //same sound as sonicSound
     private MediaPlayer sonicTallySound;
+    private final boolean defaultValue = true;
     //endregion
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        flash = sharedPref.getBoolean("flash", false);
-
         setUp();
 
-        CreateDWProfile(this, mode, flash); // create DataWedge profile that links to this app
+        UpdateDWProfile(this, mode, sharedPref, defaultValue); // create DataWedge profile that links to this app
 
-        if (mode ==1) {
-            Toast toast = Toast.makeText(getApplicationContext(), "Zebra Paint", Toast.LENGTH_SHORT);
-            toast.show();
-        } else {
-            Toast toast = Toast.makeText(getApplicationContext(), "Zebra Scan", Toast.LENGTH_SHORT);
-            toast.show();
-        }
 
 
         IntentFilter filter = new IntentFilter(); // wait for broadcast intents from the DataWedge app
@@ -97,20 +89,20 @@ public class ZebraScanActivity extends BaseActivity {
         ActivitySetting();
     }
 
-    public static void CreateDWProfile(Context context, int mode, boolean flash) {
-        //sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_CREATE_PROFILE, PROFILE_NAME); // i guess you cant initialize? (uncommenting breaks everything)
+    public static void UpdateDWProfile(Context context, int mode, SharedPreferences sharedPref, boolean defaultValue) {
+        // fixed loading time issues with update (creates profile in zebra home)
 
-        //  Requires DataWedge 6.4
+        //  Requires DataWedge 6.4 downloaded on zebra device
 
         //  Now configure that created profile to apply to our application
         Bundle profileConfig = new Bundle(); //profileConfig is the main Bundle which holds PARAM_LIST Bundle and PLUGIN_CONFIG Bundle
         profileConfig.putString("PROFILE_NAME", PROFILE_NAME);
         profileConfig.putString("PROFILE_ENABLED", "true"); //  Seems these are all strings
-        profileConfig.putString("CONFIG_MODE", "CREATE_IF_NOT_EXIST"); // creates if not exist, updates if exists
+        profileConfig.putString("CONFIG_MODE", "UPDATE"); // updates
 
         Bundle barcodeConfig = new Bundle();
         barcodeConfig.putString("PLUGIN_NAME", "BARCODE");
-        barcodeConfig.putString("RESET_CONFIG", "true");
+        barcodeConfig.putString("RESET_CONFIG", "false");
 
         Bundle barcodeProps = new Bundle();
         barcodeProps.putString("scanner_selection", "auto");
@@ -126,47 +118,45 @@ public class ZebraScanActivity extends BaseActivity {
         // add extra features in barcodeprops Bundle (SEE https://techdocs.zebra.com/datawedge/8-1/guide/api/setconfig/)
 
         //barcodeProps.putString("name", "key");
-        if (flash) {
+        if (sharedPref.getBoolean("flash", false)) {
             barcodeProps.putString("illumination_mode", "torch"); // torch is on, off is off
         }else {
             barcodeProps.putString("illumination_mode", "off"); // torch is on, off is off
         }
+        barcodeProps.putString("decoder_datamatrix", ""+sharedPref.getBoolean("DataMatrix", defaultValue));
+        barcodeProps.putString("decoder_gs1_datamatrix", ""+sharedPref.getBoolean("DataMatrix", defaultValue));
 
+        barcodeProps.putString("decoder_code128", ""+sharedPref.getBoolean("Code 128", defaultValue));
+
+        barcodeProps.putString("decoder_gs1_databar", ""+sharedPref.getBoolean("GS1-128", defaultValue));
+
+        barcodeProps.putString("decoder_qrcode", ""+sharedPref.getBoolean("QR", defaultValue));
+
+        barcodeProps.putString("decoder_code39", ""+sharedPref.getBoolean("Code 39", defaultValue));
+
+        barcodeProps.putString("decoder_upce0", ""+sharedPref.getBoolean("UPC/EAN", defaultValue));
+        barcodeProps.putString("decoder_upce1", ""+sharedPref.getBoolean("UPC/EAN", defaultValue));
+        barcodeProps.putString("decoder_upca", ""+sharedPref.getBoolean("UPC/EAN", defaultValue));
+        barcodeProps.putString("decoder_ean13", ""+sharedPref.getBoolean("UPC/EAN", defaultValue));
+        barcodeProps.putString("decoder_ean8", ""+sharedPref.getBoolean("UPC/EAN", defaultValue));
+
+        barcodeProps.putString("decoder_aztec", ""+sharedPref.getBoolean("Aztec", defaultValue));
+
+        barcodeProps.putString("decoder_d2of5", ""+sharedPref.getBoolean("I. 2 of 5", defaultValue));
+
+        barcodeProps.putString("decoder_pdf417", ""+sharedPref.getBoolean("PDF-417", defaultValue));
 
         // End of extra features
 
         barcodeConfig.putBundle("PARAM_LIST", barcodeProps);
         profileConfig.putBundle("PLUGIN_CONFIG", barcodeConfig);
 
-        Bundle appConfig = new Bundle();
-        appConfig.putString("PACKAGE_NAME", context.getPackageName());      //  Associate the profile with this app
-        appConfig.putStringArray("ACTIVITY_LIST", new String[]{"*"});
-        profileConfig.putParcelableArray("APP_LIST", new Bundle[]{appConfig});
+        //Bundle appConfig = new Bundle();
+        //appConfig.putString("PACKAGE_NAME", context.getPackageName());      //  Associate the profile with this app
+        //appConfig.putStringArray("ACTIVITY_LIST", new String[]{"*"});
+        //profileConfig.putParcelableArray("APP_LIST", new Bundle[]{appConfig});
         sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_SET_CONFIG, profileConfig);
 
-        //  You can only configure one plugin at a time, we have done the barcode input, now do the intent output
-        profileConfig.remove("PLUGIN_CONFIG");
-        Bundle intentConfig = new Bundle();
-        intentConfig.putString("PLUGIN_NAME", "INTENT");
-        intentConfig.putString("RESET_CONFIG", "true");
-        Bundle intentProps = new Bundle();
-        intentProps.putString("intent_output_enabled", "true");
-        intentProps.putString("intent_action", context.getResources().getString(R.string.activity_intent_filter_action)); // I DONT KNOW WHAT TO PUT YET (it works now)
-        intentProps.putString("intent_delivery", "2");  //  broadcast intent
-        intentConfig.putBundle("PARAM_LIST", intentProps);
-        profileConfig.putBundle("PLUGIN_CONFIG", intentConfig);
-        sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_SET_CONFIG, profileConfig);
-
-        //  Disable keyboard output
-        profileConfig.remove("PLUGIN_CONFIG");
-        Bundle keystrokeConfig = new Bundle();
-        keystrokeConfig.putString("PLUGIN_NAME", "KEYSTROKE");
-        keystrokeConfig.putString("RESET_CONFIG", "true");
-        Bundle keystrokeProps = new Bundle();
-        keystrokeProps.putString("keystroke_output_enabled", "false");
-        keystrokeConfig.putBundle("PARAM_LIST", keystrokeProps);
-        profileConfig.putBundle("PLUGIN_CONFIG", keystrokeConfig);
-        sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_SET_CONFIG, profileConfig);
     }
 
 
@@ -281,7 +271,7 @@ public class ZebraScanActivity extends BaseActivity {
     public void onResume() {
         super.onResume();
         secondSetUp();
-        CreateDWProfile(ZebraScanActivity.this, mode, flash);
+        UpdateDWProfile(ZebraScanActivity.this, mode, sharedPref, defaultValue);
         //registerReceiver(mReceiver, filter);
         IntentFilter filter = new IntentFilter();
         filter.addCategory(Intent.CATEGORY_DEFAULT);

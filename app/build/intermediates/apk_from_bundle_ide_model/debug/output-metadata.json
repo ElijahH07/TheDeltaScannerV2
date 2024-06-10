@@ -17,13 +17,13 @@
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "outputFile": "../../extracted_apks/debug/base-master.apk"
+      "outputFile": "../../extracted_apks/debug/base-hdpi.apk"
     },
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "outputFile": "../../extracted_apks/debug/base-xxhdpi.apk"
+      "outputFile": "../../extracted_apks/debug/base-master.apk"
     }
   ],
   "elementType": "File"

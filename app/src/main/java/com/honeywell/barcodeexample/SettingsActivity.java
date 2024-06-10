@@ -3,6 +3,7 @@ package com.honeywell.barcodeexample;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -35,16 +36,44 @@ public class SettingsActivity extends BaseActivity {
         flash = (CheckBox) findViewById(R.id.flash);
         counterText = (TextView) findViewById(R.id.amntScan);
         counterInput = (EditText) findViewById(R.id.amntScanInput);
-//        if(getIntent().getIntExtra("frag", 0)==0)
-//        {
-//            counter.setVisibility(View.VISIBLE);
-//            if(getIntent().getIntExtra("countAmnt", -1)!=-1){
-//                counter.setChecked(true);
-//                counterInput.setVisibility(View.VISIBLE);
-//                counterText.setVisibility(View.VISIBLE);
-//                counterInput.setText(""+getIntent().getIntExtra("countAmnt", 0));
-//            }
-//        }
+
+
+        setInput();
+
+        ActivitySetting();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        setInput();
+        ActivitySetting();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+
+    }
+
+    @Override  //Zebra
+    protected void onStart() {
+        super.onStart();
+    }
+
+    @Override  //Zebra
+    protected void onStop() {
+        super.onStop();
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void setInput() {
         flash.setChecked(sharedPref.getBoolean("flash", false));
         if(sharedPref.getInt("count", -1) >= 0) {
             counter.setVisibility(View.VISIBLE);
@@ -52,6 +81,9 @@ public class SettingsActivity extends BaseActivity {
             counterText.setVisibility(View.VISIBLE);
             counter.setChecked(true);
             counterInput.setText(""+sharedPref.getInt("count", 0));
+        } else {
+            counterInput.setVisibility(View.INVISIBLE);
+            counterText.setVisibility(View.INVISIBLE);
         }
         if(sharedPref.getBoolean("timer", false)){
             timer.setChecked(true);
@@ -59,9 +91,7 @@ public class SettingsActivity extends BaseActivity {
         if(sharedPref.getBoolean("sound", true)){
             sound.setChecked(true);
         }
-        ActivitySetting();
     }
-
     public void ActivitySetting() {
         backButton = (Button) findViewById(R.id.backButton);
         backButton.setOnClickListener(new View.OnClickListener() {
@@ -87,22 +117,15 @@ public class SettingsActivity extends BaseActivity {
                 }
                 editor.apply();
 
-//                Intent intent = new Intent("Settings");
-//                intent.putExtra("time", timer.isChecked());
-//                intent.putExtra("sound", sound.isChecked());
-//                if(counter.isChecked()){
-//                   if(!counterInput.getText().toString().isEmpty()) {
-//                       intent.putExtra("count", Integer.parseInt(counterInput.getText().toString()));
-//                   }
-//                   else{
-//                       intent.putExtra("count", 0);
-//                   }
-//                }
-//                else{
-//                    intent.putExtra("count", -1);
-//                }
-//                LocalBroadcastManager.getInstance(SettingsActivity.this).sendBroadcast(intent);
                 finish();
+            }
+        });
+
+        counter.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                counterInput.setVisibility(View.VISIBLE);
+                counterText.setVisibility(View.VISIBLE);
             }
         });
 
@@ -111,6 +134,24 @@ public class SettingsActivity extends BaseActivity {
 
             @Override
             public void onClick(View view) {
+                SharedPreferences.Editor editor = sharedPref.edit();
+
+                editor.putBoolean("timer", timer.isChecked());
+                editor.putBoolean("sound", sound.isChecked());
+                editor.putBoolean("flash", sound.isChecked());
+
+                if(counter.isChecked()){
+                    if(!counterInput.getText().toString().isEmpty()) {
+                        editor.putInt("count", Integer.parseInt(counterInput.getText().toString()));
+                    }
+                    else{
+                        editor.putInt("count", 0);
+                    }
+                }
+                else{
+                    editor.putInt("count", -1);
+                }
+                editor.apply();
                 Intent intent = new Intent("android.intent.action.BARCODETYPE");
                 startActivity(intent);
             }

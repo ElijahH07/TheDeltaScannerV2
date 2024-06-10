@@ -12,6 +12,10 @@ public class StartActivity extends BaseActivity {
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+
+        //reset all memory upon reloading the app
+        sharedPref.edit().clear().apply();
+
         int device = GetAndroidMacFromManufactureAPI();
         if(device==0){
             Toast toast = Toast.makeText(getApplicationContext(), "honeywell", Toast.LENGTH_LONG);
