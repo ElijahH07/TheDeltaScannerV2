@@ -184,6 +184,7 @@ public class ScannerSelectionBarcodeActivity extends BaseActivity implements Bar
             } catch (ScannerUnavailableException e) {
                 e.printStackTrace();
                 Toast.makeText(this, "Scanner unavailable", Toast.LENGTH_SHORT).show();
+                finish();
             }
         }
     }
@@ -221,61 +222,70 @@ public class ScannerSelectionBarcodeActivity extends BaseActivity implements Bar
             } catch (ScannerUnavailableException e) {
                 e.printStackTrace();
                 Toast.makeText(this, "Scanner unavailable", Toast.LENGTH_SHORT).show();
+                finish();
             }
         }
     }
 
     private void scannerSelection(final List<BarcodeReaderInfo> scanners) {
-        Handler h = new Handler(Looper.getMainLooper());
-        h.post(new Runnable() {
-            @Override
-            public void run() {
-                final Dialog scannerSelectDialog = new Dialog(mContext);
-                scannerSelectDialog.setContentView(R.layout.scanner_select_dialog);
-                Button dialogButton = (Button) scannerSelectDialog
-                        .findViewById(R.id.dialogButtonOK);
+        try {
+            Handler h = new Handler(Looper.getMainLooper());
+            h.post(new Runnable() {
+                @Override
+                public void run() {
+                    final Dialog scannerSelectDialog = new Dialog(mContext);
+                    scannerSelectDialog.setContentView(R.layout.scanner_select_dialog);
+                    Button dialogButton = (Button) scannerSelectDialog
+                            .findViewById(R.id.dialogButtonOK);
 
-                // If there are scanners, just show the list, must select one
-                if (scanners.size() > 0) {
-                    scannerSelectDialog.setTitle("Select Scanner");
-                    dialogButton.setVisibility(Button.INVISIBLE);
-                    final Map<String, String> scannerNames = new HashMap<String, String>();
-                    for (BarcodeReaderInfo i : scanners) {
-                        scannerNames.put(i.getFriendlyName(), i.getName());
+                    // If there are scanners, just show the list, must select one
+                    if (scanners.size() > 0) {
+                        scannerSelectDialog.setTitle("Select Scanner");
+                        dialogButton.setVisibility(Button.INVISIBLE);
+                        final Map<String, String> scannerNames = new HashMap<String, String>();
+                        for (BarcodeReaderInfo i : scanners) {
+                            scannerNames.put(i.getFriendlyName(), i.getName());
+                        }
+
+                        final ListView list = (ListView) scannerSelectDialog
+                                .findViewById(R.id.listScanners);
+                        ArrayAdapter<String> scannerNameAdapter = new ArrayAdapter<String>(mContext,
+                                android.R.layout.simple_list_item_1, android.R.id.text1,
+                                new ArrayList<String>(scannerNames.keySet()));
+                        list.setAdapter(scannerNameAdapter);
+
+                        list.setOnItemClickListener(new OnItemClickListener() {
+                            @Override
+                            public void onItemClick(AdapterView<?> myAdapter, View myView, int pos,
+                                                    long mylng) {
+                                String selectedScanner = (String) list.getItemAtPosition(pos);
+                                createBarcodeReaderConnection(scannerNames.get(selectedScanner));
+                                scannerSelectDialog.dismiss();
+                            }
+
+                        });
+
+                    } else { // Show an ok button to close dialog
+                        scannerSelectDialog.setTitle("No Scanners Connected");
+                        dialogButton.setOnClickListener(new OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                scannerSelectDialog.dismiss();
+                            }
+                        });
                     }
 
-                    final ListView list = (ListView) scannerSelectDialog
-                            .findViewById(R.id.listScanners);
-                    ArrayAdapter<String> scannerNameAdapter = new ArrayAdapter<String>(mContext,
-                            android.R.layout.simple_list_item_1, android.R.id.text1,
-                            new ArrayList<String>(scannerNames.keySet()));
-                    list.setAdapter(scannerNameAdapter);
-
-                    list.setOnItemClickListener(new OnItemClickListener() {
-                        @Override
-                        public void onItemClick(AdapterView<?> myAdapter, View myView, int pos,
-                                long mylng) {
-                            String selectedScanner = (String) list.getItemAtPosition(pos);
-                            createBarcodeReaderConnection(scannerNames.get(selectedScanner));
-                            scannerSelectDialog.dismiss();
-                        }
-
-                    });
-
-                } else { // Show an ok button to close dialog
-                    scannerSelectDialog.setTitle("No Scanners Connected");
-                    dialogButton.setOnClickListener(new OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                            scannerSelectDialog.dismiss();
-                        }
-                    });
+                    scannerSelectDialog.setCancelable(false);
+                    scannerSelectDialog.show();
                 }
+            });
+        } catch(Error e) {
+            System.out.println(e.getMessage());
+            Toast toast = Toast.makeText(getApplicationContext(), "error during Scaner Selection: "+e.getMessage(), Toast.LENGTH_LONG);
+            toast.show();
+            finish();
+        }
 
-                scannerSelectDialog.setCancelable(false);
-                scannerSelectDialog.show();
-            }
-        });
     }
 
     private void createBarcodeReaderConnection(String scanner) {
@@ -294,14 +304,17 @@ public class ScannerSelectionBarcodeActivity extends BaseActivity implements Bar
             } catch (UnsupportedPropertyException e) {
                 e.printStackTrace();
                 Toast.makeText(this, "Control mode not set", Toast.LENGTH_SHORT).show();
+                finish();
             }
             catch (InvalidScannerNameException e) {
                 e.printStackTrace();
                 Toast.makeText(this, "Invalid Scanner Name Exception: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                finish();
             }
             catch (Exception e){
                 e.printStackTrace();
                 Toast.makeText(this, "Exception: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                finish();
             }
 
             mBarcodeReader.addBarcodeListener((BarcodeReader.BarcodeListener) mContext);

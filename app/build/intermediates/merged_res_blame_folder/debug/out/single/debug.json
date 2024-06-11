@@ -76,10 +76,6 @@
         "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\settings_screen.xml"
     },
     {
-        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout_home_screen.xml.flat",
-        "source": "com.honeywell.barcodeexample.app-main-48:/layout/home_screen.xml"
-    },
-    {
         "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\drawable_deltascanbox.xml.flat",
         "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\drawable\\deltascanbox.xml"
     },
