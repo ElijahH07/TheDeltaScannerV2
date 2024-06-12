@@ -1,90 +1,99 @@
 [
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\raw_sonic_tally_sound.mp3.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\raw\\sonic_tally_sound.mp3"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout_settings_screen.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/settings_screen.xml"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\raw_sonic_sound.mp3.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\raw\\sonic_sound.mp3"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout_incompatible_device.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/incompatible_device.xml"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\drawable_scanpaintbuttons.xml.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\drawable\\scanpaintbuttons.xml"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/menu_activity_main.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/menu/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\layout_home_screen.xml.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\home_screen.xml"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout-v21_scan_screen.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout-v21/scan_screen.xml"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\layout-v21_scan_screen.xml.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout-v21\\scan_screen.xml"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout_activity_selection_barcode.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/activity_selection_barcode.xml"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\menu_activity_main.xml.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\menu\\activity_main.xml"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/drawable_deltascanbox.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/drawable/deltascanbox.xml"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\raw_sonic_death_sound.mp3.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\raw\\sonic_death_sound.mp3"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/drawable_img_1.png.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/drawable/img_1.png"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\layout-v21_analysis_screen.xml.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout-v21\\analysis_screen.xml"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/drawable_img_2.png.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/drawable/img_2.png"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\layout_activity_selection_barcode.xml.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\activity_selection_barcode.xml"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/drawable_img.png.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/drawable/img.png"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\layout_activity_barcode_type.xml.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\activity_barcode_type.xml"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/raw_sonic_death_sound.mp3.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/raw/sonic_death_sound.mp3"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\drawable_img.png.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\drawable\\img.png"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/drawable_img_3.png.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/drawable/img_3.png"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\drawable_img_2.png.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\drawable\\img_2.png"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/raw_sonic_sound.mp3.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/raw/sonic_sound.mp3"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\layout_list_layout.xml.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\list_layout.xml"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout_list_layout.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/list_layout.xml"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\layout_incompatible_device.xml.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\incompatible_device.xml"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/drawable_homebuttons.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/drawable/homebuttons.xml"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\layout_scanner_select_dialog.xml.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\scanner_select_dialog.xml"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/drawable_scanpaintbuttons.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/drawable/scanpaintbuttons.xml"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\drawable_homebuttons.xml.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\drawable\\homebuttons.xml"
-    },
-    {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\drawable_img_3.png.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\drawable\\img_3.png"
-    },
-    {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\drawable_img_1.png.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\drawable\\img_1.png"
-    },
-    {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\layout_settings_screen.xml.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\layout\\settings_screen.xml"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/drawable_d1sw_logo.png.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/drawable/d1sw_logo.png"
     },
     {
         "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout_home_screen.xml.flat",
         "source": "com.honeywell.barcodeexample.app-main-48:/layout/home_screen.xml"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\drawable_deltascanbox.xml.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\drawable\\deltascanbox.xml"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout_activity_rfid.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/activity_rfid.xml"
     },
     {
-        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\drawable_d1sw_logo.png.flat",
-        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\drawable\\d1sw_logo.png"
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/raw_sonic_tally_sound.mp3.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/raw/sonic_tally_sound.mp3"
+    },
+    {
+<<<<<<< HEAD
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout_home_screen.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/home_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\drawable_deltascanbox.xml.flat",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\drawable\\deltascanbox.xml"
+=======
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout_scanner_select_dialog.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/scanner_select_dialog.xml"
+>>>>>>> c5f1c7dbef7090fe048f30449567f3ea02291ba0
+    },
+    {
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout-v21_analysis_screen.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout-v21/analysis_screen.xml"
+    },
+    {
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout_activity_barcode_type.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/activity_barcode_type.xml"
     }
 ]

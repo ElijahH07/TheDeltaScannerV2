@@ -5,10 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.honeywell.barcodeexample.R;
@@ -18,7 +18,10 @@ import java.lang.String;
 
 public final class HomeScreenBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
+
+  @NonNull
+  public final Button RFID;
 
   @NonNull
   public final Button buttonScannerSelectBarcode;
@@ -32,10 +35,11 @@ public final class HomeScreenBinding implements ViewBinding {
   @NonNull
   public final TextView title;
 
-  private HomeScreenBinding(@NonNull ConstraintLayout rootView,
+  private HomeScreenBinding(@NonNull LinearLayout rootView, @NonNull Button RFID,
       @NonNull Button buttonScannerSelectBarcode, @NonNull Button paint, @NonNull Button scan,
       @NonNull TextView title) {
     this.rootView = rootView;
+    this.RFID = RFID;
     this.buttonScannerSelectBarcode = buttonScannerSelectBarcode;
     this.paint = paint;
     this.scan = scan;
@@ -44,7 +48,7 @@ public final class HomeScreenBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -69,6 +73,12 @@ public final class HomeScreenBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.RFID;
+      Button RFID = ViewBindings.findChildViewById(rootView, id);
+      if (RFID == null) {
+        break missingId;
+      }
+
       id = R.id.buttonScannerSelectBarcode;
       Button buttonScannerSelectBarcode = ViewBindings.findChildViewById(rootView, id);
       if (buttonScannerSelectBarcode == null) {
@@ -93,7 +103,7 @@ public final class HomeScreenBinding implements ViewBinding {
         break missingId;
       }
 
-      return new HomeScreenBinding((ConstraintLayout) rootView, buttonScannerSelectBarcode, paint,
+      return new HomeScreenBinding((LinearLayout) rootView, RFID, buttonScannerSelectBarcode, paint,
           scan, title);
     }
     String missingId = rootView.getResources().getResourceName(id);

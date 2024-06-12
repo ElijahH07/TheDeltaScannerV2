@@ -18,6 +18,8 @@ public class ZebraHomeActivity extends BaseActivity {
     private Button btnScannerSelectBarcode;
     private Button paintButton;
     private Button scanButton;
+
+    private Button rfidButton;
     private Button thingButton;
     private static final String PROFILE_NAME = "DeltaOneInternProject";
     private static final String ACTION_DATAWEDGE = "com.symbol.datawedge.api.ACTION";
@@ -114,6 +116,19 @@ public class ZebraHomeActivity extends BaseActivity {
     }
     public void ActivitySetting() {
         try {
+
+            rfidButton = (Button)findViewById(R.id.RFID);
+            rfidButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // get the intent action string from AndroidManifest.xml
+                    Intent rfidIntent = new Intent("android.intent.action.RFIDSELECTACTIVITY");
+                    startActivity(rfidIntent);
+                }
+            });
+
+
+
             btnScannerSelectBarcode = (Button) findViewById(R.id.buttonScannerSelectBarcode);
             btnScannerSelectBarcode.setVisibility(View.INVISIBLE);
 

@@ -4,7 +4,7 @@
             "outputFile": "com.honeywell.barcodeexample.app-mergeDebugResources-44:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\d1intern\\.gradle\\caches\\transforms-3\\f519227ce83c25a4daf72bc8b7b65062\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\intern3\\.gradle\\caches\\transforms-3\\7fcada7be06a7fe2f41d9b9a50e81a50\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

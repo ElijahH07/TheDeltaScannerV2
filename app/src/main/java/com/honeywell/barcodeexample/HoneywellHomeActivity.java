@@ -22,6 +22,8 @@ public class HoneywellHomeActivity extends BaseActivity {
     private Button btnScannerSelectBarcode;
     private Button paintButton;
     private Button scanButton;
+
+    private Button rfidButton;
     //endregion
 
     @Override
@@ -90,6 +92,18 @@ public class HoneywellHomeActivity extends BaseActivity {
                 startActivity(barcodeIntent);
             }
         });
+
+        rfidButton = (Button)findViewById(R.id.RFID);
+        rfidButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // get the intent action string from AndroidManifest.xml
+                Intent rfidIntent = new Intent("android.intent.action.RFIDSELECTACTIVITY");
+                startActivity(rfidIntent);
+            }
+        });
+
+
         paintButton = (Button) findViewById(R.id.paint);
         paintButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -110,6 +124,8 @@ public class HoneywellHomeActivity extends BaseActivity {
                 startActivity(intent);
             }
         });
+
+
     }
 
     @Override
