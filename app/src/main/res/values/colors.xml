@@ -47,6 +47,14 @@
     <color name="c3">#007991</color>
     <color name="c4">#219ebc</color>
     <color name="c5">#FF000000</color>
+
+    space cadet
+    <color name="c0">#3a86ff</color>
+    <color name="c1">#000000</color>
+    <color name="c2">#8338ec</color>
+    <color name="c3">#ff006e</color>
+    <color name="c4">#ff006e</color>
+    <color name="c5">#FF000000</color>
     -->
 
     <color name="c0">#FFFFFFFF</color>

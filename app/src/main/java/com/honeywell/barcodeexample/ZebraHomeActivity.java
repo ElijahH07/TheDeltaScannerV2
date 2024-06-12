@@ -64,20 +64,6 @@ public class ZebraHomeActivity extends BaseActivity {
             profileConfig.putString("PROFILE_ENABLED", "true"); //  Seems these are all strings
             profileConfig.putString("CONFIG_MODE", "CREATE_IF_NOT_EXIST"); // creates if not exist, updates if exists
 
-            Bundle barcodeConfig = new Bundle();
-            barcodeConfig.putString("PLUGIN_NAME", "BARCODE");
-            barcodeConfig.putString("RESET_CONFIG", "true");
-
-            Bundle barcodeProps = new Bundle();
-            barcodeProps.putString("scanner_selection", "auto");
-            barcodeProps.putString("configure_all_scanners", "true");
-            barcodeProps.putString("scanner_input_enabled", "true");
-
-
-
-            barcodeConfig.putBundle("PARAM_LIST", barcodeProps);
-            profileConfig.putBundle("PLUGIN_CONFIG", barcodeConfig);
-
             Bundle appConfig = new Bundle();
             appConfig.putString("PACKAGE_NAME", context.getPackageName());      //  Associate the profile with this app
             appConfig.putStringArray("ACTIVITY_LIST", new String[]{"*"});
@@ -122,7 +108,7 @@ public class ZebraHomeActivity extends BaseActivity {
                 @Override
                 public void onClick(View v) {
                     // get the intent action string from AndroidManifest.xml
-                    Intent rfidIntent = new Intent("android.intent.action.RFIDSELECTACTIVITY");
+                    Intent rfidIntent = new Intent("android.intent.action.ZEBRARFIDSELECTACTIVITY");
                     startActivity(rfidIntent);
                 }
             });

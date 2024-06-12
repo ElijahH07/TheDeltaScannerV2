@@ -94,12 +94,9 @@ public class SettingsActivity extends BaseActivity {
             counterInput.setVisibility(View.INVISIBLE);
             counterText.setVisibility(View.INVISIBLE);
         }
-        if(sharedPref.getBoolean("timer", false)){
-            timer.setChecked(true);
-        }
-        if(sharedPref.getBoolean("sound", true)){
-            sound.setChecked(true);
-        }
+        timer.setChecked(sharedPref.getBoolean("timer", false));
+        sound.setChecked(sharedPref.getBoolean("sound", true));
+        flash.setChecked(sharedPref.getBoolean("flash", false));
     }
     public void ActivitySetting() {
         backButton = (Button) findViewById(R.id.backButton);
@@ -111,7 +108,7 @@ public class SettingsActivity extends BaseActivity {
 
                 editor.putBoolean("timer", timer.isChecked());
                 editor.putBoolean("sound", sound.isChecked());
-                editor.putBoolean("flash", sound.isChecked());
+                editor.putBoolean("flash", flash.isChecked());
 
                 if(counter.isChecked()){
                     if(!counterInput.getText().toString().isEmpty()) {
@@ -130,13 +127,6 @@ public class SettingsActivity extends BaseActivity {
             }
         });
 
-        counter.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                counterInput.setVisibility(View.VISIBLE);
-                counterText.setVisibility(View.VISIBLE);
-            }
-        });
 
         barcodeselectbutton = (Button) findViewById(R.id.barcodeselectbutton);
         barcodeselectbutton.setOnClickListener(new View.OnClickListener(){
@@ -147,7 +137,7 @@ public class SettingsActivity extends BaseActivity {
 
                 editor.putBoolean("timer", timer.isChecked());
                 editor.putBoolean("sound", sound.isChecked());
-                editor.putBoolean("flash", sound.isChecked());
+                editor.putBoolean("flash", flash.isChecked());
 
                 if(counter.isChecked()){
                     if(!counterInput.getText().toString().isEmpty()) {

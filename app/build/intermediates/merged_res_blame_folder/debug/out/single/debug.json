@@ -76,8 +76,17 @@
         "source": "com.honeywell.barcodeexample.app-main-48:/raw/sonic_tally_sound.mp3"
     },
     {
+<<<<<<< HEAD
+        "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout_home_screen.xml.flat",
+        "source": "com.honeywell.barcodeexample.app-main-48:/layout/home_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-merged_res-46:\\drawable_deltascanbox.xml.flat",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.0\\com.honeywell.barcodeexample.app-main-48:\\drawable\\deltascanbox.xml"
+=======
         "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout_scanner_select_dialog.xml.flat",
         "source": "com.honeywell.barcodeexample.app-main-48:/layout/scanner_select_dialog.xml"
+>>>>>>> c5f1c7dbef7090fe048f30449567f3ea02291ba0
     },
     {
         "merged": "com.honeywell.barcodeexample.app-merged_res-46:/layout-v21_analysis_screen.xml.flat",
