@@ -53,6 +53,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+
+
+
+
         <activity
             android:name=".HoneywellScanActivity"
             android:exported="true"
@@ -103,6 +108,18 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name = ".RFIDActivity"
+            android:exported="true"
+            android:label="DeltaOne Software ~ RFID">
+            <intent-filter>
+                <action android:name = "android.intent.action.RFIDSELECTACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+
     </application>
 
 </manifest>

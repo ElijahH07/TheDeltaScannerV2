@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@color/c1">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="49dp">
 
         <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_margin="28dp"
             android:fontFamily="serif"
             android:gravity="center"
             android:text="@string/app_name"
@@ -24,34 +19,31 @@
             android:textSize="50sp"
             android:textStyle="bold"
             android:typeface="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_gravity="center"
+            />
 
         <Button
             android:id="@+id/scan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|center_horizontal"
-
+            android:layout_gravity="center"
             android:background="@drawable/deltascanbox"
             android:fontFamily="serif"
             android:gravity="center"
+            android:layout_margin="28dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:text="@string/scan"
             android:textColor="@color/black"
             android:textSize="30sp"
-            app:layout_constraintBottom_toTopOf="@id/paint"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/title" />
+            />
 
         <Button
             android:id="@+id/paint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="200dp"
+            android:layout_margin="32dp"
+            android:layout_gravity="center"
             android:background="@drawable/deltascanbox"
             android:fontFamily="serif"
             android:gravity="center"
@@ -60,31 +52,38 @@
             android:text="@string/paint"
             android:textColor="@color/black"
             android:textSize="30sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/scan"
-            app:layout_constraintVertical_bias="0.247" />
-
+           />
         <Button
-            android:id="@+id/buttonScannerSelectBarcode"
+            android:id="@+id/RFID"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="50dp"
+            android:layout_margin="28dp"
+            android:layout_gravity="center"
             android:background="@drawable/deltascanbox"
             android:fontFamily="serif"
             android:gravity="center"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:text="@string/btnScannerSelectBarcode"
+            android:text="RFID"
             android:textColor="@color/black"
             android:textSize="30sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/paint"
-            app:layout_constraintVertical_bias="0.401" />
+            />
+
+        <Button
+            android:id="@+id/buttonScannerSelectBarcode"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="28dp"
+            android:background="@drawable/deltascanbox"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="SCANNER SELECT"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            />
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
