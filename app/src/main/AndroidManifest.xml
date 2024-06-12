@@ -110,11 +110,21 @@
         </activity>
 
         <activity
-            android:name = ".RFIDActivity"
+            android:name = ".ZebraRFIDActivity"
             android:exported="true"
             android:label="DeltaOne Software ~ RFID">
             <intent-filter>
-                <action android:name = "android.intent.action.RFIDSELECTACTIVITY"/>
+                <action android:name = "android.intent.action.ZEBRARFIDSELECTACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name = ".HoneyWellRFIDActivity"
+            android:exported="true"
+            android:label="DeltaOne Software ~ RFID">
+            <intent-filter>
+                <action android:name = "android.intent.action.HONEYWELLRFIDSELECTACTIVITY"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>

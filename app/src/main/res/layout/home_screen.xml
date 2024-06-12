@@ -16,7 +16,7 @@
             android:gravity="center"
             android:text="@string/app_name"
             android:textColor="@color/c3"
-            android:textSize="50sp"
+            android:textSize="45sp"
             android:textStyle="bold"
             android:typeface="normal"
             android:layout_gravity="center"
@@ -64,13 +64,8 @@
             android:gravity="center"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-<<<<<<< HEAD
-            android:text="@string/btnScannerSelectBarcode"
             android:textColor="@color/c5"
-=======
             android:text="RFID"
-            android:textColor="@color/black"
->>>>>>> c5f1c7dbef7090fe048f30449567f3ea02291ba0
             android:textSize="30sp"
             />
 
@@ -86,7 +81,7 @@
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:text="SCANNER SELECT"
-            android:textColor="@color/black"
+            android:textColor="@color/c5"
             android:textSize="30sp"
             />
 

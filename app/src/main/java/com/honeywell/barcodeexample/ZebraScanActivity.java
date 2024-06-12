@@ -12,6 +12,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -108,11 +109,28 @@ public class ZebraScanActivity extends BaseActivity {
         profileConfig.putString("PROFILE_ENABLED", "true"); //  Seems these are all strings
         profileConfig.putString("CONFIG_MODE", "UPDATE"); // updates
 
+        //disable rfid scanning
+
+        Bundle rfidConfig = new Bundle();
+        rfidConfig.putString("PLUGIN_NAME", "RFID");
+        rfidConfig.putString("RESET_CONFIG", "false");
+
+        Bundle rfidProps = new Bundle();
+        rfidProps.putString("rfid_key_mapping", "1");
+        rfidProps.putString("rfid_hardware_trigger_enabled", "false");
+        rfidProps.putString("rfid_input_enabled", "false");
+        rfidConfig.putBundle("PARAM_LIST", rfidProps);
+        profileConfig.putBundle("PLUGIN_CONFIG", rfidConfig);
+        sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_SET_CONFIG, profileConfig);
+
+        // enable barcode stuff
+        profileConfig.remove("PLUGIN_CONFIG");
         Bundle barcodeConfig = new Bundle();
         barcodeConfig.putString("PLUGIN_NAME", "BARCODE");
         barcodeConfig.putString("RESET_CONFIG", "false");
 
         Bundle barcodeProps = new Bundle();
+        barcodeProps.putString("barcode_trigger_mode", "2");
         barcodeProps.putString("scanner_selection", "auto");
         barcodeProps.putString("configure_all_scanners", "true");
         barcodeProps.putString("scanner_input_enabled", "true");
@@ -159,11 +177,8 @@ public class ZebraScanActivity extends BaseActivity {
         barcodeConfig.putBundle("PARAM_LIST", barcodeProps);
         profileConfig.putBundle("PLUGIN_CONFIG", barcodeConfig);
 
-        //Bundle appConfig = new Bundle();
-        //appConfig.putString("PACKAGE_NAME", context.getPackageName());      //  Associate the profile with this app
-        //appConfig.putStringArray("ACTIVITY_LIST", new String[]{"*"});
-        //profileConfig.putParcelableArray("APP_LIST", new Bundle[]{appConfig});
         sendDataWedgeIntentWithExtra(context, ACTION_DATAWEDGE, EXTRA_SET_CONFIG, profileConfig);
+
 
     }
 
@@ -241,8 +256,15 @@ public class ZebraScanActivity extends BaseActivity {
             }
             scannedData.add(0, list);
             scannedItems.add(0, "" + scannedData.size() + ".) " + numericDecodedData);
-            final ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(ZebraScanActivity.this, R.layout.list_layout, scannedItems);
-            barcodeList.setAdapter(dataAdapter);
+            barcodeList.setAdapter(new ArrayAdapter<String>(ZebraScanActivity.this, R.layout.list_layout, scannedItems) {
+                @Override
+                public View getView(int position, View convertView, ViewGroup parent) {
+                    TextView textView = (TextView) super.getView(position, convertView, parent);
+                    textView.setTextSize(20);
+
+                    return textView;
+                }
+            });
             currCount = scannedItems.size();
             setCounter();
         } else if (soundEnabled) {

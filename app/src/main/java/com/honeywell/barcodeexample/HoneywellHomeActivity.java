@@ -98,7 +98,7 @@ public class HoneywellHomeActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 // get the intent action string from AndroidManifest.xml
-                Intent rfidIntent = new Intent("android.intent.action.RFIDSELECTACTIVITY");
+                Intent rfidIntent = new Intent("android.intent.action.ZEBRARFIDSELECTACTIVITY");
                 startActivity(rfidIntent);
             }
         });

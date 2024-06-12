@@ -15,7 +15,7 @@ public class StartActivity extends BaseActivity {
             super.onCreate(savedInstanceState);
 
             //reset all memory upon reloading the app
-            sharedPref.edit().clear().apply();
+            sharedPref.edit().clear().commit();
 
             int device = GetAndroidMacFromManufactureAPI();
             if(device==0){
