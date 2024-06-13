@@ -17,6 +17,4 @@ public class BaseActivity extends Activity {
         sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
         setInHistory = true;
     }
-
-
 }

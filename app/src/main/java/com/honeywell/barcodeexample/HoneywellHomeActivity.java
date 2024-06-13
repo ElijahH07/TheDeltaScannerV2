@@ -18,7 +18,7 @@ import com.honeywell.aidc.InvalidScannerNameException;
 public class HoneywellHomeActivity extends BaseActivity {
 //region
     private static BarcodeReader barcodeReader;
-    private com.honeywell.rfidservice.rfid.RfidReader rfidreader;
+    //private com.honeywell.rfidservice.rfid.RfidReader rfidreader;
     private AidcManager manager;
     private Button btnScannerSelectBarcode;
     private Button paintButton;
@@ -94,15 +94,15 @@ public class HoneywellHomeActivity extends BaseActivity {
             }
         });
         //RFID button that allows for RFID function and takes you to a new activity
-        rfidButton = (Button)findViewById(R.id.RFID);
-        rfidButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // get the intent action string from AndroidManifest.xml
-                Intent rfidIntent = new Intent("android.intent.action.ZEBRARFIDSELECTACTIVITY");
-                startActivity(rfidIntent);
-            }
-        });
+//        rfidButton = (Button)findViewById(R.id.RFID);
+//        rfidButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // get the intent action string from AndroidManifest.xml
+//                Intent rfidIntent = new Intent("android.intent.action.ZEBRARFIDSELECTACTIVITY");
+//                startActivity(rfidIntent);
+//            }
+//        });
 
         //paint button allows user to rapidly log barcodes
         paintButton = (Button) findViewById(R.id.paint);
