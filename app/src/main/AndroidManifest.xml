@@ -54,17 +54,12 @@
             </intent-filter>
         </activity>
 
-
-
-
-
         <activity
             android:name=".HoneywellScanActivity"
             android:exported="true"
             android:label="DeltaOne Software ~ Scan Screen">
             <intent-filter>
                 <action android:name="android.intent.action.HONEYSCAN" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

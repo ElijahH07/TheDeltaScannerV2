@@ -13,8 +13,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.localbroadcastmanager.content.LocalBroadcastManager;
-
 public class RFIDSettingsActivity extends BaseActivity {
     //region
     private Button backButton;

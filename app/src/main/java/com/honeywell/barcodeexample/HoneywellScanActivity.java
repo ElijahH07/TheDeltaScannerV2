@@ -42,7 +42,6 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
     private TextView timer;
     private Button homeButton;
     private Button settingsButton;
-
     private Button clearButton;
     private ArrayList<ArrayList<String>> scannedData;
     private ArrayList<String> scannedItems;
@@ -67,10 +66,10 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
+        //try catch function to indicate error during Honeywell Scan Activity
         try {
             super.onCreate(savedInstanceState);
-//        SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+            //flash is turned off in default
             flash = sharedPref.getBoolean("flash", false);
 
             setUp();
@@ -83,8 +82,8 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
             finish();
         }
     }
-
     private void HoneywellSetup() {
+        // dep on model changes orientation
         if (Build.MODEL.startsWith("VM1A")) {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         } else {
@@ -116,8 +115,7 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
 
             Map<String, Object> properties = new HashMap<String, Object>();
 
-            // Set Symbologies On/Off
-//            SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+            // Sets Barcodes On/Off
             properties.put(BarcodeReader.PROPERTY_CODE_128_ENABLED, sharedPref.getBoolean("Code 128", defaultValue));
             properties.put(BarcodeReader.PROPERTY_GS1_128_ENABLED, sharedPref.getBoolean("GS1-128", defaultValue));
             properties.put(BarcodeReader.PROPERTY_QR_CODE_ENABLED, sharedPref.getBoolean("QR", defaultValue));
@@ -347,6 +345,7 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
             }
         });
 
+        //clears values
         clearButton = (Button) findViewById(R.id.clear);
         clearButton.setOnClickListener(new View.OnClickListener() {
             @Override

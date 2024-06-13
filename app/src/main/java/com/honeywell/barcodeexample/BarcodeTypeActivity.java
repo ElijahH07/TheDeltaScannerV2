@@ -18,10 +18,6 @@ public class BarcodeTypeActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // get sharedPref
-//        SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
-
-
         boolean defaultValue = true; //checkBoxes are defaulted to checked
 
         setContentView(R.layout.activity_barcode_type);
@@ -36,7 +32,7 @@ public class BarcodeTypeActivity extends BaseActivity {
             }
         });
 
-        // check boxes
+        // checkboxes for different types of barcodes (9)
 
         CheckBox UPC_EAN;
         UPC_EAN = findViewById(R.id.checkBox9);

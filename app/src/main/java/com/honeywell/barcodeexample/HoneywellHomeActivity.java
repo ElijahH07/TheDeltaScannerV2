@@ -18,23 +18,22 @@ import com.honeywell.aidc.InvalidScannerNameException;
 public class HoneywellHomeActivity extends BaseActivity {
 //region
     private static BarcodeReader barcodeReader;
+    private com.honeywell.rfidservice.rfid.RfidReader rfidreader;
     private AidcManager manager;
     private Button btnScannerSelectBarcode;
     private Button paintButton;
     private Button scanButton;
-
     private Button rfidButton;
     //endregion
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-
-
         try {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.home_screen);
             Toast toast = Toast.makeText(getApplicationContext(), "honeywell", Toast.LENGTH_SHORT);
             toast.show();
+            //depending on the model, show diff orientations
             if(Build.MODEL.startsWith("VM1A")) {
                 setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
             }
@@ -49,6 +48,7 @@ public class HoneywellHomeActivity extends BaseActivity {
                 @Override
                 public void onCreated(AidcManager aidcManager) {
                     manager = aidcManager;
+                    //try catch function that results from exceptions
                     try{
                         barcodeReader = manager.createBarcodeReader();
                     }
@@ -82,6 +82,7 @@ public class HoneywellHomeActivity extends BaseActivity {
     }
 
     public void ActivitySetting() {
+        //creates the Scanner Select button which allows user to choose what scanner to use
         btnScannerSelectBarcode = (Button) findViewById(R.id.buttonScannerSelectBarcode);
         btnScannerSelectBarcode.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -92,7 +93,7 @@ public class HoneywellHomeActivity extends BaseActivity {
                 startActivity(barcodeIntent);
             }
         });
-
+        //RFID button that allows for RFID function and takes you to a new activity
         rfidButton = (Button)findViewById(R.id.RFID);
         rfidButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -103,7 +104,7 @@ public class HoneywellHomeActivity extends BaseActivity {
             }
         });
 
-
+        //paint button allows user to rapidly log barcodes
         paintButton = (Button) findViewById(R.id.paint);
         paintButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -114,6 +115,8 @@ public class HoneywellHomeActivity extends BaseActivity {
                 startActivity(intent);
             }
         });
+
+        //scan button allows user to log barcodes
         scanButton = (Button) findViewById(R.id.scan);
         scanButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -128,6 +131,7 @@ public class HoneywellHomeActivity extends BaseActivity {
 
     }
 
+//once cleared, cleans and closes resources
     @Override
     protected void onDestroy() {
         super.onDestroy();
