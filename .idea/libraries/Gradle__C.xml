@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: C" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/aec587d1a3621e6adc0dbf7a64df4893/transformed/honeywell_rfid_sdk_v1.1.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/aec587d1a3621e6adc0dbf7a64df4893/transformed/honeywell_rfid_sdk_v1.1.0/jars/libs/ModuleAPI_J.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/aec587d1a3621e6adc0dbf7a64df4893/transformed/honeywell_rfid_sdk_v1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/aec587d1a3621e6adc0dbf7a64df4893/transformed/honeywell_rfid_sdk_v1.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

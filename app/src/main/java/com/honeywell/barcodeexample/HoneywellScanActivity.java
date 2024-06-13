@@ -42,7 +42,6 @@ public class HoneywellScanActivity extends BaseActivity implements BarcodeReader
     private TextView timer;
     private Button homeButton;
     private Button settingsButton;
-
     private Button clearButton;
     private ArrayList<ArrayList<String>> scannedData;
     private ArrayList<String> scannedItems;

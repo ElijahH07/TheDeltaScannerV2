@@ -18,6 +18,7 @@ import com.honeywell.aidc.InvalidScannerNameException;
 public class HoneywellHomeActivity extends BaseActivity {
 //region
     private static BarcodeReader barcodeReader;
+    private com.honeywell.rfidservice.rfid.RfidReader rfidreader;
     private AidcManager manager;
     private Button btnScannerSelectBarcode;
     private Button paintButton;
