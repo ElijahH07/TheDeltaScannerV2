@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/c1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/settingsTitle2"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text="@string/settings"
+            android:layout_margin="10sp"
+            android:textColor="@color/c4"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            />
+
+        <CheckBox
+            android:id="@+id/timer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:buttonTint="@color/c0"
+            android:fontFamily="serif"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text="@string/timer"
+            android:textColor="@color/c0"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/sound2"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/c0"
+            android:fontFamily="serif"
+            android:layout_margin="10sp"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text="@string/sound"
+            android:textColor="@color/c0"
+            android:textSize="30sp"
+            />
+
+
+        <EditText
+            android:id="@+id/delay"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:ems="5"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="5"
+            android:hint="Delay (ms)"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/c5"
+            android:textColorHighlight="@color/c0"
+            android:textColorHint="@color/c5"
+            android:textColorLink="@color/c0"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/counter2"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/c0"
+            android:layout_margin="10sp"
+            android:fontFamily="serif"
+
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text="@string/count"
+            android:textColor="@color/c0"
+            android:textSize="30sp"
+            android:visibility="visible"
+            />
+
+
+
+
+
+        <TextView
+            android:id="@+id/amntScan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_gravity="center"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:layout_margin="10sp"
+            android:text="@string/numScan"
+            android:textColor="@color/c0"
+            android:textSize="24sp"
+            android:visibility="visible"
+            />
+
+        <EditText
+            android:id="@+id/amntScanInput2"
+            android:layout_width="93dp"
+            android:layout_height="48dp"
+
+            android:ems="5"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="5"
+            android:layout_gravity="center"
+            android:shadowColor="#59000000"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/c5"
+            android:textColorHighlight="@color/c0"
+            android:textColorHint="@color/c0"
+            android:textColorLink="@color/c0"
+            android:textSize="24sp"
+            android:layout_margin="10sp"
+            android:visibility="invisible"
+            />
+
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:background="@drawable/deltascanbox"
+            android:backgroundTint="@color/c2"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:padding="10sp"
+            android:text="@string/back"
+            android:textColor="@color/c5"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</ScrollView>

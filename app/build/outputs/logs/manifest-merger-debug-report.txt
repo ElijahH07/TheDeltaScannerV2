@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-135:12
-INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-135:12
-INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-135:12
-INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-135:12
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-143:12
+INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-143:12
+INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-143:12
+INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:2:1-143:12
 MERGED from [androidx.databinding:databinding-adapters:8.4.2] C:\Users\d1intern\.gradle\caches\transforms-4\bdb116a2dc01b21a015a8d971f96d2e0\transformed\databinding-adapters-8.4.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.4.2] C:\Users\d1intern\.gradle\caches\transforms-4\619d9e40ba7dc47091a18d1cddc20d08\transformed\databinding-runtime-8.4.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:viewbinding:8.4.2] C:\Users\d1intern\.gradle\caches\transforms-4\0111e659bd489a697e99542af99dd70e\transformed\viewbinding-8.4.2\AndroidManifest.xml:2:1-7:12
@@ -201,8 +201,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\d1inter
 		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:8:9-35
 		INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:11:5-133:19
-INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:11:5-133:19
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:11:5-141:19
+INJECTED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:11:5-141:19
 MERGED from [:DataCollectionLib] C:\Users\d1intern\.gradle\caches\transforms-4\999db6ea531a2816065aca7ef27c4911\transformed\DataCollection\AndroidManifest.xml:13:5-20
 MERGED from [:DataCollectionLib] C:\Users\d1intern\.gradle\caches\transforms-4\999db6ea531a2816065aca7ef27c4911\transformed\DataCollection\AndroidManifest.xml:13:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\d1intern\.gradle\caches\transforms-4\63b09c7fef714599892ae33b0fc024aa\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
@@ -397,6 +397,20 @@ action#android.intent.action.HONEYWELLRFIDSELECTACTIVITY
 ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:127:17-93
 	android:name
 		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:127:25-91
+activity#com.honeywell.barcodeexample.RFIDSettingsActivity
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:131:9-139:20
+	android:label
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:134:13-53
+	android:exported
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:133:13-36
+	android:name
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:132:13-51
+intent-filter#action:name:android.intent.action.RFIDSETTINGS+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:135:13-138:29
+action#android.intent.action.RFIDSETTINGS
+ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:136:17-78
+	android:name
+		ADDED from C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\src\main\AndroidManifest.xml:136:25-76
 uses-permission#com.honeywell.decode.permission.DECODE
 ADDED from [:DataCollectionLib] C:\Users\d1intern\.gradle\caches\transforms-4\999db6ea531a2816065aca7ef27c4911\transformed\DataCollection\AndroidManifest.xml:11:5-78
 	android:name

@@ -108,7 +108,7 @@ public class ZebraRFIDActivity extends BaseActivity {
         rfidConfigParamList.putString("rfid_filter_duplicate_tags", "true");
         rfidConfigParamList.putString("rfid_hardware_trigger_enabled", "true");
         rfidConfigParamList.putString("rfid_hardware_key_mode", "2");
-        rfidConfigParamList.putString("rfid_tag_read_duration", "1");
+        rfidConfigParamList.putString("rfid_tag_read_duration", ""+sharedPref.getInt("delay", 100));
 
         // Pre-filter
         rfidConfigParamList.putString("rfid_pre_filter_enable", "true");
@@ -289,7 +289,7 @@ public class ZebraRFIDActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 // get the intent action string from AndroidManifest.xml
-                Intent intent = new Intent("android.intent.action.SETTINGS");
+                Intent intent = new Intent("android.intent.action.RFIDSETTINGS");
                 startActivity(intent);
             }
         });

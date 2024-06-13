@@ -128,7 +128,15 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-
+        <activity
+            android:name = ".RFIDSettingsActivity"
+            android:exported="true"
+            android:label="DeltaOne Software ~ RFID">
+            <intent-filter>
+                <action android:name = "android.intent.action.RFIDSETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
 
     </application>
 
