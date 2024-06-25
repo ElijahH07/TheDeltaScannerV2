@@ -24,6 +24,7 @@ public class HoneywellHomeActivity extends BaseActivity {
     private Button paintButton;
     private Button scanButton;
     private Button rfidButton;
+    private Button swiftScanner;
     //endregion
 
     @Override
@@ -93,16 +94,15 @@ public class HoneywellHomeActivity extends BaseActivity {
                 startActivity(barcodeIntent);
             }
         });
-        //RFID button that allows for RFID function and takes you to a new activity
-//        rfidButton = (Button)findViewById(R.id.RFID);
-//        rfidButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                // get the intent action string from AndroidManifest.xml
-//                Intent rfidIntent = new Intent("android.intent.action.ZEBRARFIDSELECTACTIVITY");
-//                startActivity(rfidIntent);
-//            }
-//        });
+
+        swiftScanner = (Button) findViewById(R.id.swiftScanner);
+        swiftScanner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent swiftIntent = new Intent("android.intent.action.SWIFTSCANNERACTIVITY");
+                startActivity(swiftIntent);
+            }
+        });
 
         //paint button allows user to rapidly log barcodes
         paintButton = (Button) findViewById(R.id.paint);

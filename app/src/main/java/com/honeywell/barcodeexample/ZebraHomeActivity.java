@@ -20,6 +20,7 @@ public class ZebraHomeActivity extends BaseActivity {
     private Button scanButton;
 
     private Button rfidButton;
+    private Button swiftScanner;
     private Button thingButton;
     private static final String PROFILE_NAME = "DeltaOneInternProject";
     private static final String ACTION_DATAWEDGE = "com.symbol.datawedge.api.ACTION";
@@ -136,6 +137,15 @@ public class ZebraHomeActivity extends BaseActivity {
                     Intent intent = new Intent("android.intent.action.ZEBRASCAN");
                     intent.putExtra("mode", 0);
                     startActivity(intent);
+                }
+            });
+
+            swiftScanner = (Button) findViewById(R.id.swiftScanner);
+            swiftScanner.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast toast = Toast.makeText(getApplicationContext(), "Does not have Camera", Toast.LENGTH_LONG);
+                    toast.show();
                 }
             });
         } catch(Error e) {

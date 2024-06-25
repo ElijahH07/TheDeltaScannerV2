@@ -5,7 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,7 +18,7 @@ import java.lang.String;
 
 public final class HomeScreenBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final Button RFID;
@@ -33,22 +33,26 @@ public final class HomeScreenBinding implements ViewBinding {
   public final Button scan;
 
   @NonNull
+  public final Button swiftScanner;
+
+  @NonNull
   public final TextView title;
 
-  private HomeScreenBinding(@NonNull LinearLayout rootView, @NonNull Button RFID,
+  private HomeScreenBinding(@NonNull ScrollView rootView, @NonNull Button RFID,
       @NonNull Button buttonScannerSelectBarcode, @NonNull Button paint, @NonNull Button scan,
-      @NonNull TextView title) {
+      @NonNull Button swiftScanner, @NonNull TextView title) {
     this.rootView = rootView;
     this.RFID = RFID;
     this.buttonScannerSelectBarcode = buttonScannerSelectBarcode;
     this.paint = paint;
     this.scan = scan;
+    this.swiftScanner = swiftScanner;
     this.title = title;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -97,14 +101,20 @@ public final class HomeScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.swiftScanner;
+      Button swiftScanner = ViewBindings.findChildViewById(rootView, id);
+      if (swiftScanner == null) {
+        break missingId;
+      }
+
       id = R.id.title;
       TextView title = ViewBindings.findChildViewById(rootView, id);
       if (title == null) {
         break missingId;
       }
 
-      return new HomeScreenBinding((LinearLayout) rootView, RFID, buttonScannerSelectBarcode, paint,
-          scan, title);
+      return new HomeScreenBinding((ScrollView) rootView, RFID, buttonScannerSelectBarcode, paint,
+          scan, swiftScanner, title);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

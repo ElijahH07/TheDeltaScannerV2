@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-mergeDebugResources-46:\\layout\\activity_selection_barcode.xml",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-main-49:\\layout\\activity_selection_barcode.xml"
+    },
+    {
+        "merged": "com.honeywell.barcodeexample.app-mergeDebugResources-46:/layout/home_screen.xml",
+        "source": "com.honeywell.barcodeexample.app-main-49:/layout/home_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-mergeDebugResources-46:\\layout\\rapid_decoder.xml",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-main-49:\\layout\\rapid_decoder.xml"
+    },
+    {
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-mergeDebugResources-46:\\layout\\scanner_select_dialog.xml",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-main-49:\\layout\\scanner_select_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-mergeDebugResources-46:\\layout\\activity_rfid.xml",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-main-49:\\layout\\activity_rfid.xml"
+    },
+    {
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-mergeDebugResources-46:\\layout\\main_swift_decoder.xml",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-main-49:\\layout\\main_swift_decoder.xml"
+    },
+    {
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-mergeDebugResources-46:\\layout\\list_layout.xml",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-main-49:\\layout\\list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-mergeDebugResources-46:\\layout\\incompatible_device.xml",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-main-49:\\layout\\incompatible_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-mergeDebugResources-46:\\layout\\rfid_settings_screen.xml",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-main-49:\\layout\\rfid_settings_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-mergeDebugResources-46:\\layout\\activity_barcode_type.xml",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-main-49:\\layout\\activity_barcode_type.xml"
+    },
+    {
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-mergeDebugResources-46:\\layout\\home_screen.xml",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-main-49:\\layout\\home_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-mergeDebugResources-46:\\layout\\settings_screen.xml",
+        "source": "C:\\Users\\d1intern\\.gradle\\daemon\\8.6\\com.honeywell.barcodeexample.app-main-49:\\layout\\settings_screen.xml"
+    }
+]

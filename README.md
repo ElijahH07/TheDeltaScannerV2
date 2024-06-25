@@ -28,5 +28,6 @@ TheDeltaScannerV2 is an Android app designed to showcase the capabilities of bar
 6. **Deploy APK:** Select "Deploy (APK from app Bundle)" and click OK to deploy the app.
 7. **ReBuild and Run:** Build the project and run it on Zebra or Honeywell Android devices.
 8. **Additional Step for Zebra Devices:** Ensure you have downloaded and installed the DataWedge app for Zebra devices.
+9. **Add API Key for Swift Scanner:** Create `secrets.properties` and add the value: `SWIFT_DECODER_API_KEY="your api key"`
 
 Explore the enhanced features and elevate your understanding with TheDeltaScannerV2!

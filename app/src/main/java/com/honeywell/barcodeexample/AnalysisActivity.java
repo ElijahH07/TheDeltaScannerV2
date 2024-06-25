@@ -14,14 +14,21 @@ public class AnalysisActivity extends BaseActivity {
     private Button backButton;
     private ListView barcodeList;
     private ArrayList<String> dataList;
+    private String numericDecodedData;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.analysis_screen);
         barcodeList = (ListView) findViewById(R.id.listViewBarcodeData);
-        dataList = getIntent().getStringArrayListExtra("data");
-        String numericDecodedData = dataList.get(0);
-        dataList.set(0, numericDecodedData);
+        if (getIntent().getStringExtra("swiftData") != null) {
+            numericDecodedData = getIntent().getStringExtra("swiftData");
+            dataList = new ArrayList<>();
+            dataList.add(0, numericDecodedData);
+        } else {
+            dataList = getIntent().getStringArrayListExtra("data");
+            numericDecodedData = dataList.get(0);
+            dataList.set(0, numericDecodedData);
+        }
         ActivitySetting();
 
         if (!numericDecodedData.contains("QR") && !numericDecodedData.contains("Matrix")) {

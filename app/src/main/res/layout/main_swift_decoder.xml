@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main_layout"
+    android:background="@color/c1">
+
+    <ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="400dp">
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_gravity="center" android:layout_height="fill_parent" android:orientation="vertical"  android:layout_width="fill_parent" >
+
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/imageViewDec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/noimage" >
+            </ImageView>
+
+            <TextView
+                android:text="Device Id: "
+                android:layout_gravity="center"
+                android:id="@+id/textViewdeviceId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="@color/c3"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                android:maxLines="2"
+                android:lines="2"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="Symbology: "
+                android:id="@+id/textViewSymb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="@color/c3"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="Result: "
+                android:id="@+id/textViewRes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="@color/c3"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="Length: "
+                android:id="@+id/textViewLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="@color/c3"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="Decode Time: "
+                android:id="@+id/textViewDecTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="@color/c3"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonDecode"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Scan Activity"
+            android:background="@drawable/deltascanbox"
+            android:fontFamily="serif"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/c5"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonDecodeLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:text="Scan Component"
+            android:background="@drawable/deltascanbox"
+            android:fontFamily="serif"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/c5"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

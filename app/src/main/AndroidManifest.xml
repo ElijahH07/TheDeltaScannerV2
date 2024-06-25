@@ -132,6 +132,24 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name = ".SwiftScannerActivity"
+            android:exported="true"
+            android:label="DeltaOne Software ~ Swift Scanner">
+            <intent-filter>
+                <action android:name = "android.intent.action.SWIFTSCANNERACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name = ".RapidDecoderActivity"
+            android:exported="true"
+            android:label="DeltaOne Software ~ Rapid Decode">
+            <intent-filter>
+                <action android:name = "android.intent.action.RAPIDDECODEACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
 
     </application>
 

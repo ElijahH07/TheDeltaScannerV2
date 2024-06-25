@@ -9,4 +9,5 @@ public final class BuildConfig {
   public static final String BUILD_TYPE = "debug";
   public static final int VERSION_CODE = 1;
   public static final String VERSION_NAME = "1.0";
+  public static final String SWIFT_DECODER_API_KEY = "trial-pssvs-delta-jbrow-06202024";
 }

@@ -1,2 +1,2 @@
-app/build
 .gradle
+secrets.properties
