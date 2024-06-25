@@ -23,13 +23,13 @@
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "outputFile": "../../../extracted_apks/debug/extractApksFromBundleForDebug/base-hdpi.apk"
+      "outputFile": "../../../extracted_apks/debug/extractApksFromBundleForDebug/base-master.apk"
     },
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "outputFile": "../../../extracted_apks/debug/extractApksFromBundleForDebug/base-master.apk"
+      "outputFile": "../../../extracted_apks/debug/extractApksFromBundleForDebug/base-xxhdpi.apk"
     }
   ],
   "elementType": "File"
