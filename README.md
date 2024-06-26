@@ -9,6 +9,7 @@ TheDeltaScannerV2 is an Android app designed to showcase the capabilities of bar
 - **Customizable Settings:** Tailor the app to your preferences with numerous setting options for an optimized scanning experience.
 - **Intuitive GUI:** Enjoy a user-friendly interface that facilitates quick and effortless navigation.
 - **Enhanced Compatibility:** Seamlessly integrate with Zebra or Honeywell Android devices for smooth operation.
+- - **Integrated Camera Scanning Software:** Quickly scan barcodes on any device with just a camera.
 
 **New Features (Coming Soon Possibly):**
 - **Real-time Analytics:** Track scanning performance and generate detailed analytics reports for better insights.
