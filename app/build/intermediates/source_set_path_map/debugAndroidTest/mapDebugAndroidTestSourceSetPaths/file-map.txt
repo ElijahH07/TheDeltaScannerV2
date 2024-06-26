@@ -1,5 +1,5 @@
-com.honeywell.barcodeexample.test.app-annotation-experimental-1.4.0-0 C:\Users\d1intern\.gradle\caches\transforms-4\4d6c43e22a582dc33a0d84de85e933bb\transformed\annotation-experimental-1.4.0\res
-com.honeywell.barcodeexample.test.app-core-1.5.0-1 C:\Users\d1intern\.gradle\caches\transforms-4\ae51c10c22f093649d2435ba2512f278\transformed\core-1.5.0\res
+com.honeywell.barcodeexample.test.app-annotation-experimental-1.4.0-0 C:\Users\d1intern\.gradle\caches\transforms-4\8520f59804eab7835695a3de36254fd9\transformed\annotation-experimental-1.4.0\res
+com.honeywell.barcodeexample.test.app-core-1.5.0-1 C:\Users\d1intern\.gradle\caches\transforms-4\8ec9ecdab7acc2740bd383bbf5a15d88\transformed\core-1.5.0\res
 com.honeywell.barcodeexample.test.app-androidTest-2 C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\build\generated\res\resValues\androidTest\debug
 com.honeywell.barcodeexample.test.app-mergeDebugAndroidTestResources-3 C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
 com.honeywell.barcodeexample.test.app-mergeDebugAndroidTestResources-4 C:\Users\d1intern\AndroidStudioProjects\TheDeltaScannerV2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir

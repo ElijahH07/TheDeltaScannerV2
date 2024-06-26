@@ -3,7 +3,7 @@
     package="com.honeywell.barcodeexample.test" >
 
     <uses-sdk
-        android:minSdkVersion="26"
+        android:minSdkVersion="29"
         android:targetSdkVersion="34" />
 
     <instrumentation
